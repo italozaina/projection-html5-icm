@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>Painel - Projection HTML5</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">  
+</head>
+<body>
+  <small class="float-right">Version 0.0.1</small><h1>Prototype - Projection HTML5</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">        
+        <div class="form-group pt-4">                    
+          <input class="form-control" id="search" type="text" placeholder="Pesquisar louvor">
+        </div>
+        <table id="songs" class="table table-sm table-bordered">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Conteúdo</th>                
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>                
+      </div>
+      <div class="col-6">
+        <ul class="nav nav-tabs nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" id="live-tab" data-toggle="tab" href="#live" role="tab" aria-controls="live" aria-selected="true">Ao Vivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edição</a>
+          </li>
+        </ul>      
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="live" role="tabpanel" aria-labelledby="live-tab">
+          <br>
+          <!-- <button id="startProjection" class="btn btn-success">Iniciar projeção</button> -->
+          <!-- <br><br> -->
+          <table id="livesongs" class="table table-striped table-bordered">
+              <tbody>                
+              </tbody>
+          </table>
+          </div>
+          <div class="tab-pane fade" id="edit" role="tabpanel" aria-labelledby="edit-tab">
+            <form>
+              <div class="form-group form-inline">
+                <label for="title">Título:&nbsp;&nbsp;</label>
+                <input class="form-control" id="title" type="text" name="title" style="width:49.5vw;">
+              </div>
+              <div class="form-group">
+                <label for="content" style="align:center">Conteúdo</label><br>
+                <textarea class="form-control" id="content" name=content rows="14" cols="80"></textarea>
+              </div>          
+            </form>
+            <button id="save" class="btn btn-success">Salvar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-primary" disabled>Salvar & Adicionar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="export" class="btn btn-warning">Exportar</button>        
+          </div>
+        </div>                
+      </div>
+      <div class="col-3">
+        <h4>Lista para projeção</h4>
+        <table id="projections" class="table table-sm table-bordered">
+            <tbody>
+              <tr>
+                <td>John</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+              </tr>
+              <tr>
+                <td>July</td>
+              </tr>
+            </tbody>
+        </table>
+        <p id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
+        <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+<!-- Scripts -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/core.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+td {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;        
+    -moz-user-select: none;    
+        user-select: none;
+    cursor: pointer;
+}
+
+#songs tbody>tr:hover {
+    background-color: #2ee; /* Add a hover effect to all links, except for headers */
+}
+
+#songs tbody>tr.active {
+    background-color: #2ff; /* Add a hover effect to all links, except for headers */
+}
+
+/* #songs tr { display: block;} */
+/* #songs th { width: 22.7vw; } */
+#songs tbody td { width: 11.3vw; max-width: 11.3vw; }
+
+#songs tbody { 
+    display: block; 
+    height: 70vh; 
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    width: 22.7vw;
+}
+
+.btn-mini{
+    width: 35px;
+}
+
+.btn-x{
+    line-height: 10px;
+    padding: .375rem 7px;
+}
+
+#livesongs tbody>tr:hover {
+    background-color: #2ee; /* Add a hover effect to all links, except for headers */
+}
+
+#livesongs tbody>tr.active {
+    background-color: #2ff; /* Add a hover effect to all links, except for headers */
+}
+
+#livesongs tbody td { width: 23.8vw; max-width: 23.8vw; }
+
+#livesongs tbody { 
+    display: block; 
+    height: 77vh; 
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    width: 48vw;
+}
