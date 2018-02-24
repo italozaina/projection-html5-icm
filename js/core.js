@@ -78,6 +78,8 @@ $("#save").click(function(){
   // console.log($("#content").val());
   louvores[louvorAtivo].title = $("#title").val();
   louvores[louvorAtivo].content = $("#content").val();  
+
+  $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').html("<td>"+louvores[louvorAtivo].title+"</td><td>"+louvores[louvorAtivo].content+"</td>");
   // console.log("Salvou\n\n"+louvores[louvorAtivo].content);
   $("#msgSave").show();
 });
@@ -244,6 +246,80 @@ function startProjection() {
 }
 $('#startProjection').click(function(){
   startProjection();
+});
+
+$('#rplYI').click(function(){
+  $('#content')
+    .selection('insert', {text: '<font color="yellow"><i>', mode: 'before'})
+    .selection('insert', {text: '</i></font>', mode: 'after'});
+});
+
+$('#rplBis').click(function(){
+  $('#content')
+    .selection('insert', {text: '<blockquote class="chave-bis">', mode: 'before'})
+    .selection('insert', {text: '</blockquote>', mode: 'after'});
+});
+
+$('#rplBis-small').click(function(){
+  $('#content')
+    .selection('insert', {text: '<blockquote class="chave-bis-small">', mode: 'before'})
+    .selection('insert', {text: '</blockquote>', mode: 'after'});
+});
+
+$('#rpl2x').click(function(){
+  $('#content')
+    .selection('insert', {text: '<blockquote class="chave-2x">', mode: 'before'})
+    .selection('insert', {text: '</blockquote>', mode: 'after'});
+});
+
+$('#addNew').click(function(){
+  louvores.push({title: "", content: ""});
+  // reloadSongList();
+  lastAdded = louvores.length - 1;
+  $('#songs tbody').find( 'tr.active' ).removeClass( 'active' );
+  louvorAtivo = lastAdded;      
+
+  $('#songs tbody').append('<tr data-id="'+louvorAtivo+'" class="active"><td>&nbsp;</td><td>&nbsp;</td></tr>');
+
+  $('#songs > tbody > tr[data-id="'+lastAdded+'"]').click(function() {    
+    $( this ).parent().find( 'tr.active' ).removeClass( 'active' );
+    $( this ).addClass( 'active' );
+    louvorAtivo = $(this).attr("data-id");      
+    $('#title').val(louvores[louvorAtivo].title);    
+    $('#content').val(louvores[louvorAtivo].content);
+  });
+
+  $('#songs > tbody > tr[data-id="'+lastAdded+'"]').dblclick(function() {
+    var louvor = { id: louvorAtivo, type: "s" }
+    projecao.push(louvor);
+    reloadProjectionList();
+  });
+
+  $('#title').val(louvores[louvorAtivo].title);    
+  $('#content').val(louvores[louvorAtivo].content);
+  $('#songs tbody').scrollTop(
+      $('#songs > tbody > tr[data-id="'+lastAdded+'"]').offset().top - $('#songs tbody').offset().top + $('#songs tbody').scrollTop()
+  );  
+  $('#guias a[href="#edit"]').tab('show');
+});
+
+$('#removeSelected').click(function(){
+  console.log("Tentou deletar");
+  louvores.splice(louvorAtivo, 1);
+  var tr = $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]');
+  tr.fadeOut(400, function(){
+    tr.remove();
+     $("#songs > tbody > tr").each(function(i){
+        $(this).attr("data-id", i);;
+     });
+    louvorAtivo = 0;
+    $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').addClass( 'active' );
+    $('#songs tbody').scrollTop(
+        $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').offset().top - $('#songs tbody').offset().top + $('#songs tbody').scrollTop()
+    );    
+    $('#title').val(louvores[louvorAtivo].title);    
+    $('#content').val(louvores[louvorAtivo].content);    
+  });
 });
 
 window.onload = function() {

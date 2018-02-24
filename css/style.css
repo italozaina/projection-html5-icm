@@ -26,7 +26,7 @@ td {
 
 #songs tbody { 
     display: block; 
-    height: 70vh; 
+    height: 67vh; 
     overflow-x: hidden !important;
     overflow-y: auto !important;
     width: 22.7vw;

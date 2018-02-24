@@ -15,8 +15,11 @@
   <small class="float-right">Version 0.0.1</small><h1>Prototype - Projection HTML5</h1>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-3">        
-        <div class="form-group pt-4">                    
+      <div class="col-3">
+        <div class="form-group">
+          <button id="addNew" class="btn btn-sm btn-success">Novo +</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="removeSelected" class="btn btn-sm btn-danger">&nbsp; - &nbsp;</button>
+        </div>
+        <div class="form-group">                    
           <input class="form-control" id="search" type="text" placeholder="Pesquisar louvor">
         </div>
         <table id="songs" class="table table-sm table-bordered">
@@ -31,7 +34,7 @@
         </table>                
       </div>
       <div class="col-6">
-        <ul class="nav nav-tabs nav-fill">
+        <ul id="guias" class="nav nav-tabs nav-fill">
           <li class="nav-item">
             <a class="nav-link active" id="live-tab" data-toggle="tab" href="#live" role="tab" aria-controls="live" aria-selected="true">Ao Vivo</a>
           </li>
@@ -56,6 +59,13 @@
                 <input class="form-control" id="title" type="text" name="title" style="width:49.5vw;">
               </div>
               <div class="form-group">
+                <div class="float-right">
+                  <div id="rplBis" class="btn btn-sm btn-primary">} Bis</div>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div id="rplBis-small" class="btn btn-sm btn-primary">} Bis-small</div>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div id="rpl2x" class="btn btn-sm btn-primary">} 2x</div>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div id="rplYI" class="btn btn-sm btn-secondary"><small style="color: yellow"><i>Itálico</i></small></div> 
+                </div>
+                                           
                 <label for="content" style="align:center">Conteúdo</label><br>
                 <textarea class="form-control" id="content" name=content rows="14" cols="80"></textarea>
               </div>          
@@ -96,6 +106,7 @@
 
 <!-- Scripts -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.selection.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>  
 <script src="js/core.js"></script>

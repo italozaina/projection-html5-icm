@@ -18,7 +18,9 @@ body {
   font-family: "Futura XBlk BT", "Times New Roman", "serif";
   font-size: 4vw;
   font-weight: normal;
-  color: #fff; }
+  color: #fff; 
+  text-transform: uppercase;
+}
 
 ::selection {
   color: #fff;
