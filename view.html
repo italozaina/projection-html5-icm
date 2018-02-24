@@ -31,7 +31,7 @@
       display: block;
     }
 
-    .winetitle{
+    .winetitle,.winetitle2{
       top: 1.5vh;
       position: absolute;
       height: 10%;
@@ -58,6 +58,14 @@
         background-color: white;
         display: table;
     }
+
+    .winetitle2 #titulo{
+      font-size: 2.2vw;
+      height: none; 
+      line-height: 90%;   
+      display: none;
+    }
+
     #logo{
         float: left;
         width: 12%;
@@ -65,6 +73,15 @@
         max-height: 10%;
         font-size: 8vw;
         display: none;
+    }
+
+    footer.fim{      
+      position: absolute;      
+      bottom: 1vh;
+      right: 0.5vw;
+      font-size: 1vw;
+      text-align: right;
+      display: none;    
     }    
     /* Logo da Icm em formato icone */
     [class^="icon-"], [class*=" icon-"] {
@@ -122,34 +139,39 @@
 
   <div class="reveal">
     <header class="winetitle"><div id="titulo"></div><div id="logo" style="background-color:white"><i class="icon-logo_bold"></i></div></header>
+    <header class="winetitle2"><div id="titulo"><br></div><div id="logo" style="background-color:white"><i class="icon-logo_bold"></i></div></header>    
     <header class="whitelogo"><div id="logo" style="float:right"><i class="icon-logo_bold_white"></i></div></header>
+    <footer class="fim">FIM</footer>
   
     <div class="slides">
       <section>
         <h1>Maranata</h1>
         <h3>O SENHOR JESUS VEM!</h3>
       </section>
-      <!-- section data-state="showtitle">
+      <section data-state="showtitle">
         <style>
-        .showtitle header.winetitle #titulo:after { content: "1 - O SANGUE DE JESUS TEM PODER"; }
-        .showtitle header.winetitle{ display: table; }
-        .showtitle header.winetitle #logo{ display: table; }</style>
+        .showtitle header.winetitle2 #titulo:before { content: "2 - O SANGUE DE JESUS"; }
+        .showtitle header.winetitle2 #titulo:after { content: "TEM PODER PARA SALVAR"; }
+        .showtitle header.winetitle2 { display: table; }
+        .showtitle header.winetitle2 #titulo{ display: table; }
+        .showtitle header.winetitle2 #logo{ display: table; }</style>
         O SANGUE DE JESUS TEM PODER,<br>
         PODER QUE A MIM PODE VALER,<br>
         SE COMUNHÃO NÃO POSSO EU SENTIR, <br>
         SENHOR,DERRAMA DO TEU SANGUE REMIDOR.
       </section>      
-      <section data-state="showlogo">
+      <section data-state="showlogo showfim">
         <style>
         .showlogo header.whitelogo{ display: block; }
         .showlogo header.whitelogo #logo{ display: block; }</style>
+        <style>.showfim footer{ display: block; }</style>
         FIM.<br>
         <br>
         <blockquote class="chave-bis">okok<br>
         OKOKOKOK okokok okok<br>
         okokok okok<br>
         kokokokokokoko</blockquote>
-      </section>        -->
+      </section>       
     </div>
 
   </div>

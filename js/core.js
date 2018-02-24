@@ -128,10 +128,22 @@ function generateLiveList(){
         var estrofeEsp = estrofe.replace(/\n/g,"<br>");
         $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+louvores[item.id].title+'</td><td>'+estrofeEsp+'</td></tr>');
         // viewSlides+="<section data-background-transition=\"fade\" data-background=\"imagens/fundo.jpg\">\n<h2>"+estrofeEsp+"</h2>\n</section>\n";
+        var fimState = "";
+        var fimStyle = ""
+        if(j+1 == parsed.length){
+          fimState = " showfim";
+          fimStyle = "<style>.showfim footer{ display: block; }</style>\n"         
+        }
         if(j == 0){
-          viewSlides+="<section data-state=\"showtitle"+item.id+"\">\n<style>\n.showtitle"+item.id+" header.winetitle #titulo:after { content: \""+louvores[item.id].title+"\"; }\n.showtitle"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.id+" header.winetitle #logo{ display: table; }</style>\n";  
+          if(louvores[item.id].title.length > 32){
+            var titulodividido = louvores[item.id].title.split(" ");
+            var nome = louvores[item.id].title.replace(titulodividido[titulodividido.length/2],titulodividido[titulodividido.length/2]+"<br>");
+            viewSlides+="<section data-state=\"showtitle"+item.id+fimState+"\">\n<style>\n.showtitle"+item.id+" header.winetitle2 #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.id+" header.winetitle2 #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.id+" header.winetitle2{ display: table; }\n.showtitle"+item.id+" header.winetitle2 #titulo{ display: table; }\n.showtitle"+item.id+" header.winetitle2 #logo{ display: table; }</style>\n"+fimStyle;
+          }else{
+            viewSlides+="<section data-state=\"showtitle"+item.id+fimState+"\">\n<style>\n.showtitle"+item.id+" header.winetitle #titulo:after { content: \""+louvores[item.id].title+"\"; }\n.showtitle"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.id+" header.winetitle #logo{ display: table; }</style>\n"+fimStyle;
+          }  
         } else {
-          viewSlides+="<section data-state=\"showlogo\">\n<style>\n.showlogo header.whitelogo{ display: block; }\n.showlogo header.whitelogo #logo{ display: block; }</style>";
+          viewSlides+="<section data-state=\"showlogo"+fimState+"\">\n<style>\n.showlogo header.whitelogo{ display: block; }\n.showlogo header.whitelogo #logo{ display: block; }</style>\n"+fimStyle;
         }
         viewSlides+=estrofeEsp+"\n</section>\n";
         
