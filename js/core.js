@@ -317,8 +317,8 @@ function mudaSlide(){
 $(document).on('keydown', function(e) {
     var rows = $('#livesongs > tbody > tr');
     var tag = e.target.tagName.toLowerCase();
-
-    if (tag != "input" && tag != "textarea"){
+    
+    if (tag != "input" && tag != "textarea" && tag != "a"){
        switch(e.keyCode) {
           case 37: // left
           {
