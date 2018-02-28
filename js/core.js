@@ -1,17 +1,20 @@
-var louvores = {};
+var dados = [];
 var projecao = [];
+var pastaAtiva = 0;
 var louvorAtivo = 0;
 var projecaoAtiva = 0;
 var windowView;
 var viewSlides = "";
+var ref_selected = "0_0";
+
+var isFirefox = typeof InstallTrigger !== 'undefined';
 
 function loadJSON(callback) {   
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
-  xobj.open('GET', 'data/data.json', true); // Replace 'my_data' with the path to your file
+  xobj.open('GET', 'data/data.json', true); 
   xobj.onreadystatechange = function () {
     if (xobj.readyState == 4 && xobj.status == 200) {
-      // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
       callback(xobj.responseText);
     }
   };
@@ -19,42 +22,117 @@ function loadJSON(callback) {
 }
 
 function carregaLouvores(){
-  loadJSON(function(response) {
-  // Parse JSON string into object
-  louvores = JSON.parse(response);
+  if(isFirefox){
+    loadJSON(function(response) {
 
-  reloadSongList();
-  });
+    atualizaListaArquivos(response);
+
+    });    
+  } else {
+    $('#carregarModal').modal('toggle')
+  }
+  
 }
 
-function reloadSongList(){
-  // popula tabela com o json
-  $.each(louvores, function(i, louvor) {
-      if(i == 0) {
-        $('#songs tbody').append('<tr data-id="'+i+'" class="active"><td>'+louvor.title+'</td><td>'+louvor.content+'</td></tr>');
-      } else {
-        $('#songs tbody').append('<tr data-id="'+i+'"><td>'+louvor.title+'</td><td>'+louvor.content+'</td></tr>');
+$("#filedata").change(function() {
+    var file = this.files[0];
+
+    var reader = new FileReader();
+
+    reader.onload = function(event) {
+      var contents = event.target.result;
+      atualizaListaArquivos(contents);
+    }
+
+    // when the file is read it triggers the onload event above.
+    reader.readAsText(file);    
+    $('#carregarModal').modal('toggle')
+});
+
+function atualizaListaArquivos(newData){
+    dados = JSON.parse(newData);
+
+    var songList = [];
+
+    $('#listaDePastas').html("");
+
+    $.each(dados, function(i, dado) {
+      if(dado.type == "s"){
+        songList.push({id: ""+i,text:dado.name,state:{opened: true},children:[]});
+        $.each(dado.songs, function(f, louvor) {
+            songList[i].children.push({id: i+"_"+f, text:louvor.title, type:"song", data:louvor});
+        });        
       }
-  });
 
-    $('#songs > tbody > tr').click(function() {    
-      $( this ).parent().find( 'tr.active' ).removeClass( 'active' );
-      $( this ).addClass( 'active' );
-      louvorAtivo = $(this).attr("data-id");      
-      $('#title').val(louvores[louvorAtivo].title);    
-      $('#content').val(louvores[louvorAtivo].content);
+      $('#listaDePastas').append('<a class="dropdown-item" data-id="'+i+'">'+dado.name+'</a>');
+
     });
 
-    $('#songs > tbody > tr').dblclick(function() {
-      var louvor = { id: louvorAtivo, type: "s" }
-      projecao.push(louvor);
-      reloadProjectionList();
+    $('#songList').jstree(true).settings.core.data = songList;
+    $('#songList').jstree(true).refresh();
+
+    $('#title').val(dados[0].songs[0].title);    
+    $('#content').val(dados[0].songs[0].content);
+
+    $('#listaDePastas > a').click(function(){
+      console.log("Tentou criar música");
+
+      var pastaSelecionada = parseInt($(this).attr("data-id"));
+
+      dados[pastaSelecionada].songs.push({title: "", content: ""});
+
+      lastAdded = dados[parseInt($(this).attr("data-id"))].songs.length - 1;
+
+      ref_selected = pastaSelecionada+"_"+lastAdded;   
+
+      atualizaListasFromJSON(dados);
+
+      $('#guias a[href="#edit"]').tab('show');
+
     });
 
-    $('#title').val(louvores[louvorAtivo].title);    
-    $('#content').val(louvores[louvorAtivo].content);  
 }
 
+function atualizaListasFromJSON(newData){
+    dados = newData;
+
+    var songList = [];
+
+    $('#listaDePastas').html("");
+
+    $.each(dados, function(i, dado) {
+      if(dado.type == "s"){
+        songList.push({id: ""+i,text:dado.name,state:{opened: true},children:[]});
+        $.each(dado.songs, function(f, louvor) {
+            songList[i].children.push({id: i+"_"+f, text:louvor.title, type:"song", data:louvor});
+        });        
+      }
+
+      $('#listaDePastas').append('<a class="dropdown-item" data-id="'+i+'">'+dado.name+'</a>');
+    });
+
+    $('#songList').jstree(true).settings.core.data = songList;
+    $('#songList').jstree(true).refresh();
+
+    $('#listaDePastas > a').click(function(){
+      console.log("Tentou criar música");
+
+      var pastaSelecionada = parseInt($(this).attr("data-id"));
+
+      dados[pastaSelecionada].songs.push({title: "", content: ""});
+
+      lastAdded = dados[parseInt($(this).attr("data-id"))].songs.length - 1;
+
+      ref_selected = pastaSelecionada+"_"+lastAdded;   
+
+      atualizaListasFromJSON(dados);
+
+      $('#guias a[href="#edit"]').tab('show');
+
+    });
+
+    reloadProjectionList();
+}
 
 function reloadProjectionList(){
   if(projecao.length == 0){
@@ -64,7 +142,7 @@ function reloadProjectionList(){
   }
   $("#projections tbody").html("");
   $.each(projecao, function(i, louvor) {      
-        $('#projections tbody').append('<tr data-id="'+i+'"><td>'+louvores[louvor.id].title+'</td><td class="btn-mini"><button class="btn btn-danger btn-x">-</button></td></tr>');      
+        $('#projections tbody').append('<tr data-id="'+i+'"><td>'+dados[louvor.folderId].songs[louvor.id].title+'</td><td class="btn-mini"><button class="btn btn-danger btn-x">-</button></td></tr>');      
   });  
   $(".btn-x").click(function(){
     var id = $(this).closest('tr').attr("data-id");
@@ -74,13 +152,49 @@ function reloadProjectionList(){
   generateLiveList(); 
 }
 
-$("#save").click(function(){
-  // console.log($("#content").val());
-  louvores[louvorAtivo].title = $("#title").val();
-  louvores[louvorAtivo].content = $("#content").val();  
+$("#deleteFromTree").click(function(){
+  var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
+    if(selecionado.parent == "#"){
+      $('#excluirModal').find('.modal-body p').html("Deseja realmente apagar a pasta <strong>"+selecionado.text+"</strong> e todo o seu conteúdo ?");
+    } else {
+      $('#excluirModal').find('.modal-body p').html("Deseja realmente apagar a música <strong>"+selecionado.text+"</strong> ?");
+    }    
+    $('#excluirModal').modal('toggle');
+});
 
-  $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').html("<td>"+louvores[louvorAtivo].title+"</td><td>"+louvores[louvorAtivo].content+"</td>");
-  // console.log("Salvou\n\n"+louvores[louvorAtivo].content);
+$("#newFolder").click(function(){   
+    $('#makeFolderModal').modal('toggle');
+    $('#folderName').val("");
+});
+
+
+$("#confirmMakeFolder").click(function(){   
+    var name = $('#folderName').val();
+    console.log("tentou criar pasta com o nome: "+name);
+    dados.push({name: name, type: "s", songs: []});
+    atualizaListasFromJSON(dados);
+    $('#makeFolderModal').modal('toggle');
+});
+
+
+$("#confirmDeleteFromTree").click(function(){
+  var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
+    if(selecionado.parent == "#"){
+      dados.splice(selecionado.id, 1);
+    } else {
+      dados[pastaAtiva].songs.splice(louvorAtivo, 1);
+      ref_selected = "0_0";
+    }
+    atualizaListasFromJSON(dados);
+    $('#title').val(dados[0].songs[0].title);    
+    $('#content').val(dados[0].songs[0].content);
+    $('#excluirModal').modal('toggle');   
+});
+
+$("#save").click(function(){
+  dados[pastaAtiva].songs[louvorAtivo].title = $("#title").val();
+  dados[pastaAtiva].songs[louvorAtivo].content = $("#content").val();
+  atualizaListasFromJSON(dados);
   $("#msgSave").show();
 });
 
@@ -89,7 +203,7 @@ $("#export").click(function(){
   // downloadObjectAsJson(louvores, "data");
   $("<a />", {
     "download": "data.json",
-    "href" : "data:application/json," + encodeURIComponent(JSON.stringify(louvores))
+    "href" : "data:application/json," + encodeURIComponent(JSON.stringify(dados))
   }).appendTo("body")
   .click(function() {
      $(this).remove()
@@ -119,31 +233,30 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 function generateLiveList(){
   $("#livesongs tbody").html("");      
   $('#livesongs tbody').append('<tr data-id="0"><td>Tela Padrão</td><td></td></tr>');
-  // var telaPadrao = "<section data-background-transition=\"fade\" data-background=\"imagens/fundo.jpg\">\n<h1>Maranata</h1>\n<h3>O SENHOR JESUS VEM!</h3>\n</section>\n";
   var telaPadrao = "<section>\n<h1>Maranata</h1>\n<h3>O SENHOR JESUS VEM!</h3>\n</section>\n";
   viewSlides=telaPadrao;
   var f = 1;
   $.each(projecao, function(i, item) {        
     if(item.type == "s"){
-      var parsed = louvores[item.id].content.split('\n\n');
+      var parsed = dados[item.folderId].songs[item.id].content.split('\n\n');
       $.each(parsed, function(j, estrofe) {        
         var estrofeEsp = estrofe.replace(/\n/g,"<br>");
-        $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+louvores[item.id].title+'</td><td>'+estrofeEsp+'</td></tr>');
+        $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+dados[item.folderId].songs[item.id].title+'</td><td>'+estrofeEsp+'</td></tr>');
         // viewSlides+="<section data-background-transition=\"fade\" data-background=\"imagens/fundo.jpg\">\n<h2>"+estrofeEsp+"</h2>\n</section>\n";
         var fimState = "";
-        var fimStyle = ""
+        var fimStyle = "";
         if(j+1 == parsed.length){
           fimState = " showfim";
           fimStyle = "<style>.showfim footer{ display: block; }</style>\n"         
-        }
+        }             
         if(j == 0){
-          if(louvores[item.id].title.length > 32){
-            var titulodividido = louvores[item.id].title.split(" ");
-            var nome = louvores[item.id].title.replace(titulodividido[titulodividido.length/2],titulodividido[titulodividido.length/2]+"<br>");
-            viewSlides+="<section data-state=\"showtitle"+item.id+fimState+"\">\n<style>\n.showtitle"+item.id+" header.winetitle2 #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.id+" header.winetitle2 #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.id+" header.winetitle2{ display: table; }\n.showtitle"+item.id+" header.winetitle2 #titulo{ display: table; }\n.showtitle"+item.id+" header.winetitle2 #logo{ display: table; }</style>\n"+fimStyle;
+          if(dados[item.folderId].songs[item.id].title.length > 32){
+            var titulodividido = dados[item.folderId].songs[item.id].title.split(" ");
+            var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[titulodividido.length/2],titulodividido[titulodividido.length/2]+"<br>");
+            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #logo{ display: table; }</style>\n"+fimStyle;
           }else{
-            viewSlides+="<section data-state=\"showtitle"+item.id+fimState+"\">\n<style>\n.showtitle"+item.id+" header.winetitle #titulo:after { content: \""+louvores[item.id].title+"\"; }\n.showtitle"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.id+" header.winetitle #logo{ display: table; }</style>\n"+fimStyle;
-          }  
+            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #logo{ display: table; }</style>\n"+fimStyle;
+          } 
         } else {
           viewSlides+="<section data-state=\"showlogo"+fimState+"\">\n<style>\n.showlogo header.whitelogo{ display: block; }\n.showlogo header.whitelogo #logo{ display: block; }</style>\n"+fimStyle;
         }
@@ -151,7 +264,7 @@ function generateLiveList(){
         
         f++;
       });
-      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>Tela Padrão</td><td></td></tr>');
+      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>Tela Padrão</td><td></td></tr>');      
       f++;
       viewSlides+=telaPadrao;
     }    
@@ -160,10 +273,8 @@ function generateLiveList(){
   $('#livesongs > tbody > tr').click(function() {    
     $( this ).parent().find( 'tr.active' ).removeClass( 'active' );
     $( this ).addClass( 'active' );
-    projecaoAtiva = $(this).attr("data-id");
-    if (typeof(windowView)!='undefined' && !windowView.closed) {
-      windowView.changeSlide(projecaoAtiva);
-    }   
+    projecaoAtiva = parseInt($(this).attr("data-id"));
+    mudaSlide();
   });
 
   projecaoAtiva = 0;
@@ -174,25 +285,40 @@ function generateLiveList(){
 
 function updateViewSlides(){
   if (typeof(windowView)!='undefined' && !windowView.closed) {
-    windowView.postMessage(viewSlides, "*");
+    windowView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'reloadReveal',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: viewSlides
+        } ), "*");
   }
 }
 
 function mudaProjecaoAtiva(){
   $('#livesongs > tbody > tr.active').removeClass( 'active' );
   $('#livesongs > tbody > tr[data-id="'+projecaoAtiva+'"]').addClass( 'active' );
+  $('#scrollblock').scrollTop(
+      $('#livesongs > tbody > tr[data-id="'+projecaoAtiva+'"]').offset().top - $('#scrollblock').offset().top + $('#scrollblock').scrollTop()
+  );   
+  mudaSlide();
+}
+
+function mudaSlide(){
   if (typeof(windowView)!='undefined' && !windowView.closed) {
-    windowView.changeSlide(projecaoAtiva);
+    windowView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'changeSlide',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: projecaoAtiva
+        } ), "*");    
   }  
 }
 
-$(document).on('keypress', function(e) {
+$(document).on('keydown', function(e) {
     var rows = $('#livesongs > tbody > tr');
     var tag = e.target.tagName.toLowerCase();
 
     if (tag != "input" && tag != "textarea"){
-       console.log(e.keyCode);   
-
        switch(e.keyCode) {
           case 37: // left
           {
@@ -214,7 +340,7 @@ $(document).on('keypress', function(e) {
           }
           case 39: // right
           {
-            if(rows.length > 0 && rows.length > projecaoAtiva + 1){
+            if(rows.length > projecaoAtiva + 1){
               projecaoAtiva++;
               mudaProjecaoAtiva();
             }          
@@ -224,7 +350,7 @@ $(document).on('keypress', function(e) {
 
           case 40: // down
           {
-            if(rows.length > 0 && rows.length > projecaoAtiva + 1){
+            if(rows.length > projecaoAtiva + 1){
               projecaoAtiva++;
               mudaProjecaoAtiva();
             }          
@@ -272,55 +398,6 @@ $('#rpl2x').click(function(){
     .selection('insert', {text: '</blockquote>', mode: 'after'});
 });
 
-$('#addNew').click(function(){
-  louvores.push({title: "", content: ""});
-  // reloadSongList();
-  lastAdded = louvores.length - 1;
-  $('#songs tbody').find( 'tr.active' ).removeClass( 'active' );
-  louvorAtivo = lastAdded;      
-
-  $('#songs tbody').append('<tr data-id="'+louvorAtivo+'" class="active"><td>&nbsp;</td><td>&nbsp;</td></tr>');
-
-  $('#songs > tbody > tr[data-id="'+lastAdded+'"]').click(function() {    
-    $( this ).parent().find( 'tr.active' ).removeClass( 'active' );
-    $( this ).addClass( 'active' );
-    louvorAtivo = $(this).attr("data-id");      
-    $('#title').val(louvores[louvorAtivo].title);    
-    $('#content').val(louvores[louvorAtivo].content);
-  });
-
-  $('#songs > tbody > tr[data-id="'+lastAdded+'"]').dblclick(function() {
-    var louvor = { id: louvorAtivo, type: "s" }
-    projecao.push(louvor);
-    reloadProjectionList();
-  });
-
-  $('#title').val(louvores[louvorAtivo].title);    
-  $('#content').val(louvores[louvorAtivo].content);
-  $('#songs tbody').scrollTop(
-      $('#songs > tbody > tr[data-id="'+lastAdded+'"]').offset().top - $('#songs tbody').offset().top + $('#songs tbody').scrollTop()
-  );  
-  $('#guias a[href="#edit"]').tab('show');
-});
-
-$('#removeSelected').click(function(){
-  console.log("Tentou deletar");
-  louvores.splice(louvorAtivo, 1);
-  var tr = $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]');
-  tr.fadeOut(400, function(){
-    tr.remove();
-     $("#songs > tbody > tr").each(function(i){
-        $(this).attr("data-id", i);;
-     });
-    louvorAtivo = 0;
-    $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').addClass( 'active' );
-    $('#songs tbody').scrollTop(
-        $('#songs > tbody > tr[data-id="'+louvorAtivo+'"]').offset().top - $('#songs tbody').offset().top + $('#songs tbody').scrollTop()
-    );    
-    $('#title').val(louvores[louvorAtivo].title);    
-    $('#content').val(louvores[louvorAtivo].content);    
-  });
-});
 
 window.onload = function() {
   carregaLouvores();
@@ -329,3 +406,82 @@ window.onload = function() {
 };
 
 $("#msgSave").hide();
+
+$(function () { 
+  $('#songList').jstree({ 'core' : {
+      'data' : []
+  },
+  "types" : {
+      "default" : {
+        "icon" : "fas fa-folder-open fa-fw pt-2"
+      },
+      'f-open' : {
+          'icon' : 'fas fa-folder-open fa-fw pt-2'
+      },
+      'f-closed' : {
+          'icon' : 'fas fa-folder fa-fw pt-2'
+      },
+      "song" : {
+        "icon" : "fas fa-file-alt fa-fw pt-2"
+      }
+    },
+  "search":{
+    "show_only_matches" : true,
+    search_callback : function (str, node) {
+      if(node.data != null){
+        return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
+      } else {
+        return node.text.toUpperCase().includes(str.toUpperCase());  
+      }
+    }    
+  },
+  "plugins" : [ "search", "types" ]
+   });
+
+  var to = false;
+  $('#treesearch').keyup(function () {
+    if(to) { clearTimeout(to); }
+    to = setTimeout(function () {
+      var v = $('#treesearch').val();
+      $('#songList').jstree(true).search(v);
+    }, 250);
+  });
+
+  /* Toggle between folder open and folder closed */
+  $("#songList").on('open_node.jstree', function (event, data) {
+      data.instance.set_type(data.node,'f-open');
+  });
+  $("#songList").on('close_node.jstree', function (event, data) {
+      data.instance.set_type(data.node,'f-closed');
+  });
+
+  $('#songList').on("changed.jstree", function (e, data) {
+    if(data.node != undefined && data.node != null && data.node.data != null){
+        louvor = data.node.data;
+        pastaAtiva = parseInt(data.node.id.split("_")[0]);      
+        louvorAtivo = parseInt(data.node.id.split("_")[1]);      
+        $('#title').val(louvor.title);    
+        $('#content').val(louvor.content);
+    }
+  });
+
+  $('#songList').bind("dblclick.jstree", function (e) {
+      var instance = $.jstree.reference(this),
+      node = instance.get_node(e.target);
+     // Do my action
+     if(node.data != null){
+      var louvor = { id: louvorAtivo, folderId: pastaAtiva, type: "s" }
+      projecao.push(louvor);
+      reloadProjectionList();
+     }
+  });
+
+  $('#songList').bind('refresh.jstree', function(e, data) {
+        $('#songList').jstree(true).deselect_all();
+        $('#songList').jstree(true).select_node(ref_selected);
+  })
+
+
+});
+
+var ps = new PerfectScrollbar('#scrollblock');

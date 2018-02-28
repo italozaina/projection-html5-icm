@@ -1,3 +1,8 @@
+body{
+    background-color: #262626;
+    /* overflow: hidden; */
+}
+
 table {
     table-layout: fixed;
     word-wrap: break-word;
@@ -10,6 +15,10 @@ td {
     -moz-user-select: none;    
         user-select: none;
     cursor: pointer;
+}
+
+.noresize {
+  resize: none; 
 }
 
 #songs tbody>tr:hover {
@@ -26,7 +35,7 @@ td {
 
 #songs tbody { 
     display: block; 
-    height: 67vh; 
+    height: 35vh; 
     overflow-x: hidden !important;
     overflow-y: auto !important;
     width: 22.7vw;
@@ -41,20 +50,72 @@ td {
     padding: .375rem 7px;
 }
 
+#livesongs{
+    margin-bottom: 0;
+    border: none;
+}
+
+
+#livesongs td{
+    border: none;
+}
+
 #livesongs tbody>tr:hover {
-    background-color: #2ee; /* Add a hover effect to all links, except for headers */
+    background-color: #363636;
 }
 
 #livesongs tbody>tr.active {
-    background-color: #2ff; /* Add a hover effect to all links, except for headers */
+    background-color: #5a647e;
+    color: #dfbd68;
 }
 
-#livesongs tbody td { width: 23.8vw; max-width: 23.8vw; }
+#livesongs tbody td { width: 23.6vw; max-width: 23.6vw; }
 
 #livesongs tbody { 
     display: block; 
-    height: 77vh; 
+    width: 47.5vw;
+}
+
+a{
+    outline: 0;
+}
+
+.nav-link {
+    color: #767676;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #FFFFFF;
+    background-color: #2e2e2e;
+    border-color: transparent transparent transparent;
+}
+
+#tree_list1{
+    height: 63vh;
     overflow-x: hidden !important;
-    overflow-y: auto !important;
-    width: 48vw;
+    overflow-y: auto !important;    
+}
+
+.center-block-tabs{
+    background-color: #2e2e2e;
+    color: #6a98ba;   
+}
+
+#scrollblock{
+    position: relative;
+    height: 79vh; 
+    /* overflow-x: hidden !important; */
+    /* overflow-y: hidden !important;      */
+}
+
+.center-block-tabs label{
+    color: #dfbd68;
+}
+
+.center-header-tabs{
+    background-color: #1e1e1e;
 }

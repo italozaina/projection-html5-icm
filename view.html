@@ -148,7 +148,7 @@
         <h1>Maranata</h1>
         <h3>O SENHOR JESUS VEM!</h3>
       </section>
-      <section data-state="showtitle">
+      <!-- <section data-state="showtitle">
         <style>
         .showtitle header.winetitle2 #titulo:before { content: "2 - O SANGUE DE JESUS"; }
         .showtitle header.winetitle2 #titulo:after { content: "TEM PODER PARA SALVAR"; }
@@ -171,7 +171,7 @@
         OKOKOKOK okokok okok<br>
         okokok okok<br>
         kokokokokokoko</blockquote>
-      </section>       
+      </section>        -->
     </div>
 
   </div>
@@ -189,11 +189,15 @@
       theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
       transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
     });  
-
-    window.addEventListener( 'message', function( event ) {          
-      $('.slides').html(event.data);
-      reloadReveal();
-      this.changeSlide(0);
+    (function(){
+    window.addEventListener( 'message', function( event ) { 
+        var data = JSON.parse( event.data );         
+        if(data.host === 'projection-html5' && data.function === 'reloadReveal'){
+          reloadReveal(data.data);
+        }
+        if(data.host === 'projection-html5' && data.function === 'changeSlide'){
+          changeSlide(data.data);
+        }
     } );
 
     function changeSlide(number) {
@@ -207,7 +211,8 @@
         $('.slides').fadeIn('slow');
     }       
 
-    function reloadReveal(){
+    function reloadReveal(htmlslides){
+      $('.slides').html(htmlslides);
       Reveal.initialize({
         controls: false,
         progress: false,
@@ -216,9 +221,10 @@
         // center: true,
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
-      });      
+      });  
+      changeSlide(0);    
     }
-    
+    })()
   </script>
 </body>
 </html>

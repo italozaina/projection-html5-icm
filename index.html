@@ -5,55 +5,133 @@
 
   <title>Painel - Projection HTML5</title>
 
+  <script src="js/fontawesome-all.min.js"></script>
+
   <!-- Styles -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/themes/default/style.min.css">
+  <link rel="stylesheet" href="css/fa-svg-with-js.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">  
+
+  <link rel="stylesheet" href="css/perfect-scrollbar.css">  
 </head>
 <body>
-  <small class="float-right">Version 0.0.1</small><h1>Prototype - Projection HTML5</h1>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-3">
-        <div class="form-group">
-          <button id="addNew" class="btn btn-sm btn-success">Novo +</button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="removeSelected" class="btn btn-sm btn-danger">&nbsp; - &nbsp;</button>
+
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
+    <a class="navbar-brand" href="#">Prototype - Projection HTML5</a>
+    
+    <small class="navbar-text">Version 0.2.5</small>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="carregarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Carregar dados</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        <div class="form-group">                    
-          <input class="form-control" id="search" type="text" placeholder="Pesquisar louvor">
+        <div class="modal-body">
+          Não foi detectado o navegador Mozilla Firefox, neste caso você deverá abrir manualmente seu arquivo de dados <strong>(data.json)</strong> que esta em sua pasta <strong>("/data")</strong>.
+          <input type="file" name="filedata" id="filedata">
         </div>
-        <table id="songs" class="table table-sm table-bordered">
-            <thead>
-              <tr>
-                <th>Título</th>
-                <th>Conteúdo</th>                
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>                
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="excluirModal" tabindex="-1" role="dialog" aria-labelledby="excluirModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" class="close" data-dismiss="modal" aria-label="Close">
+            Cancelar
+          </button>        
+          <button id="confirmDeleteFromTree" type="button" class="btn btn-danger">Apagar</button>          
+        </div>        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="makeFolderModal" tabindex="-1" role="dialog" aria-labelledby="makeFolderLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Criar pasta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group p-2">                    
+            <input class="form-control" id="folderName" type="text" placeholder="Nome da pasta">
+          </div>          
+        </div>
+        <div class="modal-footer">
+          <button id="confirmMakeFolder" type="button" class="btn btn-primary">Criar</button>          
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <main class="container-fluid">
+    <div class="row pt-2">
+      <div class="col-3">      
+        <div class="card">     
+          <div class="card-header text-light bg-dark">Arquivos</div>
+          <div class="card-block">
+            <div class="btn-toolbar bg-secondary justify-content-between px-2 py-1">
+              <div class="btn-group mr-2">
+                <button id="newSong" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-file-alt fa-fw"></i></button>
+                <div id="listaDePastas" class="dropdown-menu" aria-labelledby="newSong" data-toggle="tooltip" data-placement="bottom" title="Criar música">
+                  <a class="dropdown-item" href="#">Louvores</a>
+                </div>
+                <button id="newFolder" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Criar pasta"><i class="fas fa-folder-open fa-fw"></i></button> 
+              </div>
+              <div class="btn-group">
+                <button id="deleteFromTree" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Apagar pasta/arquivo"><i class="fas fa-trash fa-fw"></i></button> 
+              </div>              
+            </div>          
+            <div class="form-group p-2">                    
+            <input class="form-control" id="treesearch" type="text" placeholder="Pesquisar">
+            </div>
+            <div id="tree_list1">
+              <div id="songList"></div>  
+            </div>
+          </div>
+        </div>                
       </div>
       <div class="col-6">
-        <ul id="guias" class="nav nav-tabs nav-fill">
+      <div class="card">
+      <div class="card-header text-light bg-secondary">      
+        <ul id="guias" class="nav nav-tabs card-header-tabs nav-fill center-header-tabs">
           <li class="nav-item">
             <a class="nav-link active" id="live-tab" data-toggle="tab" href="#live" role="tab" aria-controls="live" aria-selected="true">Ao Vivo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edição</a>
           </li>
-        </ul>      
-        <div class="tab-content" id="myTabContent">
+        </ul>         
+      </div>   
+          
+        <div class="card-block tab-content center-block-tabs" id="myTabContent">
           <div class="tab-pane fade show active" id="live" role="tabpanel" aria-labelledby="live-tab">
-          <br>
           <!-- <button id="startProjection" class="btn btn-success">Iniciar projeção</button> -->
           <!-- <br><br> -->
-          <table id="livesongs" class="table table-striped table-bordered">
-              <tbody>                
-              </tbody>
-          </table>
+          <div id="scrollblock">
+            <table id="livesongs" class="table table-striped table-bordered mt-2">
+                <tbody>                
+                </tbody>
+            </table>
+          </div>
           </div>
           <div class="tab-pane fade" id="edit" role="tabpanel" aria-labelledby="edit-tab">
-            <form>
+            <form class="p-2">
               <div class="form-group form-inline">
                 <label for="title">Título:&nbsp;&nbsp;</label>
                 <input class="form-control" id="title" type="text" name="title" style="width:49.5vw;">
@@ -65,35 +143,41 @@
                   <div id="rpl2x" class="btn btn-sm btn-primary">} 2x</div>&nbsp;&nbsp;&nbsp;&nbsp;
                   <div id="rplYI" class="btn btn-sm btn-secondary"><small style="color: yellow"><i>Itálico</i></small></div> 
                 </div>
-                                           
+
                 <label for="content" style="align:center">Conteúdo</label><br>
-                <textarea class="form-control" id="content" name=content rows="14" cols="80"></textarea>
+                <textarea class="form-control noresize" id="content" name=content rows="13" cols="80"></textarea>
               </div>          
             </form>
-            <button id="save" class="btn btn-success">Salvar</button>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="btn btn-primary" disabled>Salvar & Adicionar</button>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <button id="export" class="btn btn-warning">Exportar</button>        
+            <div class="btn-toolbar justify-content-between px-2 pb-1">
+              <button id="save" class="btn btn-success"><i class="fas fa-save"></i> Salvar</button>
+              <button id="export" class="btn btn-primary"><i class="fas fa-download"></i> Exportar</button>               
+            </div>       
           </div>
-        </div>                
+        </div> 
+        </div> <!-- fim card -->               
       </div>
       <div class="col-3">
-        <h4>Lista para projeção</h4>
-        <table id="projections" class="table table-sm table-bordered">
-            <tbody>
-              <tr>
-                <td>John</td>
-              </tr>
-              <tr>
-                <td>Mary</td>
-              </tr>
-              <tr>
-                <td>July</td>
-              </tr>
-            </tbody>
-        </table>
-        <p id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
+        <div class="card">
+          <div class="card-header text-light bg-dark">
+            Lista para projeção
+          </div>
+          <div class="card-block">
+            <table id="projections" class="table table-sm table-bordered">
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                  </tr>
+                </tbody>
+            </table>
+            <p class="p-2" id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
+          </div> <!-- fim card -->
+        </div>
         <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -102,13 +186,15 @@
         </div>
       </div>      
     </div>
-  </div>
+  </main>
 
 <!-- Scripts -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.selection.js"></script>
-<script src="js/popper.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>  
+<script src="js/jstree.min.js"></script>
+<script src="js/perfect-scrollbar.js"></script>
 <script src="js/core.js"></script>
 </body>
 </html>
