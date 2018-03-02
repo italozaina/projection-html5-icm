@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
     <a class="navbar-brand" href="#">Prototype - Projection HTML5</a>
     
-    <small class="navbar-text">Version 0.2.5</small>
+    <small class="navbar-text">Version 0.5.0</small>
   </nav>
 
   <!-- Modal -->
@@ -116,6 +116,9 @@
           <li class="nav-item">
             <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edição</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" id="bible-tab" data-toggle="tab" href="#bible" role="tab" aria-controls="bible" aria-selected="false">Bíblia</a>
+          </li>          
         </ul>         
       </div>   
           
@@ -153,6 +156,59 @@
               <button id="export" class="btn btn-primary"><i class="fas fa-download"></i> Exportar</button>               
             </div>       
           </div>
+          <div class="tab-pane fade" id="bible" role="tabpanel" aria-labelledby="bible-tab">
+            <div class="p-2">
+              <div class="row">
+                <div class="col-12">
+                  <div class="btn-toolbar justify-content-between">
+                    <div class="btn-group">              
+                    </div>
+                    <div class="btn-group">
+                      <button id="addBibleToProjection" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Adicionar a lista de projeção"><i class="fas fa-plus fa-fw"></i> Adicionar</button> 
+                    </div>                  
+                  </div>
+                </div>
+              </div>          
+              <div class="row">
+                <div class="col-3">
+                  <label>Velho testamento</label>
+                  <ul id="listaVelho" class="list-group bibleBooks">
+                  </ul>        
+                </div>
+                <div class="col-3 px-1">
+                  <label>Novo testamento</label>
+                  <ul id="listaNovo" class="list-group bibleBooks">
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-4"> 
+                      <label>Capitulo</label>
+                      <ul id="listaCapitulo" class="list-group bibleNum">
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <label>De</label>
+                      <ul id="listaDe" class="list-group bibleNum">
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <label>Até</label>
+                      <ul id="listaAte" class="list-group bibleNum">
+                      </ul>
+                    </div>                    
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <label>Pré-visualização</label>
+                      <div id="preViewScripture" class="bg-light">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>       
         </div> 
         </div> <!-- fim card -->               
       </div>
@@ -195,6 +251,7 @@
 <script src="js/bootstrap.min.js"></script>  
 <script src="js/jstree.min.js"></script>
 <script src="js/perfect-scrollbar.js"></script>
+<script src="js/bible.js"></script>
 <script src="js/core.js"></script>
 </body>
 </html>

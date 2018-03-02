@@ -119,3 +119,54 @@ a{
 .center-header-tabs{
     background-color: #1e1e1e;
 }
+
+/* Bible TAB style */
+.bibleBooks{
+    height: 50vh;
+    overflow-x: hidden !important;
+    overflow-y: auto !important; 
+    cursor: pointer;     
+    -moz-user-select: none;    
+        user-select: none;      
+}
+
+.bibleBooks li{
+    padding: 1px;
+    text-align: center;    
+}
+
+.bibleBooks li:hover{
+    background-color: #212121;
+}
+
+.bibleBooks li .active{
+    background-color: #210021;
+}
+
+.bibleNum{
+    height: 30vh;
+    overflow-x: hidden !important;
+    overflow-y: scroll; 
+    cursor: pointer; 
+    -moz-user-select: none;    
+        user-select: none       
+}
+
+.bibleNum li{
+    padding: 1px;
+    text-align: center;   
+}
+
+.bibleNum li:hover{
+    background-color: #212121;
+}
+
+.bibleNum li .active{
+    background-color: #210021;
+}
+
+#preViewScripture{
+    height: 15vh;
+    overflow-x: hidden !important;
+    overflow-y: scroll;    
+}
