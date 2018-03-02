@@ -2,8 +2,9 @@
 
 Projection for ICM church. Language support only (Brazilian portuguese pt-BR)
 
-![Painel](/demo/painel.gif)
-![Projeção](/demo/projecao.gif)
+Painel                     |  Projeção
+:-------------------------:|:-------------------------:
+![](/demo/painel.gif)      |  ![](/demo/projecao.gif)
 
 Features
 --------
