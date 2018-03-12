@@ -1,29 +1,26 @@
+var bibleversion = "acf";
 var bible;
 var bookSelected = 0;
 var chapterSelected = 0;
 var fromSelected = 0;
 var toSelected = 0;
-var isFirefox = typeof InstallTrigger !== 'undefined';
-
-function loadBibleJSON(callback) {   
-  var xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open('GET', 'bible/acf.json', true); 
-  xobj.onreadystatechange = function () {
-    if (xobj.readyState == 4 && xobj.status == 200) {
-      callback(xobj.responseText);
-    }
-  };
-  xobj.send(null);   
-}
 
 function loadBible() {
-  if(isFirefox){
-    loadBibleJSON(function(response) {
-      bible = JSON.parse(response);
-    });    
-  } else {
-    console.log("Não conseguei carregar biblia automaticamente. Abrir popup e selecionar o arquivo");
+  switch(bibleversion) {
+      case "nvi":
+      {
+        bible = biblenvi;
+        break;
+      }         
+      case "acf":
+      {
+        bible = bibleacf;
+        break;
+      }
+      default: {
+        bible = biblenvi;
+        break;
+      }
   }
 }
 
@@ -131,5 +128,12 @@ $('#addBibleToProjection').click(function(){
   projecao.push(biblia);
   reloadProjectionList();
 });  
+
+$('#selectBibleVersion').change(function() {
+  bibleversion = $(this).val();
+  loadBible();
+   biblePreView();
+  reloadProjectionList();
+});
 
 ajustarListasDaBiblia();

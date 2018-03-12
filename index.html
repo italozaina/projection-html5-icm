@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
     <a class="navbar-brand" href="#">Prototype - Projection HTML5</a>
     
-    <small class="navbar-text">Version 0.5.0</small>
+    <small class="navbar-text">Version 0.6.2</small>
   </nav>
 
   <!-- Modal -->
@@ -161,7 +161,14 @@
               <div class="row">
                 <div class="col-12">
                   <div class="btn-toolbar justify-content-between">
-                    <div class="btn-group">              
+                    <div class="btn-group">
+                      <form class="form-inline">
+                        <label for="selectBibleVersion">Versão:&nbsp;&nbsp;</label>
+                        <select class="form-control" id="selectBibleVersion">                          
+                          <option value="acf">ACF</option>
+                          <option value="nvi">NVI</option>
+                        </select>
+                      </form>
                     </div>
                     <div class="btn-group">
                       <button id="addBibleToProjection" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Adicionar a lista de projeção"><i class="fas fa-plus fa-fw"></i> Adicionar</button> 
@@ -213,11 +220,17 @@
         </div> <!-- fim card -->               
       </div>
       <div class="col-3">
-        <div class="card">
+        <div class="card mb-3">
           <div class="card-header text-light bg-dark">
             Lista para projeção
           </div>
-          <div class="card-block">
+          <div class="card-block" style="height: 45vh; overflow-x: hidden !important; overflow-y: scroll;">
+            <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>
+            </div>          
             <table id="projections" class="table table-sm table-bordered">
                 <tbody>
                   <tr>
@@ -234,12 +247,14 @@
             <p class="p-2" id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
           </div> <!-- fim card -->
         </div>
-        <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>
-        </div>
+        <div class="card">
+          <div class="card-header text-light bg-dark">
+            Projeção
+          </div>
+          <div class="card-block p-0">            
+            <iframe id="iframeProjection" width="100%" height="100%" frameBorder="0" src="view.html"></iframe>
+          </div> <!-- fim card -->
+        </div>      
       </div>      
     </div>
   </main>
@@ -251,6 +266,8 @@
 <script src="js/bootstrap.min.js"></script>  
 <script src="js/jstree.min.js"></script>
 <script src="js/perfect-scrollbar.js"></script>
+<script src="bible/nvi.js"></script>
+<script src="bible/acf.js"></script>
 <script src="js/bible.js"></script>
 <script src="js/core.js"></script>
 </body>

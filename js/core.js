@@ -4,6 +4,7 @@ var pastaAtiva = 0;
 var louvorAtivo = 0;
 var projecaoAtiva = 0;
 var windowView;
+var iframeView = document.getElementById("iframeProjection").contentWindow;
 var viewSlides = "";
 var ref_selected = "0_0";
 
@@ -310,6 +311,12 @@ function updateViewSlides(){
           data: viewSlides
         } ), "*");
   }
+  iframeView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'reloadReveal',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: viewSlides
+        } ), "*");
 }
 
 function mudaProjecaoAtiva(){
@@ -329,14 +336,21 @@ function mudaSlide(){
           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
           data: projecaoAtiva
         } ), "*");    
-  }  
+  }
+    iframeView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'changeSlide',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: projecaoAtiva
+        } ), "*");    
 }
 
 $(document).on('keydown', function(e) {
     var rows = $('#livesongs > tbody > tr');
     var tag = e.target.tagName.toLowerCase();
+    var tabName = $('#guias a[aria-selected="true"]').attr('aria-controls');
     
-    if (tag != "input" && tag != "textarea" && tag != "a"){
+    if (tabName == "live" && tag != "input" && tag != "textarea" && tag != "a"){
        switch(e.keyCode) {
           case 37: // left
           {
