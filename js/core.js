@@ -258,7 +258,8 @@ function generateLiveList(){
         if(j == 0){
           if(dados[item.folderId].songs[item.id].title.length > 32){
             var titulodividido = dados[item.folderId].songs[item.id].title.split(" ");
-            var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[titulodividido.length/2],titulodividido[titulodividido.length/2]+"<br>");
+            var indexDivision = Math.round(titulodividido.length/2);
+            var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[indexDivision],titulodividido[indexDivision]+"<br>");
             viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #logo{ display: table; }</style>\n"+fimStyle;
           }else{
             viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #logo{ display: table; }</style>\n"+fimStyle;
