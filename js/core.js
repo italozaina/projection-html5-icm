@@ -214,8 +214,9 @@ $("#confirmDeleteFromTree").click(function(){
 $("#save").click(function(){
   dados[pastaAtiva].songs[louvorAtivo].title = $("#title").val();
   dados[pastaAtiva].songs[louvorAtivo].content = $("#content").val();
+  ref_selected = pastaAtiva+"_"+louvorAtivo;
   atualizaListasFromJSON(dados);
-  localStorage.setItem('data', JSON.stringify(dados));
+  localStorage.setItem('data', JSON.stringify(dados));  
   $("#msgSave").show();
 });
 
@@ -551,7 +552,7 @@ $(function () {
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {
     carregaLouvores();
-    // startProjection();
+    startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);
