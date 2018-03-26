@@ -18,12 +18,17 @@
   <link rel="stylesheet" href="css/perfect-scrollbar.css">  
 </head>
 <body>
-
+  <div id="loading" class="overlay">
+    <div class="overlay-content">      
+      <div id="loader"></div>
+      <h5 style="color:white; padding-top:160px;">Carregando</h5>
+    </div>    
+  </div>  
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
     <a class="navbar-brand" href="#">Prototype - Projection HTML5</a>
     
-    <small class="navbar-text">Version 0.6.2</small>
+    <small class="navbar-text">Version 0.7.0</small>
   </nav>
 
   <!-- Modal -->
@@ -97,7 +102,7 @@
                 <button id="deleteFromTree" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Apagar pasta/arquivo"><i class="fas fa-trash fa-fw"></i></button> 
               </div>              
             </div>          
-            <div class="form-group p-2">                    
+            <div class="form-group p-2 mb-0">                    
             <input class="form-control" id="treesearch" type="text" placeholder="Pesquisar">
             </div>
             <div id="tree_list1">
@@ -232,16 +237,7 @@
               Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>
             </div>          
             <table id="projections" class="table table-sm table-bordered">
-                <tbody>
-                  <tr>
-                    <td>John</td>
-                  </tr>
-                  <tr>
-                    <td>Mary</td>
-                  </tr>
-                  <tr>
-                    <td>July</td>
-                  </tr>
+                <tbody>                  
                 </tbody>
             </table>
             <p class="p-2" id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
