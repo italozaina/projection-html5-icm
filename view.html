@@ -31,7 +31,7 @@
       display: block;
     }
 
-    .winetitle,.winetitle2{
+    .winetitle,.winetitle2,.winetitle-en,.winetitle2-en,.winetitle-it,.winetitle2-it{
       top: 1.5vh;
       position: absolute;
       height: 10%;
@@ -39,7 +39,7 @@
       display: none;
     }
 
-    .whitelogo{
+    .whitelogo,.whitelogo-en,.whitelogo-it{
       top: 1.5vh;
       position: absolute;
       height: 10%;
@@ -59,7 +59,7 @@
         display: table;
     }
 
-    .winetitle2 #titulo{
+    .winetitle2 #titulo, .winetitle2-en #titulo, .winetitle2-it #titulo{
       font-size: 2.2vw;
       height: none; 
       line-height: 90%;   
@@ -158,9 +158,21 @@
 <!-- 2. Create hidden header/footer <div> -->
 
   <div class="reveal">
+    <!-- pt Headers -->
     <header class="winetitle"><div id="titulo"></div><div id="logo" style="background-color:white"><i class="icon-logo_bold"></i></div></header>
     <header class="winetitle2"><div id="titulo"><br></div><div id="logo" style="background-color:white"><i class="icon-logo_bold"></i></div></header>    
     <header class="whitelogo"><div id="logo" style="float:right"><i class="icon-logo_bold_white"></i></div></header>
+
+    <!-- en Headers -->
+    <header class="winetitle-en"><div id="titulo"></div><div id="logo" style="background-color:white"><i class="icon-logo_usa"></i></div></header>
+    <header class="winetitle2-en"><div id="titulo"><br></div><div id="logo" style="background-color:white"><i class="icon-logo_usa"></i></div></header>    
+    <header class="whitelogo-en"><div id="logo" style="float:right"><i class="icon-logo_usa_white"></i></div></header>
+
+    <!-- it Headers -->
+    <header class="winetitle-it"><div id="titulo"></div><div id="logo" style="background-color:white"><i class="icon-logo_ita"></i></div></header>
+    <header class="winetitle2-it"><div id="titulo"><br></div><div id="logo" style="background-color:white"><i class="icon-logo_ita"></i></div></header>    
+    <header class="whitelogo-it"><div id="logo" style="float:right"><i class="icon-logo_ita_white"></i></div></header>
+
     <footer class="fim">FIM</footer>
     <footer class="scripturetitle"><small></small></footer>
 

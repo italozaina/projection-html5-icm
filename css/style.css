@@ -17,6 +17,17 @@ td {
     cursor: pointer;
 }
 
+.flag{
+  height: 24px;
+  width: auto;
+}
+
+.flag-sm{
+  height: 16px;
+  width: auto;
+  vertical-align: text-top;
+}
+
 /* Center the loader */
 #loader {
   position: absolute;

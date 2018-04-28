@@ -26,9 +26,26 @@
   </div>  
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
-    <a class="navbar-brand" href="#">Prototype - Projection HTML5</a>
+    <a class="navbar-brand" href="#">Projeção ICM</a>
     
-    <small class="navbar-text">Version 0.7.0</small>
+    <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <button class="btn btn-dark" title="Alterar imagem de fundo"><i class="fas fa-images"></i></button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-dark" title="Criar aviso"><i class="fas fa-exclamation-triangle"></i></button>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#"><img src="imagens/brazil.svg" class="flag"> Português</a>
+              <a class="dropdown-item" href="#"><img src="imagens/united-states.svg" class="flag"> English</a>
+              <a class="dropdown-item" href="#"><img src="imagens/italy.svg" class="flag"> Italiano</a>
+            </div>
+          </li>
+    </ul>
+
+    <small class="navbar-text">Version 0.8.0</small>
   </nav>
 
   <!-- Modal -->
@@ -76,6 +93,14 @@
           <div class="form-group p-2">                    
             <input class="form-control" id="folderName" type="text" placeholder="Nome da pasta">
           </div>          
+          <div class="form-group p-2">
+            <label for="selectLangFolder">Idioma</label>
+            <select class="form-control" id="selectLangFolder">
+              <option value="pt">Português</option>
+              <option value="en">English</option>
+              <option value="it">Italiano</option>
+            </select>
+          </div>
         </div>
         <div class="modal-footer">
           <button id="confirmMakeFolder" type="button" class="btn btn-primary">Criar</button>          

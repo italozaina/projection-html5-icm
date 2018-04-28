@@ -53,6 +53,25 @@ $("#filedata").change(function() {
     $('#carregarModal').modal('toggle')
 });
 
+function returnFlag(lang_code){
+  var htmlflag = '&nbsp;<img src="imagens/';
+  switch(lang_code){
+    case "pt": {
+      htmlflag+='brazil';
+      break;
+    }
+    case "en": {
+      htmlflag+='united-states';
+      break;
+    }
+    case "it": {
+      htmlflag+='italy';
+      break;
+    }    
+  }
+  return htmlflag+='.svg" class="flag-sm">';
+}
+
 function atualizaListaArquivos(newData){
     dados = JSON.parse(newData);
     
@@ -64,7 +83,7 @@ function atualizaListaArquivos(newData){
 
     $.each(dados, function(i, dado) {
       if(dado.type == "s"){
-        songList.push({id: ""+i,text:dado.name,state:{opened: true},children:[]});
+        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
         $.each(dado.songs, function(f, louvor) {
             songList[i].children.push({id: i+"_"+f, text:louvor.title, type:"song", data:louvor});
         });        
@@ -110,7 +129,7 @@ function atualizaListasFromJSON(newData){
 
     $.each(dados, function(i, dado) {
       if(dado.type == "s"){
-        songList.push({id: ""+i,text:dado.name,state:{opened: true},children:[]});
+        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
         $.each(dado.songs, function(f, louvor) {
             var newSong = { id: i+"_"+f, text:louvor.title, type:"song", data:louvor };
             if(ref_selected == i+"_"+f){
@@ -189,8 +208,9 @@ $("#newFolder").click(function(){
 
 $("#confirmMakeFolder").click(function(){   
     var name = $('#folderName').val();
-    console.log("tentou criar pasta com o nome: "+name);
-    dados.push({name: name, type: "s", songs: []});
+    var lang = $('#selectLangFolder').val();
+    console.log("tentou criar pasta com o nome: "+name+"na lingua: "+lang);
+    dados.push({name: name, type: "s", lang: lang, songs: []});
     atualizaListasFromJSON(dados);
     $('#makeFolderModal').modal('toggle');
 });
@@ -258,8 +278,12 @@ function generateLiveList(){
   var telaPadrao = "<section>\n<h1>Maranata</h1>\n<h3>O SENHOR JESUS VEM!</h3>\n</section>\n";
   viewSlides=telaPadrao;
   var f = 1;
-  $.each(projecao, function(i, item) {        
+  $.each(projecao, function(i, item) { 
     if(item.type == "s"){
+      var lang = "-"+dados[item.folderId].lang;
+      if(lang == '-pt'){
+        lang = "";
+      }
       var parsed = dados[item.folderId].songs[item.id].content.split('\n\n');
       $.each(parsed, function(j, estrofe) {        
         var estrofeEsp = estrofe.replace(/\n/g,"<br>");
@@ -270,19 +294,20 @@ function generateLiveList(){
         if(j+1 == parsed.length){
           fimState = " showfim";
           fimStyle = "<style>.showfim footer{ display: block; }</style>\n"         
-        }             
+        }       
         if(j == 0){
           if(dados[item.folderId].songs[item.id].title.length > 32){
             var titulodividido = dados[item.folderId].songs[item.id].title.split(" ");
             var indexDivision = Math.round(titulodividido.length/2);
             var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[indexDivision],titulodividido[indexDivision]+"<br>");
-            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2 #logo{ display: table; }</style>\n"+fimStyle;
+            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
           }else{
-            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle #logo{ display: table; }</style>\n"+fimStyle;
+            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
           } 
         } else {
-          viewSlides+="<section data-state=\"showlogo"+fimState+"\">\n<style>\n.showlogo header.whitelogo{ display: block; }\n.showlogo header.whitelogo #logo{ display: block; }</style>\n"+fimStyle;
+          viewSlides+="<section data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
         }
+        console.log(lang);
         viewSlides+=estrofeEsp+"\n</section>\n";
         
         f++;
