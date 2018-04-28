@@ -307,7 +307,6 @@ function generateLiveList(){
         } else {
           viewSlides+="<section data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
         }
-        console.log(lang);
         viewSlides+=estrofeEsp+"\n</section>\n";
         
         f++;
@@ -577,7 +576,7 @@ $(function () {
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {
     carregaLouvores();
-    startProjection();
+    // startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);

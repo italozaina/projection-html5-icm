@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <title>Painel - Projection HTML5</title>
+  <title>Painel - Projeção ICM</title>
 
   <script src="js/fontawesome-all.min.js"></script>
 
@@ -26,26 +26,26 @@
   </div>  
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
-    <a class="navbar-brand" href="#">Projeção ICM</a>
+    <a class="navbar-brand" href="#" data-lang-str="navbrand">Projeção ICM</a>
     
     <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <button class="btn btn-dark" title="Alterar imagem de fundo"><i class="fas fa-images"></i></button>
+            <button class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button>
           </li>
           <li class="nav-item">
-            <button class="btn btn-dark" title="Criar aviso"><i class="fas fa-exclamation-triangle"></i></button>
+            <button class="btn btn-dark" title="Criar aviso" data-lang-str="btn_create_warning"><i class="fas fa-exclamation-triangle"></i></button>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</a>
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang-str="language">Idioma</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#"><img src="imagens/brazil.svg" class="flag"> Português</a>
-              <a class="dropdown-item" href="#"><img src="imagens/united-states.svg" class="flag"> English</a>
-              <a class="dropdown-item" href="#"><img src="imagens/italy.svg" class="flag"> Italiano</a>
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="pt-br"><img src="imagens/brazil.svg" class="flag"> Português</button>
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="en"><img src="imagens/united-states.svg" class="flag"> English</a>
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="it"><img src="imagens/italy.svg" class="flag"> Italiano</button>
             </div>
           </li>
     </ul>
 
-    <small class="navbar-text">Version 0.8.0</small>
+    <small class="navbar-text" data-lang-str="version">Version 0.8.0</small>
   </nav>
 
   <!-- Modal -->
@@ -53,12 +53,12 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Carregar dados</h5>
+          <h5 class="modal-title" id="exampleModalLabel" data-lang-str="load_data">Carregar dados</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" data-lang-str="load_body">
           Não foi detectado o navegador Mozilla Firefox, neste caso você deverá abrir manualmente seu arquivo de dados <strong>(data.json)</strong> que esta em sua pasta <strong>("/data")</strong>.
           <input type="file" name="filedata" id="filedata">
         </div>
@@ -72,10 +72,10 @@
           <p></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="btn btn-secondary" class="close" data-dismiss="modal" aria-label="Close" data-lang-str="cancel">
             Cancelar
           </button>        
-          <button id="confirmDeleteFromTree" type="button" class="btn btn-danger">Apagar</button>          
+          <button id="confirmDeleteFromTree" type="button" class="btn btn-danger" data-lang-str="delete">Apagar</button>          
         </div>        
       </div>
     </div>
@@ -84,17 +84,17 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Criar pasta</h5>
+          <h5 class="modal-title" id="exampleModalLabel" data-lang-str="create_folder">Criar pasta</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <div class="form-group p-2">                    
-            <input class="form-control" id="folderName" type="text" placeholder="Nome da pasta">
+            <input class="form-control" id="folderName" type="text" placeholder="Nome da pasta" data-lang-str="folder_name">
           </div>          
           <div class="form-group p-2">
-            <label for="selectLangFolder">Idioma</label>
+            <label for="selectLangFolder" data-lang-str="language">Idioma</label>
             <select class="form-control" id="selectLangFolder">
               <option value="pt">Português</option>
               <option value="en">English</option>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button id="confirmMakeFolder" type="button" class="btn btn-primary">Criar</button>          
+          <button id="confirmMakeFolder" type="button" class="btn btn-primary" data-lang-str="create">Criar</button>          
         </div>        
       </div>
     </div>
@@ -113,22 +113,22 @@
     <div class="row pt-2">
       <div class="col-3">      
         <div class="card">     
-          <div class="card-header text-light bg-dark">Arquivos</div>
+          <div class="card-header text-light bg-dark" data-lang-str="files">Arquivos</div>
           <div class="card-block">
             <div class="btn-toolbar bg-secondary justify-content-between px-2 py-1">
               <div class="btn-group mr-2">
                 <button id="newSong" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-file-alt fa-fw"></i></button>
-                <div id="listaDePastas" class="dropdown-menu" aria-labelledby="newSong" data-toggle="tooltip" data-placement="bottom" title="Criar música">
+                <div id="listaDePastas" class="dropdown-menu" aria-labelledby="newSong" data-toggle="tooltip" data-placement="bottom" title="Criar música" data-lang-str="btn_create_song">
                   <a class="dropdown-item" href="#">Louvores</a>
                 </div>
-                <button id="newFolder" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Criar pasta"><i class="fas fa-folder-open fa-fw"></i></button> 
+                <button id="newFolder" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Criar pasta" data-lang-str="btn_create_folder"><i class="fas fa-folder-open fa-fw"></i></button> 
               </div>
               <div class="btn-group">
-                <button id="deleteFromTree" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Apagar pasta/arquivo"><i class="fas fa-trash fa-fw"></i></button> 
+                <button id="deleteFromTree" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Apagar pasta/arquivo" data-lang-str="btn_del_file_folder"><i class="fas fa-trash fa-fw"></i></button> 
               </div>              
             </div>          
             <div class="form-group p-2 mb-0">                    
-            <input class="form-control" id="treesearch" type="text" placeholder="Pesquisar">
+            <input class="form-control" id="treesearch" type="text" placeholder="Pesquisar" data-lang-str="search">
             </div>
             <div id="tree_list1">
               <div id="songList"></div>  
@@ -141,13 +141,13 @@
       <div class="card-header text-light bg-secondary">      
         <ul id="guias" class="nav nav-tabs card-header-tabs nav-fill center-header-tabs">
           <li class="nav-item">
-            <a class="nav-link active" id="live-tab" data-toggle="tab" href="#live" role="tab" aria-controls="live" aria-selected="true">Ao Vivo</a>
+            <a class="nav-link active" id="live-tab" data-toggle="tab" href="#live" role="tab" aria-controls="live" aria-selected="true" data-lang-str="tab_live">Ao Vivo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false">Edição</a>
+            <a class="nav-link" id="edit-tab" data-toggle="tab" href="#edit" role="tab" aria-controls="edit" aria-selected="false" data-lang-str="tab_edition">Edição</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="bible-tab" data-toggle="tab" href="#bible" role="tab" aria-controls="bible" aria-selected="false">Bíblia</a>
+            <a class="nav-link" id="bible-tab" data-toggle="tab" href="#bible" role="tab" aria-controls="bible" aria-selected="false" data-lang-str="tab_bible">Bíblia</a>
           </li>          
         </ul>         
       </div>   
@@ -290,6 +290,7 @@
 <script src="bible/nvi.js"></script>
 <script src="bible/acf.js"></script>
 <script src="js/bible.js"></script>
+<script src="js/langs.js"></script>
 <script src="js/core.js"></script>
 </body>
 </html>
