@@ -193,9 +193,9 @@ function reloadProjectionList(){
 $("#deleteFromTree").click(function(){
   var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
     if(selecionado.parent == "#"){
-      $('#excluirModal').find('.modal-body p').html("Deseja realmente apagar a pasta <strong>"+selecionado.text+"</strong> e todo o seu conteúdo ?");
+      $('#excluirModal').find('.modal-body p').html(TRANSLATIONS[config.lang]['delFolder_msg_start']+"<strong>"+selecionado.text+"</strong>"+TRANSLATIONS[config.lang]['delFolder_msg_end']);
     } else {
-      $('#excluirModal').find('.modal-body p').html("Deseja realmente apagar a música <strong>"+selecionado.text+"</strong> ?");
+      $('#excluirModal').find('.modal-body p').html(TRANSLATIONS[config.lang]['delSong_msg_start']+"<strong>"+selecionado.text+"</strong> ?");
     }    
     $('#excluirModal').modal('toggle');
 });
@@ -274,8 +274,8 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 // Gerar lista ao vivo
 function generateLiveList(){
   $("#livesongs tbody").html("");      
-  $('#livesongs tbody').append('<tr data-id="0"><td>Tela Padrão</td><td></td></tr>');
-  var telaPadrao = "<section>\n<h1>Maranata</h1>\n<h3>O SENHOR JESUS VEM!</h3>\n</section>\n";
+  $('#livesongs tbody').append('<tr data-id="0"><td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td></tr>');
+  var telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
   viewSlides=telaPadrao;
   var f = 1;
   $.each(projecao, function(i, item) { 
@@ -311,7 +311,7 @@ function generateLiveList(){
         
         f++;
       });
-      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>Tela Padrão</td><td></td></tr>');      
+      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td></tr>');      
       f++;
       viewSlides+=telaPadrao;
     }

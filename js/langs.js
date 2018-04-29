@@ -1,4 +1,10 @@
-let DEFAULT_LANG = 'pt-br';
+var config = { lang: "pt-br" };
+if(localStorage.getItem("config") === null){  
+  localStorage.setItem('config', JSON.stringify(config));
+} else {
+  config = JSON.parse(localStorage.getItem("config"));
+}
+let DEFAULT_LANG = config.lang;
 let DATA_LANG_ELEMENTS = document.querySelectorAll('[data-lang-str]');
 let VERSION = '0.8.0';
 let TRANSLATIONS = {
@@ -39,6 +45,37 @@ let TRANSLATIONS = {
     'tab_live': 'Live',
     'tab_edition': 'Edition',
     'tab_bible': 'Bible',
+    'default_screen': 'Standard Screen',
+    'maranata_title': 'MARANATHA',
+    'maranata_slogan': 'The Lord Jesus is coming!',
+    'title': 'Title:',
+    'content': 'Content:',
+    'btn_save': {
+      'html': '<i class="fas fa-save"></i> Save'
+    },
+    'btn_export': {
+      'html': '<i class="fas fa-download"></i> Export'
+    },
+    'bible_version': 'Version:',
+    'bible_old_testament': 'Old Testament',
+    'bible_new_testament': 'New Testament',
+    'bible_chapter': 'Chapter',
+    'bible_from': 'From',
+    'bible_to': 'To',
+    'bible_preview': 'Preview',
+    'btn_bible_add': {
+      'html': '<i class="fas fa-plus fa-fw"></i> Add',
+      'title': 'Add to projection list'
+    },
+    'delSong_msg_start': 'Do you really want to delete the music ',
+    'delFolder_msg_start': 'Do you really want to delete the folder ',
+    'delFolder_msg_end': ' and all its content ?',
+    'list_projection': 'List to projection',
+    'empty_projection_list_msg': 'Empty list. Double click on the song to add',
+    'need_export_msg': {
+      'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>One or more songs from your list have been edited, do not forget to <strong>Export</strong> and replace <strong>data.json</strong> in your folder <strong>/data</strong>'
+    },
+    'projection': 'Projection',
   },
   'pt-br': {
     'navbrand': 'Projeção ICM',
@@ -77,6 +114,37 @@ let TRANSLATIONS = {
     'tab_live': 'Ao Vivo',
     'tab_edition': 'Edição',
     'tab_bible': 'Bíblia',
+    'default_screen': 'Tela Padrão',
+    'maranata_title': 'MARANATA',
+    'maranata_slogan': 'O Senhor Jesus vem!',
+    'title': 'Título:',
+    'content': 'Conteúdo:',
+    'btn_save': {
+      'html': '<i class="fas fa-save"></i> Salvar'
+    },
+    'btn_export': {
+      'html': '<i class="fas fa-download"></i> Exportar'
+    },
+    'bible_version': 'Versão:',
+    'bible_old_testament': 'Velho testamento',
+    'bible_new_testament': 'Novo testamento',
+    'bible_chapter': 'Capítulo',
+    'bible_from': 'Do',
+    'bible_to': 'Até',
+    'bible_preview': 'Pré-visualização',
+    'btn_bible_add': {
+      'html': '<i class="fas fa-plus fa-fw"></i> Adicionar',
+      'title': 'Adicionar a lista de projeção'
+    },
+    'delSong_msg_start': 'Deseja realmente apagar a música ',
+    'delFolder_msg_start': 'Deseja realmente apagar a pasta ',
+    'delFolder_msg_end': ' e todo o seu conteúdo ?',
+    'list_projection': 'Lista para projeção',
+    'empty_projection_list_msg': 'Lista vazia. Dê um duplo clique sobre o louvor para adicionar',
+    'need_export_msg': {
+      'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>'
+    },
+    'projection': 'Projeção',
   },
   'it': {
     'navbrand': 'Proiezione MEMDI',
@@ -115,6 +183,37 @@ let TRANSLATIONS = {
     'tab_live': 'Vivere',
     'tab_edition': 'Edizione',
     'tab_bible': 'Bibbia',
+    'default_screen': 'Schermo standard',
+    'maranata_title': 'MARANATA',
+    'maranata_slogan': 'Il Signore Gesù viene!',
+    'title': 'Titolo:',
+    'content': 'Contenuto:',
+    'btn_save': {
+      'html': '<i class="fas fa-save"></i> Salvare'
+    },
+    'btn_export': {
+      'html': '<i class="fas fa-download"></i> Esportazione'
+    },
+    'bible_version': 'Versione:',
+    'bible_old_testament': 'Vecchio testamento',
+    'bible_new_testament': 'Nuovo testamento',
+    'bible_chapter': 'Capitolo',
+    'bible_from': 'Di',
+    'bible_to': 'A',
+    'bible_preview': 'Anteprima',
+    'btn_bible_add': {
+      'html': '<i class="fas fa-plus fa-fw"></i> Aggiungi',
+      'title': 'Aggiungi alla lista di proiezione'
+    },
+    'delSong_msg_start': 'Vuoi davvero eliminare la musica ',
+    'delFolder_msg_start': 'Vuoi davvero eliminare la cartella ',
+    'delFolder_msg_end': ' e tutto il suo contenuto ?',
+    'list_projection': 'Lista di proiezione',
+    'empty_projection_list_msg': 'Lista vuota. Fai doppio clic sulla canzone da aggiungere',
+    'need_export_msg': {
+      'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Uno o più brani della tua lista sono stati modificati, non dimenticarti di <strong>Esportare</strong> e sostituire il <strong>data.json</strong> nel tuo cartella <strong>/data</strong>'
+    },
+    'projection': 'Proiezione',
   }
 };
 
@@ -139,7 +238,7 @@ const translate = (lang = null) => {
           el.innerText = (TRANSLATIONS[lang][STR]);
         } else {
           if((TRANSLATIONS[lang][STR]).html){
-            el.innerHtml = (TRANSLATIONS[lang][STR]).html;
+            el.innerHTML = (TRANSLATIONS[lang][STR]).html;
           }
           if((TRANSLATIONS[lang][STR]).title){
             el.title = (TRANSLATIONS[lang][STR]).title;
@@ -160,6 +259,8 @@ let BTNS_TRANSLATE = document.querySelectorAll('[name=btn-translate]');
 BTNS_TRANSLATE.forEach((btn) => {
   btn.addEventListener('click', (ev) => {
     translate(btn.getAttribute('data-lang'));
+    config.lang = btn.getAttribute('data-lang');
+    localStorage.setItem('config', JSON.stringify(config));
   });
 });
 

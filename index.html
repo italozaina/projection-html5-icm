@@ -166,7 +166,7 @@
           <div class="tab-pane fade" id="edit" role="tabpanel" aria-labelledby="edit-tab">
             <form class="p-2">
               <div class="form-group form-inline">
-                <label for="title">Título:&nbsp;&nbsp;</label>
+                <label for="title" data-lang-str="title">Título:&nbsp;&nbsp;</label>
                 <input class="form-control" id="title" type="text" name="title" style="width:49.5vw;">
               </div>
               <div class="form-group">
@@ -177,13 +177,13 @@
                   <div id="rplYI" class="btn btn-sm btn-secondary"><small style="color: yellow"><i>Itálico</i></small></div> 
                 </div>
 
-                <label for="content" style="align:center">Conteúdo</label><br>
+                <label for="content" style="align:center" data-lang-str="content">Conteúdo</label><br>
                 <textarea class="form-control noresize" id="content" name=content rows="13" cols="80"></textarea>
               </div>          
             </form>
             <div class="btn-toolbar justify-content-between px-2 pb-1">
-              <button id="save" class="btn btn-success"><i class="fas fa-save"></i> Salvar</button>
-              <button id="export" class="btn btn-primary"><i class="fas fa-download"></i> Exportar</button>               
+              <button id="save" class="btn btn-success" data-lang-str="btn_save"><i class="fas fa-save"></i> Salvar</button>
+              <button id="export" class="btn btn-primary" data-lang-str="btn_export"><i class="fas fa-download"></i> Exportar</button>               
             </div>       
           </div>
           <div class="tab-pane fade" id="bible" role="tabpanel" aria-labelledby="bible-tab">
@@ -193,7 +193,8 @@
                   <div class="btn-toolbar justify-content-between">
                     <div class="btn-group">
                       <form class="form-inline">
-                        <label for="selectBibleVersion">Versão:&nbsp;&nbsp;</label>
+                        <label for="selectBibleVersion" data-lang-str="bible_version">Versão:</label>
+                        &nbsp;&nbsp;
                         <select class="form-control" id="selectBibleVersion">                          
                           <option value="acf">ACF</option>
                           <option value="nvi">NVI</option>
@@ -201,43 +202,43 @@
                       </form>
                     </div>
                     <div class="btn-group">
-                      <button id="addBibleToProjection" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Adicionar a lista de projeção"><i class="fas fa-plus fa-fw"></i> Adicionar</button> 
+                      <button id="addBibleToProjection" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Adicionar a lista de projeção" data-lang-str="btn_bible_add"><i class="fas fa-plus fa-fw"></i> Adicionar</button> 
                     </div>                  
                   </div>
                 </div>
               </div>          
               <div class="row">
                 <div class="col-3">
-                  <label>Velho testamento</label>
+                  <label class="fix-text" data-lang-str="bible_old_testament">Velho testamento</label>
                   <ul id="listaVelho" class="list-group bibleBooks">
                   </ul>        
                 </div>
                 <div class="col-3 px-1">
-                  <label>Novo testamento</label>
+                  <label data-lang-str="bible_new_testament">Novo testamento</label>
                   <ul id="listaNovo" class="list-group bibleBooks">
                   </ul>
                 </div>
                 <div class="col-6">
                   <div class="row">
                     <div class="col-4"> 
-                      <label>Capitulo</label>
+                      <label data-lang-str="bible_chapter">Capítulo</label>
                       <ul id="listaCapitulo" class="list-group bibleNum">
                       </ul>
                     </div>
                     <div class="col-4">
-                      <label>De</label>
+                      <label data-lang-str="bible_from">Do</label>
                       <ul id="listaDe" class="list-group bibleNum">
                       </ul>
                     </div>
                     <div class="col-4">
-                      <label>Até</label>
+                      <label data-lang-str="bible_to">Até</label>
                       <ul id="listaAte" class="list-group bibleNum">
                       </ul>
                     </div>                    
                   </div>
                   <div class="row">
                     <div class="col-12">
-                      <label>Pré-visualização</label>
+                      <label data-lang-str="bible_preview">Pré-visualização</label>
                       <div id="preViewScripture" class="bg-light">
                       </div>
                     </div>
@@ -251,11 +252,11 @@
       </div>
       <div class="col-3">
         <div class="card mb-3">
-          <div class="card-header text-light bg-dark">
+          <div class="card-header text-light bg-dark" data-lang-str="list_projection">
             Lista para projeção
           </div>
           <div class="card-block" style="height: 45vh; overflow-x: hidden !important; overflow-y: scroll;">
-            <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <div id="msgSave" class="alert alert-warning alert-dismissible fade show" role="alert"  data-lang-str="need_export_msg">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -265,11 +266,11 @@
                 <tbody>                  
                 </tbody>
             </table>
-            <p class="p-2" id="no-projection-msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
+            <p class="p-2" id="no-projection-msg" data-lang-str="empty_projection_list_msg">Lista vazia. Dê um duplo clique sobre o louvor para adicionar</p>
           </div> <!-- fim card -->
         </div>
         <div class="card">
-          <div class="card-header text-light bg-dark">
+          <div class="card-header text-light bg-dark" data-lang-str="projection">
             Projeção
           </div>
           <div class="card-block p-0">            

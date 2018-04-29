@@ -250,3 +250,10 @@ a{
     overflow-x: hidden !important;
     overflow-y: scroll;    
 }
+
+.fix-text{  
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important; 
+  width: 100%;
+}
