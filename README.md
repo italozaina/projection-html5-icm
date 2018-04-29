@@ -1,6 +1,6 @@
-# Projection HTML5
+# Projeção ICM
 
-Projeção para Igreja Cristã Maranata. Suporta atualmente apenas o idioma português (pt-BR)
+Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), inglês (en) e italiano (it)
 
 Painel                     |  Projeção
 :-------------------------:|:-------------------------:
@@ -10,12 +10,13 @@ Características
 --------
 
 * Edição fácil de louvores (Uma linha vazia faz a separação do verso)
-* Criar pastas para organizar letras
+* Criar pastas para organizar letras (em um idioma específico)
 * Crie de forma rápida sua lista de projeção (apenas com um duplo-clique no louvor)
 * Suporte a bíblias (ACF e NVI)
+* Suporte a múltiplos idiomas
 
-Technology Stack
-----------------
+Tecnologias Utilizadas
+----------------------
 
 1. Bootstrap
 2. Jstree
@@ -23,15 +24,18 @@ Technology Stack
 4. jQuery
 5. FontAwesome
 
-Runnning on browser
--------------------
+Roda nos navegadores
+--------------------
 
-* Mozilla Firefox (it works)
-* Google Chrome ( work with limitation: "it need import manually data.json" )
+* Mozilla Firefox (funciona 100%)
+* Google Chrome ( funciona com limitação: "necessário importar manualmente data.json" )
+* Opera ( funciona com limitação: "necessário importar manualmente data.json" )
 
 Uso
 -----
 
-1. Execute index.html
-2. Permitir pop-up
-3. Se você não estiver usando o ** Mozilla Firefox **, precisará abrir manualmente os dados / data.json
+1. Execute ** index.html **
+2. ** Permitir pop-up ** (aviso no canto superior direto do navegador)
+3. Feche o navegador e execute novamente ** index.html **
+
+obs: Se você não estiver usando o ** Mozilla Firefox **, precisará abrir manualmente os dados / data.json
