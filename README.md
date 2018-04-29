@@ -34,8 +34,8 @@ Roda nos navegadores
 Uso
 -----
 
-1. Execute ** index.html **
-2. ** Permitir pop-up ** (aviso no canto superior direto do navegador)
-3. Feche o navegador e execute novamente ** index.html **
+1. Execute **index.html**
+2. **Permitir pop-up** (aviso no canto superior direto do navegador)
+3. Feche o navegador e execute novamente **index.html**
 
-obs: Se você não estiver usando o ** Mozilla Firefox **, precisará abrir manualmente os dados / data.json
+obs: Se você não estiver usando o **Mozilla Firefox**, precisará abrir manualmente os dados / data.json
