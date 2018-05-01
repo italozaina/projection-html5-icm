@@ -190,6 +190,32 @@ function reloadProjectionList(){
   generateLiveList(); 
 }
 
+$("#btnAlterarBg").click(function(){   
+    $('#bgModal').modal('toggle');
+});
+
+$("#filebg").change(function() {
+    var file = this.files[0];
+    var fileURL = URL.createObjectURL(file);
+    if (typeof(windowView)!='undefined' && !windowView.closed) {
+      windowView.postMessage(JSON.stringify( {
+            host: 'projection-html5',
+            function: 'changeBg',
+            url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+            data: fileURL
+          } ), "*"); 
+    }
+    iframeView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'changeBg',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: fileURL
+        } ), "*");
+
+    $('#bgModal').modal('toggle')
+});
+
+
 $("#deleteFromTree").click(function(){
   var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
     if(selecionado.parent == "#"){

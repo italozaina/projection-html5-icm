@@ -30,7 +30,7 @@
     
     <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <button class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button>
+            <button id="btnAlterarBg" class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button>
           </li>
           <li class="nav-item">
             <button class="btn btn-dark" title="Criar aviso" data-lang-str="btn_create_warning"><i class="fas fa-exclamation-triangle"></i></button>
@@ -45,7 +45,7 @@
           </li>
     </ul>
 
-    <small class="navbar-text" data-lang-str="version">Version 0.8.0</small>
+    <small class="navbar-text" data-lang-str="version"></small>
   </nav>
 
   <!-- Modal -->
@@ -61,6 +61,21 @@
         <div class="modal-body" data-lang-str="load_body">
           Não foi detectado o navegador Mozilla Firefox, neste caso você deverá abrir manualmente seu arquivo de dados <strong>(data.json)</strong> que esta em sua pasta <strong>("/data")</strong>.
           <input type="file" name="filedata" id="filedata">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="bgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Selecionar Imagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input id="filebg" class="btn" type="file" accept="image/*">
         </div>
       </div>
     </div>

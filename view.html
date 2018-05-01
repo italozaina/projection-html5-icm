@@ -23,6 +23,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      transition: background 1s linear;
     }   
 
     .reveal h2{
@@ -231,6 +232,9 @@
         if(data.host === 'projection-html5' && data.function === 'changeSlide'){
           changeSlide(data.data);
         }
+        if(data.host === 'projection-html5' && data.function === 'changeBg'){
+          changeBg(data.data);
+        }
     } );
 
     function changeSlide(number) {
@@ -243,6 +247,13 @@
       else
         $('.slides').fadeIn('slow');
     }       
+
+    function changeBg(fileURL) {
+      document.body.style.backgroundImage = "url(" + fileURL + ")";
+      // $(document.body).fadeTo('slow', 0.3, function() {
+      //     $(this).css('background-image', 'url(' + fileURL + ')');
+      // }).fadeTo('slow', 1);
+    }
 
     function reloadReveal(htmlslides){
       $('.slides').html(htmlslides);
