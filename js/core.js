@@ -576,7 +576,7 @@ $(function () {
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {
     carregaLouvores();
-    // startProjection();
+    startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);
