@@ -455,6 +455,12 @@ $(document).on('keydown', function(e) {
             }          
             break;  
           }
+          case 27: // esc
+          {            
+            projecaoAtiva = 0;
+            mudaProjecaoAtiva();
+            break;  
+          }
           default: return; // exit this handler for other keys
       }
 

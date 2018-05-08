@@ -7,9 +7,9 @@ Painel                     |  Projeção
 ![](/demo/painel.gif)      |  ![](/demo/projecao.gif)
 
 Características
---------
+---------------
 
-* Edição fácil de louvores (Uma linha vazia faz a separação do verso)
+* Edição fácil de louvores (Uma linha vazia faz a separação dos slides)
 * Criar pastas para organizar letras (em um idioma específico)
 * Crie de forma rápida sua lista de projeção (apenas com um duplo-clique no louvor)
 * Suporte a bíblias (ACF e NVI)
@@ -32,7 +32,7 @@ Roda nos navegadores
 * Opera ( funciona com limitação: "necessário importar manualmente data.json" )
 
 Uso
------
+---
 
 1. Execute **index.html**
 2. **Permitir pop-up** (aviso no canto superior direto do navegador)

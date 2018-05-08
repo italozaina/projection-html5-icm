@@ -89,10 +89,15 @@ function selectChapter(nodeLi){
   for(i = 0; i < bible[bookSelected].chapters[chapterSelected].length; i++){
     $('#listaDe').append('<li class="list-group-item" data-id="'+i+'">'+(i+1)+'</li>');
     $('#listaAte').append('<li class="list-group-item" data-id="'+i+'">'+(i+1)+'</li>');
+    if(i == bible[bookSelected].chapters[chapterSelected].length - 1){
+      toSelected = bible[bookSelected].chapters[chapterSelected].length - 1;
+      $('#listaDe').scrollTop(0);
+      $('#listaAte').scrollTop(  $('#listaAte > li[data-id="'+toSelected+'"]').offset().top - $('#listaAte').offset().top + $('#listaAte').scrollTop());
+      $('#listaDe > li[data-id="'+fromSelected+'"]').addClass('active');
+      $('#listaAte > li[data-id="'+toSelected+'"]').addClass('active');
+      biblePreView();
+    }
   } 
-
-  $('#listaDe').scrollTop(0);
-  $('#listaAte').scrollTop(0);
 
   $('#listaDe li').click(function(){
     $('#listaDe > li.active').removeClass('active');
@@ -101,6 +106,7 @@ function selectChapter(nodeLi){
     toSelected = parseInt($(this).attr("data-id"));
     $('#listaAte > li.active').removeClass('active');
     $('#listaAte > li[data-id="'+fromSelected+'"]').addClass('active');
+    $('#listaAte').scrollTop(  $('#listaAte > li[data-id="'+toSelected+'"]').offset().top - $('#listaAte').offset().top + $('#listaAte').scrollTop());    
     biblePreView();
   });  
 
@@ -109,8 +115,10 @@ function selectChapter(nodeLi){
     $(this).addClass('active');
     toSelected = parseInt($(this).attr("data-id"));
     if(fromSelected > toSelected){
+      fromSelected = toSelected;
       $('#listaDe > li.active').removeClass('active');
-      $('#listaDe > li[data-id="'+toSelected+'"]').addClass('active');
+      $('#listaDe > li[data-id="'+fromSelected+'"]').addClass('active');
+      $('#listaDe').scrollTop(  $('#listaDe > li[data-id="'+fromSelected+'"]').offset().top - $('#listaDe').offset().top + $('#listaDe').scrollTop());
     }
     biblePreView();
   }); 
