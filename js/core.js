@@ -331,7 +331,21 @@ $("#export").click(function(){
 
 $("#import").click(function(){
   console.log("Tentou importar");  
-  $('#modalNotImplemented').modal('toggle');
+  $('#importModal').modal('toggle');
+});
+
+$("#fileImport").change(function() {
+    var file = this.files[0];
+    var reader = new FileReader();
+
+    reader.onload = function(event) {
+      var contents = event.target.result;
+      atualizaListaArquivos(contents);
+    }
+
+    // when the file is read it triggers the onload event above.
+    reader.readAsText(file);    
+    $('#importModal').modal('toggle')
 });
 
 $("#btnCreateWarn").click(function(){
