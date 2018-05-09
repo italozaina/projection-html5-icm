@@ -33,22 +33,49 @@
             <button id="btnAlterarBg" class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button>
           </li>
           <li class="nav-item">
-            <button class="btn btn-dark" title="Criar aviso" data-lang-str="btn_create_warning"><i class="fas fa-exclamation-triangle"></i></button>
+            <button id="btnCreateWarn" class="btn btn-dark" title="Criar aviso" data-lang-str="btn_create_warning"><i class="fas fa-exclamation-triangle"></i></button>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang-str="language">Idioma</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <button class="dropdown-item" href="#" name="btn-translate" data-lang="pt-br"><img src="imagens/brazil.svg" class="flag"> Português</button>
-              <button class="dropdown-item" href="#" name="btn-translate" data-lang="en"><img src="imagens/united-states.svg" class="flag"> English</a>
-              <button class="dropdown-item" href="#" name="btn-translate" data-lang="it"><img src="imagens/italy.svg" class="flag"> Italiano</button>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown_init" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang-str="import_export">Importar/Exportar</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_init">
+              <button id="import" class="dropdown-item" data-lang-str="btn_menu_import"><i class="fas fa-upload"></i> Importar...</button>
+              <button id="export" class="dropdown-item" data-lang-str="btn_menu_export"><i class="fas fa-download"></i> Exportar...</button>
             </div>
           </li>
     </ul>
 
-    <small class="navbar-text" data-lang-str="version"></small>
+    <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-lang-str="language">Idioma</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="pt-br"><img src="imagens/brazil.svg" class="flag"> Português</button>
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="en"><img src="imagens/united-states.svg" class="flag"> English</button>
+              <button class="dropdown-item" href="#" name="btn-translate" data-lang="it"><img src="imagens/italy.svg" class="flag"> Italiano</button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button id="btnLaunchView" class="btn btn-dark" title="Abrir tela de projeção" data-lang-str="btn_start_view" data-lang-str="btn_start_view"><i class="fas fa-tv"></i></button>
+          </li>
+          <small class="navbar-text" data-lang-str="version"></small>
+    </ul>    
   </nav>
 
   <!-- Modal -->
+  <div class="modal fade" id="modalNotImplemented" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" data-lang-str="not_implemented">
+          Função não implementada.
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="modal fade" id="carregarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -69,7 +96,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel3">Selecionar Imagem</h5>
+          <h5 class="modal-title" id="exampleModalLabel3" data-lang-str="select_image">Selecionar Imagem</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -77,6 +104,30 @@
         <div class="modal-body">
           <input id="filebg" class="btn" type="file" accept="image/*">
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="newImageModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Nova Imagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">          
+          <div class="form-group p-2">                    
+            <input class="form-control" id="imageName" type="text" placeholder="Nome da imagem">
+          </div>          
+          <div class="form-group p-2">
+            <label for="fileimage" data-lang-str="language">Imagem</label>
+            <input id="fileimage" class="btn" type="file" accept="image/*">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="confirmCreateImage" type="button" class="btn btn-primary" data-lang-str="create">Criar</button>          
+        </div> 
       </div>
     </div>
   </div>
@@ -139,6 +190,9 @@
                 <button id="newFolder" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Criar pasta" data-lang-str="btn_create_folder"><i class="fas fa-folder-open fa-fw"></i></button> 
               </div>
               <div class="btn-group">
+                <button id="newImage" class="btn btn-dark" data-toggle="tooltip" data-placement="bottom" title="Nova imagem" data-lang-str="btn_create_image"><i class="fas fa-image"></i></button>
+              </div>
+              <div class="btn-group">
                 <button id="deleteFromTree" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Apagar pasta/arquivo" data-lang-str="btn_del_file_folder"><i class="fas fa-trash fa-fw"></i></button> 
               </div>              
             </div>          
@@ -198,7 +252,7 @@
             </form>
             <div class="btn-toolbar justify-content-between px-2 pb-1">
               <button id="save" class="btn btn-success" data-lang-str="btn_save"><i class="fas fa-save"></i> Salvar</button>
-              <button id="export" class="btn btn-primary" data-lang-str="btn_export"><i class="fas fa-download"></i> Exportar</button>               
+              <!-- <button id="export" class="btn btn-primary" data-lang-str="btn_export"><i class="fas fa-download"></i> Exportar</button>                -->
             </div>       
           </div>
           <div class="tab-pane fade" id="bible" role="tabpanel" aria-labelledby="bible-tab">

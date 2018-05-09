@@ -6,7 +6,7 @@ if(localStorage.getItem("config") === null){
 }
 let DEFAULT_LANG = config.lang;
 let DATA_LANG_ELEMENTS = document.querySelectorAll('[data-lang-str]');
-let VERSION = '0.8.5';
+let VERSION = '0.9.0';
 let TRANSLATIONS = {
   'en': {
     'navbrand': 'Projection MCC',
@@ -76,6 +76,21 @@ let TRANSLATIONS = {
       'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>One or more songs from your list have been edited, do not forget to <strong>Export</strong> and replace <strong>data.json</strong> in your folder <strong>/data</strong>'
     },
     'projection': 'Projection',
+    'select_image': 'Select Image',
+    'import_export': 'Import/Export',
+    'btn_menu_import': {
+      'html': '<i class="fas fa-upload"></i> Import...',
+    },
+    'btn_menu_export': {
+      'html': '<i class="fas fa-download"></i> Export...',
+    },
+    'btn_start_view': {
+      'title': 'Open projection screen'
+    },
+    'btn_create_image': {
+      'title': 'New image'
+    },
+    'not_implemented':'Function not implemented.'
   },
   'pt-br': {
     'navbrand': 'Projeção ICM',
@@ -145,6 +160,21 @@ let TRANSLATIONS = {
       'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Um ou mais louvores de sua lista foram editados, não esqueça de <strong>Exportar</strong> e substituir o <strong>data.json</strong> em sua pasta <strong>/data</strong>'
     },
     'projection': 'Projeção',
+    'select_image': 'Selecionar Imagem',
+    'import_export': 'Importar/Exportar',
+    'btn_menu_import': {
+      'html': '<i class="fas fa-upload"></i> Importar...',
+    },
+    'btn_menu_export': {
+      'html': '<i class="fas fa-download"></i> Exportar...',
+    },
+    'btn_start_view': {
+      'title': 'Abrir tela de projeção'
+    },
+    'btn_create_image': {
+      'title': 'Nova imagem'
+    },
+    'not_implemented':'Função não implementada.'
   },
   'it': {
     'navbrand': 'Proiezione MEMDI',
@@ -214,6 +244,21 @@ let TRANSLATIONS = {
       'html': '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Uno o più brani della tua lista sono stati modificati, non dimenticarti di <strong>Esportare</strong> e sostituire il <strong>data.json</strong> nel tuo cartella <strong>/data</strong>'
     },
     'projection': 'Proiezione',
+    'select_image': 'Seleziona immagine',
+    'import_export': 'Importare/Esportare',
+    'btn_menu_import': {
+      'html': '<i class="fas fa-upload"></i> Importare...',
+    },
+    'btn_menu_export': {
+      'html': '<i class="fas fa-download"></i> Esportare...',
+    },
+    'btn_start_view': {
+      'title': 'Apri lo schermo di proiezione'
+    },
+    'btn_create_image': {
+      'title': 'Nuova immagine'
+    },
+    'not_implemented':'Funzione non implementata.'
   }
 };
 

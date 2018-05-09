@@ -101,6 +101,12 @@ td {
   resize: none; 
 }
 
+.responsive-img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
 #songs tbody>tr:hover {
     background-color: #2ee; /* Add a hover effect to all links, except for headers */
 }

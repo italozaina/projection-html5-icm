@@ -134,9 +134,6 @@
       color: #ffffff;
     }
 
-    html.scriptures body{      
-      background: #000000;
-    }     
     html.scriptures p{
       color: #FFFFFF;
       width: 100vw;
@@ -149,6 +146,7 @@
       position: absolute;
       display: none;
       text-decoration: underline;
+      z-index: 3;
     }
     .scripturetitle small{
       text-decoration: underline;
@@ -266,6 +264,7 @@
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
       });  
+      Reveal.sync();
       changeSlide(0);    
     }
     })()
