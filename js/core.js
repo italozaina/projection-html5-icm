@@ -349,12 +349,6 @@ $("#newImage").click(function(){
   $('#newImageModal').modal('toggle');
 });
 
-// $("#fileimage").change(function() {
-//     var file = this.files[0];
-//     var fileURL = URL.createObjectURL(file);
-//     console.log(fileURL);
-// });
-
 $("#confirmCreateImage").click(function(){   
     var name = $('#imageName').val();
     var file = $("#fileimage").prop('files')[0];
@@ -721,6 +715,12 @@ $(function () {
         $("#songList #"+ref_selected)[0].scrollIntoView();
   })
 
+  $("#btnAbout").click(function(){
+    var title = '<i class="fas fa-info-circle"></i>&nbsp;'+TRANSLATIONS[config.lang]['btn_about']['title'];
+    $('#modalNotImplemented > .modal-dialog > .modal-content > .modal-header > h5').html(title);
+    $('#modalNotImplemented > .modal-dialog > .modal-content > .modal-body').html('<p><strong>Desenvolvido por:</strong> Ítalo Carvalho Zaina</p><h5>Contatos</h5><p><strong><i class="fas fa-envelope"></i></strong> <a href="MAILTO:italoczaina@gmail.com">italoczaina@gmail.com</a></p><p><strong><i class="fab fa-skype"></i></strong> <a href="skype:italozo?chat">italozo</a></p>');
+    $('#modalNotImplemented').modal('toggle');
+  });
 
 });
 

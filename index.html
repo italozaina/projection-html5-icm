@@ -42,6 +42,9 @@
               <button id="export" class="dropdown-item" data-lang-str="btn_menu_export"><i class="fas fa-download"></i> Exportar...</button>
             </div>
           </li>
+          <li class="nav-item">
+            <button id="btnAbout" class="btn btn-dark" title="Sobre" data-lang-str="btn_about"><i class="fas fa-info"></i></button>
+          </li>
     </ul>
 
     <ul class="navbar-nav">
@@ -111,17 +114,17 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel3">Nova Imagem</h5>
+          <h5 class="modal-title" id="exampleModalLabel3" data-lang-str="new_image">Nova Imagem</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">          
           <div class="form-group p-2">                    
-            <input class="form-control" id="imageName" type="text" placeholder="Nome da imagem">
+            <input class="form-control" id="imageName" type="text" placeholder="Nome da imagem" data-lang-str="image_name">
           </div>          
           <div class="form-group p-2">
-            <label for="fileimage" data-lang-str="language">Imagem</label>
+            <label for="fileimage" data-lang-str="select_image">Imagem</label>
             <input id="fileimage" class="btn" type="file" accept="image/*">
           </div>
         </div>

@@ -90,7 +90,14 @@ let TRANSLATIONS = {
     'btn_create_image': {
       'title': 'New image'
     },
-    'not_implemented':'Function not implemented.'
+    'not_implemented':'Function not implemented.',
+    'new_image': 'New Image',
+    'image_name': {
+      'placeholder': 'Image name'
+    },
+    'btn_about': {
+      'title': 'About'
+    }
   },
   'pt-br': {
     'navbrand': 'Projeção ICM',
@@ -174,7 +181,14 @@ let TRANSLATIONS = {
     'btn_create_image': {
       'title': 'Nova imagem'
     },
-    'not_implemented':'Função não implementada.'
+    'not_implemented':'Função não implementada.',
+    'new_image': 'Nova Imagem',
+    'image_name': {
+      'placeholder': 'Nome da imagem'
+    },
+    'btn_about': {
+      'title': 'Sobre'
+    }
   },
   'it': {
     'navbrand': 'Proiezione MEMDI',
@@ -258,7 +272,14 @@ let TRANSLATIONS = {
     'btn_create_image': {
       'title': 'Nuova immagine'
     },
-    'not_implemented':'Funzione non implementata.'
+    'not_implemented':'Funzione non implementata.',
+    'new_image': 'Nuova immagine',
+    'image_name': {
+      'placeholder': 'Nome dell\'immagine'
+    },
+    'btn_about': {
+      'title': 'Informazioni'
+    }
   }
 };
 
