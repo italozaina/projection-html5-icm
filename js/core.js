@@ -1,6 +1,7 @@
 var dados = [];
 var projecao = [];
 var imagens = [];
+var avisos = [];
 var pastaAtiva = 0;
 var louvorAtivo = 0;
 var projecaoAtiva = 0;
@@ -80,23 +81,33 @@ function atualizaListaArquivos(newData){
 
     var songList = [];
 
+    // Teste de avisos
+    if(localStorage.getItem("warnings") != null)
+        avisos = JSON.parse(localStorage.getItem("warnings"));
+    if(avisos.length > 0){  
+      songList.push({id: "0",text:"Avisos",state:{opened: true},children:[], type:"f-open2"});
+      $.each(avisos, function(i, aviso) {
+        songList[0].children.push({id: "0_"+i, text:aviso.name, type:"warning", data:aviso});
+      });
+    }
+
     // Teste inicio de utilização de imagens na lista
-    if(localStorage.getItem("images") === null){
-      images = JSON.parse(localStorage.getItem("images"));
-      if(imagens.length > 0){
-        songList.push({id: "images",text:"Imagens",state:{opened: true},children:[]});
-        $.each(imagens, function(i, imagem) {
-          songList[i].children.push({id: "image_"+i, text:imagem.name, type:"image", data:imagem});
-        });
-      }
+    if(localStorage.getItem("images") != null)
+        images = JSON.parse(localStorage.getItem("images"));    
+    if(imagens.length > 0){
+      var idImageFolder = "0";
+      if(songList.length > 0) idImageFolder = "1";
+      songList.push({id: idImageFolder,text:"Imagens",state:{opened: true},children:[], type:"f-open1"});
+      $.each(imagens, function(i, imagem) {
+        songList[idImageFolder].children.push({id: idImageFolder+"_"+i, text:imagem.name, type:"image", data:imagem});
+      });
     }
 
     $('#listaDePastas').html("");
 
     $.each(dados, function(i, dado) {
-      if(imagens.length > 0){
-        i++;
-      }
+      if(imagens.length > 0) i++;
+      if(avisos.length > 0) i++;
       if(dado.type == "s"){
         songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
         $.each(dado.songs, function(f, louvor) {
@@ -119,9 +130,8 @@ function atualizaListaArquivos(newData){
 
       var pastaSelecionada = parseInt($(this).attr("data-id"));
 
-      if(imagens.length > 0){
-        pastaSelecionada--;
-      }
+      if(imagens.length > 0) pastaSelecionada--;
+      if(avisos.length > 0) pastaSelecionada--;
 
       dados[pastaSelecionada].songs.push({title: "", content: ""});
 
@@ -129,9 +139,8 @@ function atualizaListaArquivos(newData){
        
       atualizaListasFromJSON(dados);
 
-      if(imagens.length > 0){
-        pastaSelecionada++;
-      }
+      if(imagens.length > 0) pastaSelecionada++;
+      if(avisos.length > 0) pastaSelecionada++;
 
       ref_selected = pastaSelecionada+"_"+lastAdded;     
 
@@ -147,19 +156,31 @@ function atualizaListasFromJSON(newData){
     var songList = [];
 
     // Teste inicio de utilização de imagens na lista
+    if(localStorage.getItem("warnings") != null)
+        avisos = JSON.parse(localStorage.getItem("warnings"));
+    if(avisos.length > 0){
+      songList.push({id: "0",text:"Avisos",state:{opened: true},children:[], type:"f-open2"});
+      $.each(avisos, function(i, aviso) {
+        songList[0].children.push({id: "0_"+i, text:aviso.name, type:"warning", data:aviso});
+      });
+    }
+
+    if(localStorage.getItem("images") != null)
+        images = JSON.parse(localStorage.getItem("images")); 
     if(imagens.length > 0){
-      songList.push({id: "0",text:"Imagens",state:{opened: true},children:[]});
+      var idImageFolder = "0";
+      if(songList.length > 0) idImageFolder = "1";
+      songList.push({id: idImageFolder,text:"Imagens",state:{opened: true},children:[], type:"f-open1"});
       $.each(imagens, function(i, imagem) {
-        songList[0].children.push({id: "0_"+i, text:imagem.name, type:"image", data:imagem});
+        songList[idImageFolder].children.push({id: idImageFolder+"_"+i, text:imagem.name, type:"image", data:imagem});
       });
     }
 
     $('#listaDePastas').html("");
 
     $.each(dados, function(i, dado) {
-      if(imagens.length > 0){
-        i++;
-      }
+      if(imagens.length > 0) i++;
+      if(avisos.length > 0) i++;
       if(dado.type == "s"){
         songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
         $.each(dado.songs, function(f, louvor) {
@@ -174,7 +195,7 @@ function atualizaListasFromJSON(newData){
       $('#listaDePastas').append('<a class="dropdown-item" data-id="'+i+'">'+dado.name+'</a>');
     });
 
-    console.log(songList);
+    // console.log(songList);
 
     $('#songList').jstree(true).settings.core.data = songList;
     $('#songList').jstree(true).refresh();
@@ -184,17 +205,15 @@ function atualizaListasFromJSON(newData){
 
       var pastaSelecionada = parseInt($(this).attr("data-id"));
 
-      if(imagens.length > 0){
-        pastaSelecionada--;
-      }
+      if(imagens.length > 0) pastaSelecionada--;
+      if(avisos.length > 0) pastaSelecionada--;
 
       dados[pastaSelecionada].songs.push({title: "", content: ""});
       
       lastAdded = dados[pastaSelecionada].songs.length - 1;  
 
-      if(imagens.length > 0){
-        pastaSelecionada++;
-      }
+      if(imagens.length > 0) pastaSelecionada++;
+      if(avisos.length > 0) pastaSelecionada++;
 
       ref_selected = pastaSelecionada+"_"+lastAdded;
 
@@ -225,11 +244,20 @@ function reloadProjectionList(){
       var imagem = imagens[item.id];
       $('#projections tbody').append('<tr data-id="'+i+'"><td><i class="fas fa-image"></i>&nbsp;'+imagem.name+'</td><td class="btn-mini"><button class="btn btn-danger btn-x">-</button></td></tr>');           
     }
+    if(item.type == "w") {
+      var aviso = avisos[item.id];
+      $('#projections tbody').append('<tr data-id="'+i+'"><td><i class="fas fa-exclamation-triangle"></i>&nbsp;'+aviso.name+'</td><td class="btn-mini"><button class="btn btn-danger btn-x">-</button></td></tr>');           
+    }
   });  
   $(".btn-x").click(function(){
     var id = $(this).closest('tr').attr("data-id");
     projecao.splice(id, 1);
     reloadProjectionList();
+  });
+  $("#projections tbody tr td:first-child").click(function(){
+      var goto = parseInt($(this).attr("data-goto"));
+      projecaoAtiva = goto;
+      mudaProjecaoAtiva();      
   });
   generateLiveList(); 
 }
@@ -289,7 +317,14 @@ $("#confirmMakeFolder").click(function(){
 $("#confirmDeleteFromTree").click(function(){
   var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
     if(selecionado.parent == "#"){
-      dados.splice(selecionado.id, 1);
+      var firstItem = $.jstree.reference('#songList').get_node(selecionado.children[0]);
+      console.log(firstItem.type);
+      if(firstItem.type == "song") {        
+        var folderDelId = parseInt(selecionado.id);
+        if(avisos.length > 0) folderDelId--;
+        if(imagens.length > 0) folderDelId--;
+        dados.splice(folderDelId, 1);
+      }
     } else {
       console.log(selecionado);
       if(selecionado.type == "song"){
@@ -299,10 +334,15 @@ $("#confirmDeleteFromTree").click(function(){
         var idImage = selecionado.id.split("_")[1];
         imagens.splice(idImage, 1);
       }
+      if(selecionado.type == "warning"){
+        var idWarning = selecionado.id.split("_")[1];
+        avisos.splice(idWarning, 1);
+      }
       ref_selected = "0_0";
     }
     atualizaListasFromJSON(dados);
     localStorage.setItem('data', JSON.stringify(dados));
+    localStorage.setItem('warnings', JSON.stringify(avisos));
     $('#title').val(dados[0].songs[0].title);    
     $('#content').val(dados[0].songs[0].content);
     $('#excluirModal').modal('toggle');   
@@ -350,7 +390,25 @@ $("#fileImport").change(function() {
 
 $("#btnCreateWarn").click(function(){
   console.log("Tentou criar aviso");  
-  $('#modalNotImplemented').modal('toggle');
+   $('#newWarningModal').find('.modal-body').css({
+        width:'auto', //probably not needed
+        height:'auto', //probably not needed 
+        'max-height':'100%'
+   });
+  $('#newWarningModal').modal('toggle');
+});
+
+$("#confirmCreateWarning").click(function(){   
+    var name = $('#warningName').val();
+    var title = $('.warning-title').html();
+    var body = $('.warning-body').html();
+    var content = {title: title, body: body};
+
+    avisos.push({name: name, warning: {content: content, type: "regular"}});
+    localStorage.setItem('warnings', JSON.stringify(avisos));
+    atualizaListasFromJSON(dados);
+
+    $('#newWarningModal').modal('toggle');
 });
 
 $("#btnLaunchView").click(function(){
@@ -402,9 +460,10 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 
 // Gerar lista ao vivo
 function generateLiveList(){
-  $("#livesongs tbody").html("");      
-  $('#livesongs tbody').append('<tr data-id="0"><td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td></tr>');
   var telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+  var telaPadraoPainel = '<td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td>';
+  $("#livesongs tbody").html("");      
+  $('#livesongs tbody').append('<tr data-id="0">'+telaPadraoPainel+'</tr>');
   viewSlides=telaPadrao;
   var f = 1;
   $.each(projecao, function(i, item) { 
@@ -429,10 +488,11 @@ function generateLiveList(){
             var titulodividido = dados[item.folderId].songs[item.id].title.split(" ");
             var indexDivision = Math.round(titulodividido.length/2);
             var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[indexDivision],titulodividido[indexDivision]+"<br>");
-            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
+            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #logo{ display: table; }</style>\n"+fimStyle;              
           }else{
             viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
           } 
+          $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
         } else {
           viewSlides+="<section data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
         }
@@ -440,11 +500,12 @@ function generateLiveList(){
         
         f++;
       });
-      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td></tr>');      
+      $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
       viewSlides+=telaPadrao;
     }
     if(item.type == "b"){
+      $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
       for (var i = item.from; i <= item.to; i++) {
         var label = bible[item.b].name+" "+(item.c+1)+":"+(i+1);
         var scripture = bible[item.b].chapters[item.c][i];
@@ -453,16 +514,27 @@ function generateLiveList(){
         viewSlides+="<section data-background-color=\"#000000\" data-state=\"scriptures "+refverse+"\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
         f++;
       }
-      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>Tela Padrão</td><td></td></tr>');
+      $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
       viewSlides+=telaPadrao;      
     }
     if(item.type == "i"){
       var imagem = imagens[item.id];
+      $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
       $('#livesongs tbody').append('<tr data-id="'+f+'"><td><i class="fas fa-image"></i>&nbsp;'+imagem.name+'</td><td><img class="responsive-img" src='+imagem.image+'></td></tr>');
       viewSlides+="<section data-background-color=\"#000000\">\n<img src="+imagem.image+">\n</section>\n";
       f++;
-      $('#livesongs tbody').append('<tr data-id="'+f+'"><td>Tela Padrão</td><td></td></tr>');
+      $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
+      f++;
+      viewSlides+=telaPadrao;      
+    }
+    if(item.type == "w"){
+      var aviso = avisos[item.id];
+      $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
+      $('#livesongs tbody').append('<tr data-id="'+f+'"><td><i class="fas fa-exclamation-triangle"></i>&nbsp;'+aviso.name+'</td><td><strong>'+aviso.warning.content.title+'</strong><br>'+aviso.warning.content.body+'</td></tr>');
+      viewSlides+="<section data-background=\"imagens/madeira_bg.jpg\">\n<table class=\"reveal warning-table\">\n<tr height=\"10vh\">\n<td class=\"warning-title\" width=\"80%\">"+aviso.warning.content.title+"</td>\n<td width=\"20%\"><div id=\"fancypart\" class=\"warning-logo\"><i class=\""+TRANSLATIONS[config.lang]['logo_icon']+"\"></i></div></td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<div style=\"display: table;\">\n<div class=\"warning-body\">"+aviso.warning.content.body+"</div>\n</div>\n</td>\n</tr>\n</table>\n</section>\n";
+      f++;
+      $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
       viewSlides+=telaPadrao;      
     }
@@ -651,11 +723,26 @@ $(function () {
       'f-closed' : {
           'icon' : 'fas fa-folder fa-fw pt-2'
       },
+      'f-open1' : {
+          'icon' : 'fas fa-images fa-fw pt-2'
+      },
+      'f-closed1' : {
+          'icon' : 'fas fa-images fa-fw pt-2'
+      },
+      'f-open2' : {
+          'icon' : 'fas fa-clipboard fa-fw pt-2'
+      },
+      'f-closed2' : {
+          'icon' : 'fas fa-clipboard fa-fw pt-2'
+      },
       "song" : {
         "icon" : "fas fa-file-alt fa-fw pt-2"
       },
       "image" : {
         "icon" : "fas fa-file-image fa-fw pt-2"
+      },
+      "warning" : {
+        "icon" : "fas fa-exclamation-triangle fa-fw pt-2"
       }
     },
   "search":{
@@ -682,10 +769,22 @@ $(function () {
 
   /* Toggle between folder open and folder closed */
   $("#songList").on('open_node.jstree', function (event, data) {
-      data.instance.set_type(data.node,'f-open');
+      if(data.node.text == TRANSLATIONS['en']['warnings'] || data.node.text == TRANSLATIONS['pt-br']['warnings'] || data.node.text == TRANSLATIONS['it']['warnings']){
+         data.instance.set_type(data.node,'f-open2');
+      } else if(data.node.text == TRANSLATIONS['en']['images'] || data.node.text == TRANSLATIONS['pt-br']['images'] || data.node.text == TRANSLATIONS['it']['images']){
+         data.instance.set_type(data.node,'f-open1');
+      } else {
+        data.instance.set_type(data.node,'f-open');
+      }      
   });
-  $("#songList").on('close_node.jstree', function (event, data) {
-      data.instance.set_type(data.node,'f-closed');
+  $("#songList").on('close_node.jstree', function (event, data) {      
+      if(data.node.text == TRANSLATIONS['en']['warnings'] || data.node.text == TRANSLATIONS['pt-br']['warnings'] || data.node.text == TRANSLATIONS['it']['warnings']){
+         data.instance.set_type(data.node,'f-closed2');
+      } else if(data.node.text == TRANSLATIONS['en']['images'] || data.node.text == TRANSLATIONS['pt-br']['images'] || data.node.text == TRANSLATIONS['it']['images']){
+         data.instance.set_type(data.node,'f-closed1');
+      } else {
+        data.instance.set_type(data.node,'f-closed');
+      }
   });
 
   $('#songList').on("changed.jstree", function (e, data) {
@@ -694,11 +793,13 @@ $(function () {
         pastaAtiva = parseInt(data.node.id.split("_")[0]);        
         louvorAtivo = parseInt(data.node.id.split("_")[1]);
 
+        if(avisos.length > 0){
+          pastaAtiva--;
+        }
         if(imagens.length > 0){
           pastaAtiva--;
         }
         // ref_selected = pastaAtiva+"_"+louvorAtivo;
-        console.log(pastaAtiva);
 
         $('#title').val(louvor.title);    
         $('#content').val(louvor.content);
@@ -719,6 +820,13 @@ $(function () {
       var idImage = node.id.split("_")[1];
       var imagem = { id: idImage, type: "i" }
       projecao.push(imagem);
+      reloadProjectionList();
+     }
+
+     if(node.data != null && node.type == 'warning'){
+      var idWarning = node.id.split("_")[1];
+      var warning = { id: idWarning, type: "w" }
+      projecao.push(warning);
       reloadProjectionList();
      }
   });

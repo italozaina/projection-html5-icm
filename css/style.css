@@ -263,3 +263,75 @@ a{
   text-overflow: ellipsis !important; 
   width: 100%;
 }
+
+/* Warning model: regular */
+#newWarningModal .modal-dialog{
+  max-width: 80% !important;
+}
+
+.warning-container{
+  width: 100%;
+}
+
+.warning-bg{  
+  background: url("../imagens/madeira_bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 640px;
+  height: 360px;
+  display: table;
+  margin: 0 auto;
+}
+
+.warning-title{
+  text-align: center !important;
+  color: yellow;
+  background-color: #9a3132; 
+  height: 30px;
+}
+
+.warning-logo{
+  width: 100%;
+  height: 30px;
+  text-align: center !important;
+  background-color: #FFFFFF;
+}
+
+.warning-logo i{
+  font-size: 11vw;
+  display: block;
+}
+
+.warning-body{
+  display: table-cell;
+  vertical-align: middle !important;
+  margin-top: 5px !important;
+  text-align: center !important;
+  height: 270px;
+  width: 600px;
+  background-color: white; 
+  color: #9a3132;       
+  -webkit-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+  -moz-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+  box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+}
+
+.warning-table{
+  width: 96%;
+  height: 90%;
+  margin: 10px auto;
+}
+
+.warning-table td{
+  padding: 0 !important;
+  border-bottom: none !important;
+  vertical-align: middle !important;
+}
+#fancypart{
+  float: right;
+  width: 100%;
+  height: 30px;
+  border-bottom: 30px solid white;
+  border-left: 30px solid #9a3132;

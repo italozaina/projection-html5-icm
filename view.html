@@ -151,6 +151,56 @@
     .scripturetitle small{
       text-decoration: underline;
     }    
+
+    .warning-title{
+      text-align: center !important;
+      color: yellow;
+      background-color: #9a3132; 
+    }
+
+    .warning-logo{
+      width: 100%;
+      height: 10vh;
+      text-align: center !important;
+      background-color: #FFFFFF;
+    }
+
+    .warning-logo i{
+      font-size: 11vw;
+      display: block;
+    }
+
+    .warning-body{
+      display: table-cell;
+      vertical-align: middle !important;
+      margin-top: 5vh !important;
+      text-align: center !important;
+      height: 85vh;
+      width: 98vw;
+      background-color: white; 
+      color: #9a3132;       
+      -webkit-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+      -moz-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+      box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+    }
+
+    .warning-table{
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .warning-table td{
+      padding: 0 !important;
+      border-bottom: none !important;
+      vertical-align: middle !important;
+    }
+    #fancypart{
+      float: right;
+      width: 100%;
+      height: 0vh;
+      border-bottom: 10vh solid white;
+      border-left: 10vh solid #9a3132;
+    }
   </style>
 </head>
 <body>
@@ -180,19 +230,24 @@
         <h1>Maranata</h1>
         <h3>O SENHOR JESUS VEM!</h3>
       </section>
-      <!-- <section data-state="showtitle">
-        <style>
-        .showtitle header.winetitle2 #titulo:before { content: "2 - O SANGUE DE JESUS"; }
-        .showtitle header.winetitle2 #titulo:after { content: "TEM PODER PARA SALVAR"; }
-        .showtitle header.winetitle2 { display: table; }
-        .showtitle header.winetitle2 #titulo{ display: table; }
-        .showtitle header.winetitle2 #logo{ display: table; }</style>
-        O SANGUE DE JESUS TEM PODER,<br>
-        PODER QUE A MIM PODE VALER,<br>
-        SE COMUNHÃO NÃO POSSO EU SENTIR, <br>
-        SENHOR,DERRAMA DO TEU SANGUE REMIDOR.
-      </section>      
-      <section data-state="showlogo showfim">
+<!--       <section data-background="imagens/madeira_bg.jpg">
+
+        <table class="reveal warning-table">
+          <tr height="10vh">
+            <td class="warning-title" width="80%">Aviso</td>
+            <td width="20%"><div id="fancypart" class="warning-logo"><i class="icon-logo_bold"></i></div></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div style="display: table;">
+                <div class="warning-body">corpo</div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+      </section>      --> 
+<!--       <section data-state="showlogo showfim">
         <style>
         .showlogo header.whitelogo{ display: block; }
         .showlogo header.whitelogo #logo{ display: block; }</style>

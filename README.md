@@ -12,6 +12,8 @@ Características
 * Edição fácil de louvores (Uma linha vazia faz a separação dos slides)
 * Criar pastas para organizar letras (em um idioma específico)
 * Crie de forma rápida sua lista de projeção (apenas com um duplo-clique no louvor)
+* Projeta avisos
+* Projeta imagens
 * Suporte a bíblias (ACF e NVI)
 * Suporte a múltiplos idiomas
 

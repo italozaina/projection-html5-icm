@@ -6,7 +6,7 @@ if(localStorage.getItem("config") === null){
 }
 let DEFAULT_LANG = config.lang;
 let DATA_LANG_ELEMENTS = document.querySelectorAll('[data-lang-str]');
-let VERSION = '0.9.0';
+let VERSION = '0.9.5';
 let TRANSLATIONS = {
   'en': {
     'navbrand': 'Projection MCC',
@@ -97,7 +97,15 @@ let TRANSLATIONS = {
     },
     'btn_about': {
       'title': 'About'
-    }
+    },
+    'images': 'Images',
+    'warnings': 'Warnings',
+    'new_warning': 'New warning',
+    'warning_name': {
+      'placeholder': 'Warning name'
+    },
+    'warning':'Warning',
+    'logo_icon':'icon-logo_usa'
   },
   'pt-br': {
     'navbrand': 'Projeção ICM',
@@ -188,7 +196,15 @@ let TRANSLATIONS = {
     },
     'btn_about': {
       'title': 'Sobre'
-    }
+    },
+    'images': 'Imagens',
+    'warnings': 'Avisos',
+    'new_warning': 'Novo aviso',
+    'warning_name': {
+      'placeholder': 'Nome do aviso'
+    },
+    'warning':'Aviso',
+    'logo_icon':'icon-logo_bold'
   },
   'it': {
     'navbrand': 'Proiezione MEMDI',
@@ -279,7 +295,15 @@ let TRANSLATIONS = {
     },
     'btn_about': {
       'title': 'Informazioni'
-    }
+    },
+    'images': 'Immagini',
+    'warnings': 'Avvertenze',
+    'new_warning': 'Nuovo avviso',
+    'warning_name': {
+      'placeholder': 'Nome dell\'avviso'
+    },
+    'warning':'Avviso',
+    'logo_icon':'icon-logo_ita'
   }
 };
 
