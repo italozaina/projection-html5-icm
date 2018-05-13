@@ -85,7 +85,7 @@ function atualizaListaArquivos(newData){
     if(localStorage.getItem("warnings") != null)
         avisos = JSON.parse(localStorage.getItem("warnings"));
     if(avisos.length > 0){  
-      songList.push({id: "0",text:"Avisos",state:{opened: true},children:[], type:"f-open2"});
+      songList.push({id: "0",text:TRANSLATIONS[config.lang]['warnings'],state:{opened: true},children:[], type:"f-open2"});
       $.each(avisos, function(i, aviso) {
         songList[0].children.push({id: "0_"+i, text:aviso.name, type:"warning", data:aviso});
       });
@@ -97,7 +97,7 @@ function atualizaListaArquivos(newData){
     if(imagens.length > 0){
       var idImageFolder = "0";
       if(songList.length > 0) idImageFolder = "1";
-      songList.push({id: idImageFolder,text:"Imagens",state:{opened: true},children:[], type:"f-open1"});
+      songList.push({id: idImageFolder,text:TRANSLATIONS[config.lang]['images'],state:{opened: true},children:[], type:"f-open1"});
       $.each(imagens, function(i, imagem) {
         songList[idImageFolder].children.push({id: idImageFolder+"_"+i, text:imagem.name, type:"image", data:imagem});
       });
@@ -159,7 +159,7 @@ function atualizaListasFromJSON(newData){
     if(localStorage.getItem("warnings") != null)
         avisos = JSON.parse(localStorage.getItem("warnings"));
     if(avisos.length > 0){
-      songList.push({id: "0",text:"Avisos",state:{opened: true},children:[], type:"f-open2"});
+      songList.push({id: "0",text:TRANSLATIONS[config.lang]['warnings'],state:{opened: true},children:[], type:"f-open2"});
       $.each(avisos, function(i, aviso) {
         songList[0].children.push({id: "0_"+i, text:aviso.name, type:"warning", data:aviso});
       });
@@ -170,7 +170,7 @@ function atualizaListasFromJSON(newData){
     if(imagens.length > 0){
       var idImageFolder = "0";
       if(songList.length > 0) idImageFolder = "1";
-      songList.push({id: idImageFolder,text:"Imagens",state:{opened: true},children:[], type:"f-open1"});
+      songList.push({id: idImageFolder,text:TRANSLATIONS[config.lang]['images'],state:{opened: true},children:[], type:"f-open1"});
       $.each(imagens, function(i, imagem) {
         songList[idImageFolder].children.push({id: idImageFolder+"_"+i, text:imagem.name, type:"image", data:imagem});
       });
@@ -340,9 +340,9 @@ $("#confirmDeleteFromTree").click(function(){
       }
       ref_selected = "0_0";
     }
-    atualizaListasFromJSON(dados);
-    localStorage.setItem('data', JSON.stringify(dados));
     localStorage.setItem('warnings', JSON.stringify(avisos));
+    localStorage.setItem('data', JSON.stringify(dados));
+    atualizaListasFromJSON(dados);    
     $('#title').val(dados[0].songs[0].title);    
     $('#content').val(dados[0].songs[0].content);
     $('#excluirModal').modal('toggle');   
@@ -748,7 +748,7 @@ $(function () {
   "search":{
     "show_only_matches" : true,
     search_callback : function (str, node) {
-      if(node.data != null){
+      if(node.data != null && node.type == "song"){
         return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
       } else {
         return node.text.toUpperCase().includes(str.toUpperCase());  
