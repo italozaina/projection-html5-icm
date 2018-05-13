@@ -5,9 +5,13 @@ layout: default
 
 Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), inglês (en) e italiano (it)
 
-Painel                     |  Projeção
-:-------------------------:|:-------------------------:
-![]({{ site.url }}/projection-html5-icm//assets/img/painel.gif)      |  ![]({{ site.url }}/projection-html5-icm//assets/img/projecao.gif)
+#### Painel
+
+![]({{ site.url }}/projection-html5-icm//assets/img/painel.gif)
+
+#### Projeção
+
+![]({{ site.url }}/projection-html5-icm//assets/img/projecao.gif)
 
 Características
 ---------------
