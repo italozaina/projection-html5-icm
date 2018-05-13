@@ -7,7 +7,7 @@ Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), 
 
 Painel                     |  Projeção
 :-------------------------:|:-------------------------:
-![](../demo/painel.gif)      |  ![](../demo/projecao.gif)
+![](/img/painel.gif)      |  ![](/img/projecao.gif)
 
 Características
 ---------------
