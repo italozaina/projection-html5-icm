@@ -2,3 +2,5 @@ title: Projeção ICM
 description: Sistema WEB para projeção nas igrejas
 theme: jekyll-theme-slate
 show_downloads: true
+github:
+  zip_url: https://github.com/italozaina/projection-html5-icm/releases/download/v0.9.6-beta/projection-html5-icm-v0.9.6-beta.zip
