@@ -13,6 +13,15 @@ Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), 
 
 ![]({{ site.url }}/projection-html5-icm//assets/img/projecao.gif)
 
+Uso
+---
+
+1. Execute **index.html**
+2. **Permitir pop-up** (aviso no canto superior direto do navegador)
+3. Feche o navegador e execute novamente **index.html**
+
+obs: Se você não estiver usando o **Mozilla Firefox**, precisará abrir manualmente os dados / data.json
+
 Características
 ---------------
 
@@ -40,11 +49,11 @@ Roda nos navegadores
 * Google Chrome ( funciona com limitação: "necessário importar manualmente data.json" )
 * Opera ( funciona com limitação: "necessário importar manualmente data.json" )
 
-Uso
----
+Revisões
+--------
 
-1. Execute **index.html**
-2. **Permitir pop-up** (aviso no canto superior direto do navegador)
-3. Feche o navegador e execute novamente **index.html**
-
-obs: Se você não estiver usando o **Mozilla Firefox**, precisará abrir manualmente os dados / data.json
+- Pastas
+  - [Coletânea 2018](./coletanea-2018.html)
+  - [CIA 2017](./cia-2017.html)
+  - [Test](./test.html)
+  - [Prova](./prova.html)
