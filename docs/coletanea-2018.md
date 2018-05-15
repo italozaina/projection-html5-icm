@@ -8,106 +8,106 @@ layout: default
 
 
 - **Coletânea 2018**
-  - _1 - O SANGUE DE JESUS TEM PODER_ (Revisado 17/03/2018 - por: Ítalo)
-  - _2 - O SANGUE DE JESUS TEM PODER PARA SALVAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _3 - CLAMO A TI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _4 - QUANDO TE PROSTRARES_ (Revisado 17/03/2018 - por: Ítalo)
-  - _5 - CLAMANDO ESTOU_ (Revisado 17/03/2018 - por: Ítalo)
-  - _6 - JESUS, Ó MEU JESUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _7 - NESTA HORA EM ORAÇÃO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _8 - PELO SANGUE DE JESUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _9 - SENHOR, ME CHEGO A TI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _10 - VAMOS LAVAR AS VESTES_ (Revisado 17/03/2018 - por: Ítalo)
-  - _11 - REVESTE, SENHOR, TEU POVO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _12 - HÁ VITÓRIA PARA MIM_ (Revisado 17/03/2018 - por: Ítalo)
-  - _13 - PÕE TEU SANGUE SOBRE MIM_ (Revisado 17/03/2018 - por: Ítalo)
-  - _14 - EM TEU ALTAR, SENHOR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _15 - CLAMAREI, CLAMAREI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _16 - SE ANDARMOS NA LUZ_ (Revisado 17/03/2018 - por: Ítalo)
-  - _17 - EM TUA PRESENÇA ENTRAMOS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _18 - PROSTRADO ESTOU DIANTE DE TI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _19 - TEU POVO CLAMA_ (Revisado 17/03/2018 - por: Ítalo)
-  - _20 - O TEU PECADO TU QUERES DEIXAR?_ (Revisado 17/03/2018 - por: Ítalo)
-  - _21 - NESTA HORA DE CLAMOR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _22 - BENDITO SEJA O CORDEIRO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _23 - SENHOR, OUVE A MINHA ORAÇÃO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _24 - EIS O CORDEIRO DE DEUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _25 - SENHOR, A TI CLAMO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _26 - SEJA SÓ O SENHOR LOUVADO AQUI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _27 - CORDEIRO ETERNO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _28 - O PODER DO SANGUE DE JESUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _29 - TRANSBORDA-ME, SENHOR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _30 - OH! QUE PRECIOSO SANGUE_ (Revisado 17/03/2018 - por: Ítalo)
-  - _31 - JUNTO A TI SUPLICO, Ó PAI_ (Revisado 17/03/2018 - por: Ítalo)
-  - _32 - O SANGUE DE JESUS, VERTIDO ALI NA CRUZ_ (Revisado 17/03/2018 - por: Ítalo)
-  - _33 - EU ME PROSTRO EM TEU ALTAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _34 - QUANDO BUSCAMOS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _35 - A MEU SENHOR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _36 - CRUCIFICADO FOI MEU JESUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _37 - NESTA HORA ESQUEÇO O MUNDO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _38 - PELO SANGUE DE JESUS IREICLAMAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _39 - JESUS, TU ÉS O MEU DEUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _40 - OH! QUE SANGUE PODEROSO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _41 - ALÉM DO VÉU EU QUERO ESTAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _42 - SENHOR, SUPLICO A TI EM ORAÇÃO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _43 - VOU CLAMAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _44 - CONFORME A SUA INFINITA GRAÇA_ (Revisado 17/03/2018 - por: Ítalo)
-  - _45 - NOS ÁTRIOS DO SENHOR ENTRAMOS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _46 - AO SENTIR O TEU PERDÃO_ (Revisado 17/03/2018 - por: Ítalo)
-  - _47 - É TEU SANGUE_ (Revisado 17/03/2018 - por: Ítalo)
-  - _48 - PELO SANGUE DE JESUS EU VOU CLAMAR_ (Revisado 17/03/2018 - por: Ítalo)
-  - _49 - NA HORA EM QUE EU QUISER FALAR COM DEUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _50 - O SANGUE DE JESUS_ (Revisado 17/03/2018 - por: Ítalo)
-  - _51 - O CORDEIRO QUE NA CRUZ MORREU_ (Revisado 27/03/2018 - por: Ítalo)
-  - _52 - ESCUTA-ME, SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _53 - O SANGUE DO CORDEIRO DE DEUS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _54 - HÁ VITÓRIA SEMPRE EM TI, SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _55 - SENHOR, MEU DEUS E PAI_ (Revisado 27/03/2018 - por: Ítalo)
-  - _56 - VITÓRIA SOBRE VITÓRIA_ (Revisado 27/03/2018 - por: Ítalo)
-  - _57 - EM FERVENTE ORAÇÃO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _58 - ATENDE A VOZ DO MEU CLAMOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _59 - SE ORARMOS AO SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _60 - BEM DE MANHÃ, EMBORA O CÉU SERENO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _61 - SUBA A MINHA ORAÇÃO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _62 - NO SILÊNCIO DA NOITE_ (Revisado 27/03/2018 - por: Ítalo)
-  - _63 - INVOCA-ME E TE RESPONDEREI_ (Revisado 27/03/2018 - por: Ítalo)
-  - _64 - BRILHE SOBRE MIM_ (Revisado 27/03/2018 - por: Ítalo)
-  - _65 - QUANDO O DIA AMANHECE_ (Revisado 27/03/2018 - por: Ítalo)
-  - _66 - DE MADRUGADA EU BUSCO A FACE DO SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _67 - TOCA PELA FÉ_ (Revisado 27/03/2018 - por: Ítalo)
-  - _68 - LÁ NO CIMO DO MONTE_ (Revisado 27/03/2018 - por: Ítalo)
-  - _69 - O ANJO DO SENHOR ESTÁ PASSEANDO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _70 - PRECIOSAS SÃO AS HORAS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _71 - VEM, AMADO MEU_ (Revisado 27/03/2018 - por: Ítalo)
-  - _72 - É PRECISO CONFIAR E BUSCAR A DEUS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _73 - DEUS ESTÁ NO TEMPLO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _74 - SEI, SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _75 - SENTE EM TUA FACE O ROÇAR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _76 - NESTA NOITE FELIZ_ (Revisado 27/03/2018 - por: Ítalo)
-  - _77 - VEM, VISITA TUA IGREJA_ (Revisado 27/03/2018 - por: Ítalo)
-  - _78 - UMA VOZ MANSA E DELICADA_ (Revisado 27/03/2018 - por: Ítalo)
-  - _79 - DEUS ESTÁ PRESENTE ENTRE PECADORES COMO NÓS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _80 - VIVES MUITO ALÉM DO CÉU_ (Revisado 27/03/2018 - por: Ítalo)
-  - _81 - GRANDE DEUS, ÚNICO DEUS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _82 - CADA INSTANTE_ (Revisado 27/03/2018 - por: Ítalo)
-  - _83 - MAIS UMA VEZ_ (Revisado 27/03/2018 - por: Ítalo)
-  - _84 - ATENDE, SENHOR, A MINHA ORAÇÃO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _85 - ENVIA A TUA LUZ_ (Revisado 27/03/2018 - por: Ítalo)
-  - _86 - EM TEU NOME_ (Revisado 27/03/2018 - por: Ítalo)
-  - _87 - MEU PECADO RESGATADO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _88 - DAS PROFUNDEZAS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _89 - DAS PROFUNDEZAS CLAMO A TI, Ó SENHOR!_ (Revisado 27/03/2018 - por: Ítalo)
-  - _90 - EM TUAS MÃOS, SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _91 - JESUS, A MINH’ALMA TEM SEDE DE TI_ (Revisado 27/03/2018 - por: Ítalo)
-  - _92 - PAI CELESTE_ (Revisado 27/03/2018 - por: Ítalo)
-  - _93 - LOGO DE MANHÃ_ (Revisado 27/03/2018 - por: Ítalo)
-  - _94 - BENDITA A HORA DE ORAÇÃO_ (Revisado 27/03/2018 - por: Ítalo)
-  - _95 - BUSCAR-ME-EIS_ (Revisado 27/03/2018 - por: Ítalo)
-  - _96 - COM A MINHA VOZ CLAMO AO SENHOR_ (Revisado 27/03/2018 - por: Ítalo)
-  - _97 - BUSCOU-ME COM TERNURA_ (Revisado 27/03/2018 - por: Ítalo)
-  - _98 - ONDE ESTARIA EU?_ (Revisado 27/03/2018 - por: Ítalo)
-  - _99 - UM DIA JESUS ACHOU-ME_ (Revisado 27/03/2018 - por: Ítalo)
-  - _100 - EU ME LEMBRO QUANDO JESUS ME TOCOU_ (Revisado 27/03/2018 - por: Ítalo)
+  - _1 - O SANGUE DE JESUS TEM PODER_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _2 - O SANGUE DE JESUS TEM PODER PARA SALVAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _3 - CLAMO A TI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _4 - QUANDO TE PROSTRARES_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _5 - CLAMANDO ESTOU_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _6 - JESUS, Ó MEU JESUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _7 - NESTA HORA EM ORAÇÃO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _8 - PELO SANGUE DE JESUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _9 - SENHOR, ME CHEGO A TI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _10 - VAMOS LAVAR AS VESTES_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _11 - REVESTE, SENHOR, TEU POVO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _12 - HÁ VITÓRIA PARA MIM_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _13 - PÕE TEU SANGUE SOBRE MIM_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _14 - EM TEU ALTAR, SENHOR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _15 - CLAMAREI, CLAMAREI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _16 - SE ANDARMOS NA LUZ_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _17 - EM TUA PRESENÇA ENTRAMOS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _18 - PROSTRADO ESTOU DIANTE DE TI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _19 - TEU POVO CLAMA_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _20 - O TEU PECADO TU QUERES DEIXAR?_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _21 - NESTA HORA DE CLAMOR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _22 - BENDITO SEJA O CORDEIRO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _23 - SENHOR, OUVE A MINHA ORAÇÃO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _24 - EIS O CORDEIRO DE DEUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _25 - SENHOR, A TI CLAMO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _26 - SEJA SÓ O SENHOR LOUVADO AQUI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _27 - CORDEIRO ETERNO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _28 - O PODER DO SANGUE DE JESUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _29 - TRANSBORDA-ME, SENHOR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _30 - OH! QUE PRECIOSO SANGUE_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _31 - JUNTO A TI SUPLICO, Ó PAI_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _32 - O SANGUE DE JESUS, VERTIDO ALI NA CRUZ_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _33 - EU ME PROSTRO EM TEU ALTAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _34 - QUANDO BUSCAMOS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _35 - A MEU SENHOR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _36 - CRUCIFICADO FOI MEU JESUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _37 - NESTA HORA ESQUEÇO O MUNDO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _38 - PELO SANGUE DE JESUS IREICLAMAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _39 - JESUS, TU ÉS O MEU DEUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _40 - OH! QUE SANGUE PODEROSO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _41 - ALÉM DO VÉU EU QUERO ESTAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _42 - SENHOR, SUPLICO A TI EM ORAÇÃO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _43 - VOU CLAMAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _44 - CONFORME A SUA INFINITA GRAÇA_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _45 - NOS ÁTRIOS DO SENHOR ENTRAMOS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _46 - AO SENTIR O TEU PERDÃO_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _47 - É TEU SANGUE_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _48 - PELO SANGUE DE JESUS EU VOU CLAMAR_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _49 - NA HORA EM QUE EU QUISER FALAR COM DEUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _50 - O SANGUE DE JESUS_ <font color="red">(Revisado 17/03/2018 - por: Ítalo)</font>
+  - _51 - O CORDEIRO QUE NA CRUZ MORREU_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _52 - ESCUTA-ME, SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _53 - O SANGUE DO CORDEIRO DE DEUS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _54 - HÁ VITÓRIA SEMPRE EM TI, SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _55 - SENHOR, MEU DEUS E PAI_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _56 - VITÓRIA SOBRE VITÓRIA_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _57 - EM FERVENTE ORAÇÃO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _58 - ATENDE A VOZ DO MEU CLAMOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _59 - SE ORARMOS AO SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _60 - BEM DE MANHÃ, EMBORA O CÉU SERENO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _61 - SUBA A MINHA ORAÇÃO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _62 - NO SILÊNCIO DA NOITE_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _63 - INVOCA-ME E TE RESPONDEREI_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _64 - BRILHE SOBRE MIM_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _65 - QUANDO O DIA AMANHECE_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _66 - DE MADRUGADA EU BUSCO A FACE DO SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _67 - TOCA PELA FÉ_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _68 - LÁ NO CIMO DO MONTE_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _69 - O ANJO DO SENHOR ESTÁ PASSEANDO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _70 - PRECIOSAS SÃO AS HORAS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _71 - VEM, AMADO MEU_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _72 - É PRECISO CONFIAR E BUSCAR A DEUS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _73 - DEUS ESTÁ NO TEMPLO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _74 - SEI, SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _75 - SENTE EM TUA FACE O ROÇAR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _76 - NESTA NOITE FELIZ_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _77 - VEM, VISITA TUA IGREJA_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _78 - UMA VOZ MANSA E DELICADA_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _79 - DEUS ESTÁ PRESENTE ENTRE PECADORES COMO NÓS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _80 - VIVES MUITO ALÉM DO CÉU_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _81 - GRANDE DEUS, ÚNICO DEUS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _82 - CADA INSTANTE_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _83 - MAIS UMA VEZ_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _84 - ATENDE, SENHOR, A MINHA ORAÇÃO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _85 - ENVIA A TUA LUZ_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _86 - EM TEU NOME_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _87 - MEU PECADO RESGATADO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _88 - DAS PROFUNDEZAS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _89 - DAS PROFUNDEZAS CLAMO A TI, Ó SENHOR!_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _90 - EM TUAS MÃOS, SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _91 - JESUS, A MINH’ALMA TEM SEDE DE TI_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _92 - PAI CELESTE_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _93 - LOGO DE MANHÃ_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _94 - BENDITA A HORA DE ORAÇÃO_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _95 - BUSCAR-ME-EIS_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _96 - COM A MINHA VOZ CLAMO AO SENHOR_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _97 - BUSCOU-ME COM TERNURA_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _98 - ONDE ESTARIA EU?_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _99 - UM DIA JESUS ACHOU-ME_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
+  - _100 - EU ME LEMBRO QUANDO JESUS ME TOCOU_ <font color="red">(Revisado 27/03/2018 - por: Ítalo)</font>
   - _101 - QUEM ERA EU ANTES DE CONHECER_
   - _102 - MARAVILHOSO E SUBLIME PRA MIM_
   - _103 - A MINH’ALMA ESTAVA LONGE DO CAMINHO DO CÉU_
@@ -125,7 +125,7 @@ layout: default
   - _115 - GRAÇAS DOU, Ó SENHOR_
   - _116 - ACHEI SALVAÇÃO_
   - _117 - COMO DESISTIR DESTE GRANDE AMOR?_
-  - _118 - Ó SENHOR, DEUS DE ISRAEL (EDIFIQUEI UMA CASA)_
+  - _118 - Ó SENHOR, DEUS DE ISRAEL <font color="red">(EDIFIQUEI UMA CASA)</font>_
   - _119 - JESUS, NOME PRECIOSO_
   - _120 - JESUS CRISTO MUDOU MEU VIVER_
   - _121 - TUDO, Ó CRISTO, A TI ENTREGO_
@@ -259,7 +259,7 @@ layout: default
   - _249 - SE EM TUA VIDA FALTA PAZ_
   - _250 - SE TU PROCURAS PELA PAZ_
   - _251 - A PAZ QUE TU PROCURAS_
-  - _252 - SE DISPUSERES O TEU CORAÇÃO (JÓ 11:13-19)_
+  - _252 - SE DISPUSERES O TEU CORAÇÃO <font color="red">(JÓ 11:13-19)</font>_
   - _253 - SE DISPUSERES O TEU CORAÇÃO_
   - _254 - OLHAI PARA O ALTO_
   - _255 - MEU CORAÇÃO ENGRANDECE_
@@ -300,7 +300,7 @@ layout: default
   - _291 - SEMPRE QUE QUISERES FALAREI CONTIGO_
   - _292 - AO SENTIR O MUNDO AO MEU REDOR_
   - _293 - ALMA CANSADA_
-  - _294 - JESUS IA CAMINHANDO (CANTA MEU POVO)_
+  - _294 - JESUS IA CAMINHANDO <font color="red">(CANTA MEU POVO)</font>_
   - _295 - DAS PROFUNDEZAS A TI CLAMO, Ó SENHOR_
   - _296 - TODA A MINHA DOR JESUS LEVOU_
   - _297 - EM ME VINDO O TEMOR_
@@ -364,7 +364,7 @@ layout: default
   - _355 - VENCER, VENCER_
   - _356 - O SENHOR É O MEU PASTOR_
   - _357 - O SENHOR É O MEU PASTOR_
-  - _358 - O SENHOR É O MEU PASTOR (SALMO 23)_
+  - _358 - O SENHOR É O MEU PASTOR <font color="red">(SALMO 23)</font>_
   - _359 - DEUS É NOSSO AMPARO, NOSSA FORTALEZA_
   - _360 - ROCHEDO FORTE É O SENHOR_
   - _361 - NÃO HÁ DEUS ACIMA DO SENHOR_
@@ -386,12 +386,12 @@ layout: default
   - _377 - DEUS É MINHA ROCHA_
   - _378 - CONFIA E ORA_
   - _379 - ALGEMADO POR UM PESO_
-  - _380 - POSSO SENTIR O SEU TOQUE EM MIM (GLORIFICA)_
+  - _380 - POSSO SENTIR O SEU TOQUE EM MIM <font color="red">(GLORIFICA)</font>_
   - _381 - MEU DEUS VENCE BATALHAS_
-  - _382 - JÁ CHEGUEI ATÉ AQUI (VITÓRIAS)_
-  - _383 - LÁ ONDE EU NÃO POSSO VER (A ORAÇÃO)_
+  - _382 - JÁ CHEGUEI ATÉ AQUI <font color="red">(VITÓRIAS)</font>_
+  - _383 - LÁ ONDE EU NÃO POSSO VER <font color="red">(A ORAÇÃO)</font>_
   - _384 - BEM SEI QUE TUDO PODES_
-  - _385 - QUÃO DIFÍCIL É, SENHOR (FAZE-ME UM VENCEDOR)_
+  - _385 - QUÃO DIFÍCIL É, SENHOR <font color="red">(FAZE-ME UM VENCEDOR)</font>_
   - _386 - QUAL O ADORNO DESTA VIDA?_
   - _387 - SONDA-ME, Ó DEUS_
   - _388 - SÓ TU ÉS, SENHOR_
@@ -431,7 +431,7 @@ layout: default
   - _422 - A MINHA HERANÇA_
   - _423 - Ó PASTOR DE ISRAEL_
   - _424 - O MEU AMADO DESCEU AO SEU JARDIM_
-  - _425 - QUE VISTA AMÁVEL É (SALMO 132)_
+  - _425 - QUE VISTA AMÁVEL É <font color="red">(SALMO 132)</font>_
   - _426 - UM CORPO SÓ, UM SÓ ESPÍRITO_
   - _427 - OH! QUÃO BOM E QUÃO SUAVE É_
   - _428 - VEM, Ó CRISTO, ENCHER MEU CÁLICE_
@@ -461,7 +461,7 @@ layout: default
   - _452 - QUERO QUE ME TOQUES, SENHOR_
   - _453 - QUANDO DOBRO OS MEUS JOELHOS EM ORAÇÃO_
   - _454 - SENHOR, MEU DEUS, O QUE DIREI DE TI?_
-  - _455 - QUANTO MAIS EU TE CONHEÇO (CAMINHO FELIZ)_
+  - _455 - QUANTO MAIS EU TE CONHEÇO <font color="red">(CAMINHO FELIZ)</font>_
   - _456 - CHUVAS DE BÊNÇÃOS TEREMOS_
   - _457 - INSTRUMENTO EM TUAS MÃOS_
   - _458 - Ó CRISTO! PÃO DA VIDA_
@@ -481,7 +481,7 @@ layout: default
   - _472 - VINDE, CANTAI E ENTOAI LOUVORES A JESUS_
   - _473 - MINHA PORÇÃO_
   - _474 - QUEM SOU EU, SENHOR?_
-  - _475 - AINDA UMA VEZ (AGEU)_
+  - _475 - AINDA UMA VEZ <font color="red">(AGEU)</font>_
   - _476 - ESTA OBRA É DE DEUS_
   - _477 - SEMPRE VOU LEMBRAR_
   - _478 - VI UM NOVO CÉU_
@@ -557,7 +557,7 @@ layout: default
   - _548 - NAS LINDAS MORADAS_
   - _549 - MARAVILHOSO SERÁ_
   - _550 - CANTAI, Ó IGREJA_
-  - _551 - TENHO LIDO DA BELA CIDADE (A BELA CIDADE)_
+  - _551 - TENHO LIDO DA BELA CIDADE <font color="red">(A BELA CIDADE)</font>_
   - _552 - PÁTRIA MINHA_
   - _553 - VEM! MARANATA! JESUS VEM!_
   - _534 - JERUSALÉM, SUAS RUAS DE OURO_
@@ -571,7 +571,7 @@ layout: default
   - _563 - NÃO SE TURBEM OS VOSSOS CORAÇÕES_
   - _564 - DISPÕE-TE, RESPLANDECE_
   - _565 - LÁ ESTÁ O MEU TESOURO_
-  - _566 - O SENHOR É O MEU PASTOR (MARANATA, JESUS VEM)_
+  - _566 - O SENHOR É O MEU PASTOR <font color="red">(MARANATA, JESUS VEM)</font>_
   - _567 - QUANDO SERÁ O GRANDE DIA_
   - _568 - SENHOR, QUEM SÃO AQUELES_
   - _569 - JESUS VEM, VEM NOS BUSCAR_
@@ -602,7 +602,7 @@ layout: default
   - _594 - NA EXPRESSÃO DESTE LOUVOR_
   - _595 - MAJESTADE, GLÓRIA E MAJESTADE_
   - _596 - ÉS MAJESTADE_
-  - _597 - CANTAREI, CANTAREI HOSANA (VIVA O REI)_
+  - _597 - CANTAREI, CANTAREI HOSANA <font color="red">(VIVA O REI)</font>_
   - _598 - HÁ UM SÓ QUE É DIGNO_
   - _599 - JESUS, TE ENTRONIZAMOS AQUI ENTRE NÓS_
   - _600 - JESUS, TE ENTRONIZAMOS_
@@ -658,7 +658,7 @@ layout: default
   - _650 - Ó VINDE E ADOREMOS_
   - _651 - AMO AO SENHOR_
   - _652 - LEVANTAI-VOS, Ó PORTAIS ETERNOS_
-  - _653 - ALELUIA (SALMOS 113)_
+  - _653 - ALELUIA <font color="red">(SALMOS 113)</font>_
   - _654 - GRANDE É O SENHOR E MUI DIGNO DE SER LOUVADO_
   - _655 - LOUVAI, SERVOS DO SENHOR_
   - _656 - GRANDE É O SENHOR_
@@ -704,20 +704,20 @@ layout: default
   - _696 - NA TERRA ABENÇOADA_
   - _697 - OUVI O SALVADOR DIZER_
   - _698 - TUA, Ó DEUS, É TODA A GRANDEZA_
-  - _699 - QUE GRANDE REUNIÃO (JESUS DE NAZARÉ)_
-  - _700 - ESTEVÃO AVISTOU (EU TAMBÉM QUERO VER)_
+  - _699 - QUE GRANDE REUNIÃO <font color="red">(JESUS DE NAZARÉ)</font>_
+  - _700 - ESTEVÃO AVISTOU <font color="red">(EU TAMBÉM QUERO VER)</font>_
   - _701 - AS TUAS MÃOS_
   - _702 - OS CÉUS EM BREVE SE ABRIRÃO_
   - _703 - SERÁ DE MANHÃ_
-  - _704 - SENHOR, SE ESTIVESSES AQUI (LÁZARO)_
-  - _705 - GRANDES SÃO, SENHOR, OS TEUS FEITOS (GRATIDÃO)_
+  - _704 - SENHOR, SE ESTIVESSES AQUI <font color="red">(LÁZARO)</font>_
+  - _705 - GRANDES SÃO, SENHOR, OS TEUS FEITOS <font color="red">(GRATIDÃO)</font>_
   - _706 - DESTE MUNDO ESCRAVO FUI_
   - _707 - EU CONFIO EM TI, SENHOR_
-  - _708 - OUVI NO CÉU (BODAS DO CORDEIRO)_
+  - _708 - OUVI NO CÉU <font color="red">(BODAS DO CORDEIRO)</font>_
   - _709 - RESPLANDECE, Ó JERUSALÉM_
   - _710 - O MEU VIVER É CRISTO_
   - _711 - TUA GRAÇA ME BASTA, Ó SENHOR_
-  - _712 - AO FINDAR O LABOR DESTA VIDA (A ÚLTIMA HORA)_
+  - _712 - AO FINDAR O LABOR DESTA VIDA <font color="red">(A ÚLTIMA HORA)</font>_
   - _713 - CAREÇO DE JESUS!_
   - _714 - COM TUA MÃO SEGURA BEM A MINHA_
   - _715 - DEUS VOS GUARDE PELO SEU PODER_
@@ -728,7 +728,7 @@ layout: default
   - _720 - AS GRUTAS, AS ROCHAS IMENSAS_
   - _721 - PROCLAMAI A TODO O MUNDO_
   - _722 - A DEUS, SUPREMO CRIADOR_
-  - _723 - CRISTO PODE HOJE VIR (OH! DIA ALEGRE!)_
+  - _723 - CRISTO PODE HOJE VIR <font color="red">(OH! DIA ALEGRE!)</font>_
   - _724 - EIS OS MILHÕES_
   - _725 - EU PERDIDO PECADOR_
   - _726 - QUANDO A TEMPESTADE RUGE_
@@ -802,4 +802,4 @@ layout: default
   - _794 - JESUS LIBERTOU_
   - _AQUILO QUE FUI NÃO SOU MAIS_
 
-[voltar](./)
+[voltar]<font color="red">(./)</font>
