@@ -154,66 +154,6 @@ body {
    /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);  */
 }
 
-blockquote.chave-bis {
-}
-blockquote.chave-bis:after {
-    content: ''; 
-    /* border: 1px dotted pink; */
-    position: absolute; 
-    left: 100%; 
-    top: 0; 
-    bottom: 0; 
-    width: 20vw;
-    background-image: url('../../imagens/chaves-bis.png');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-blockquote.chave-bis-small {
-  margin: 0;
-}
-blockquote.chave-bis-small:after {
-    content: ''; 
-    /* border: 1px dotted pink; */
-    position: absolute; 
-    left: 100%; 
-    top: 0; 
-    bottom: 0; 
-    width: 20vw;
-    background-image: url('../../imagens/chaves-bis-small.png');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-blockquote.chave-2x {
-  margin: 0; 
-}
-blockquote.chave-2x:after {
-    content: ''; 
-    /* border: 1px dotted pink; */
-    position: absolute; 
-    left: 100%; 
-    top: 0; 
-    bottom: 0; 
-    width: 20vw;
-    background-image: url('../../imagens/chaves-2x.png');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-blockquote.chave-bis-no-final {
-  margin: 0 10vw 0 0;
-}
-blockquote.chave-bis-no-final:after {
-    content: ''; 
-    /* border: 1px dotted pink; */
-    position: absolute; 
-    left: 100%; 
-    top: 0; 
-    bottom: 0; 
-    width: 20vw;
-    background-image: url('../../imagens/chaves-bis-no-final.png');
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-}
-
 .reveal blockquote p:first-child,
 .reveal blockquote p:last-child {
   display: inline-block; }

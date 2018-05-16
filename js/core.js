@@ -701,11 +701,18 @@ $('#rplBis-small').click(function(){
     .selection('insert', {text: '</blockquote>', mode: 'after'});
 });
 
-$('#rpl2x').click(function(){
+$('.rplanyx').click(function(){
+  var times = $(this).attr("data-times");
   $('#content')
-    .selection('insert', {text: '<blockquote class="chave-2x">', mode: 'before'})
+    .selection('insert', {text: '<blockquote class="chave-'+times+'">', mode: 'before'})
     .selection('insert', {text: '</blockquote>', mode: 'after'});
 });
+
+// $('#rpl2x').click(function(){
+//   $('#content')
+//     .selection('insert', {text: '<blockquote class="chave-2x">', mode: 'before'})
+//     .selection('insert', {text: '</blockquote>', mode: 'after'});
+// });
 
 $("#msgSave").hide();
 

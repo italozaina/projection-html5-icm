@@ -1,0 +1,395 @@
+/*********************************************
+ * Estilo de chaves em blockquote
+ *********************************************/
+
+.reveal blockquote {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  background: none;
+  box-shadow: none;
+}
+
+blockquote.chave-bis {
+}
+blockquote.chave-bis:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-bis.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-bis-small {
+  margin: 0;
+}
+blockquote.chave-bis-small:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-bis-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-bis-no-final {
+  margin: 0 10vw 0 0;
+}
+blockquote.chave-bis-no-final:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-bis-no-final.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-2x {
+  margin: 0; 
+}
+blockquote.chave-2x:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-2x.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-3x {
+  margin: 0; 
+}
+blockquote.chave-3x:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-3x.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-4x {
+  margin: 0; 
+}
+blockquote.chave-4x:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-4x.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-5x {
+  margin: 0; 
+}
+blockquote.chave-5x:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-5x.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-6x {
+  margin: 0; 
+}
+blockquote.chave-6x:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-6x.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-2x-small {
+  margin: 0; 
+}
+blockquote.chave-2x-small:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-2x-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-3x-small {
+  margin: 0; 
+}
+blockquote.chave-3x-small:after {
+    content: ''; 
+    /* border: 1px dotted pink; */
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-3x-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-4x-small {
+  margin: 0; 
+}
+blockquote.chave-4x-small:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-4x-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-5x-small {
+  margin: 0; 
+}
+blockquote.chave-5x-small:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-5x-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+blockquote.chave-6x-small {
+  margin: 0; 
+}
+blockquote.chave-6x-small:after {
+    content: ''; 
+    position: absolute; 
+    left: 100%; 
+    top: 0; 
+    bottom: 0; 
+    width: 20vw;
+    background-image: url('../imagens/chaves-6x-small.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+/*********************************************
+ * Estilo exclusivo para ICM
+ *********************************************/
+@font-face {
+  font-family: 'icmlogo';
+  src:  url('../fontes/icm.eot?lnx9e9');
+  src:  url('../fontes/icm.eot?lnx9e9#iefix') format('embedded-opentype'),
+    url('../fontes/icm.ttf?lnx9e9') format('truetype'),
+    url('../fontes/icm.woff?lnx9e9') format('woff'),
+    url('../fontes/icm.svg?lnx9e9#icmlogo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}  
+body {
+  background: url("../imagens/fundo.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 1s linear;
+}   
+
+.reveal h2{
+  /*text-align: left;*/
+  font-weight: normal !important;
+  display: block;
+}
+
+.winetitle,.winetitle2,.winetitle-en,.winetitle2-en,.winetitle-it,.winetitle2-it{
+  top: 1.5vh;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  display: none;
+}
+
+.whitelogo,.whitelogo-en,.whitelogo-it{
+  top: 1.5vh;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  display: none;
+}    
+
+#titulo{
+    width: 88%;
+    float: left;
+    font-size: 4vw;
+    color: #9A3132;
+    text-transform: uppercase;
+    font-family: "Futura XBlk BT", "Times New Roman", "serif";
+    text-align: center; 
+    background-color: white;
+    display: table;
+}
+
+.winetitle2 #titulo, .winetitle2-en #titulo, .winetitle2-it #titulo{
+  font-size: 2.2vw;
+  height: none; 
+  line-height: 90%;   
+  display: none;
+}
+
+#logo{
+    float: left;
+    width: 12%;
+    min-height: 10%;
+    max-height: 10%;
+    font-size: 8vw;
+    display: none;
+}
+
+footer.fim{      
+  position: absolute;      
+  bottom: 1vh;
+  right: 0.5vw;
+  font-size: 1vw;
+  text-align: right;
+  display: none;    
+}    
+/* Logo da Icm em formato icone */
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icmlogo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* line-height: 1; */
+  line-height: 50%;
+  display: table-cell;
+  vertical-align: middle;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo_bold:before {
+font-family: 'icmlogo' !important;
+  content: "\e900";
+  color: #9a3132;
+}
+.icon-logo_bold_white:before {
+font-family: 'icmlogo' !important;
+  content: "\e900";
+  color: #ffffff;
+}
+/* Logo MEMDI _-_ por: Ítalo C. Zaina */
+.icon-logo_ita:before {
+  content: "\e901";
+  color: #9a3132;
+}
+/* Logo MEMDI _-_ por: Ítalo C. Zaina */
+.icon-logo_ita_white:before {
+  content: "\e901";
+  color: #ffffff;
+}
+/* Logo MCC _-_ por: Ítalo C. Zaina */
+.icon-logo_usa:before {
+  content: "\e902";
+  color: #9a3132;
+}
+/* Logo MCC _-_ por: Ítalo C. Zaina */
+.icon-logo_usa_white:before {
+  content: "\e902";
+  color: #ffffff;
+}
+
+html.scriptures p{
+  color: #FFFFFF;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.scripturetitle{
+  bottom: 1.5vh;
+  left: 5vh;
+  position: absolute;
+  display: none;
+  text-decoration: underline;
+  z-index: 3;
+}
+.scripturetitle small{
+  text-decoration: underline;
+}    
+
+.warning-title{
+  text-align: center !important;
+  color: yellow;
+  background-color: #9a3132; 
+}
+
+.warning-logo{
+  width: 100%;
+  height: 10vh;
+  text-align: center !important;
+  background-color: #FFFFFF;
+}
+
+.warning-logo i{
+  font-size: 11vw;
+  display: block;
+}
+
+.warning-body{
+  display: table-cell;
+  vertical-align: middle !important;
+  margin-top: 5vh !important;
+  text-align: center !important;
+  height: 85vh;
+  width: 98vw;
+  background-color: white; 
+  color: #9a3132;       
+  -webkit-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+  -moz-box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+  box-shadow: 22px 22px 0px -2px rgba(154,49,50,1);
+}
+
+.warning-table{
+  width: 100vw;
+  height: 100vh;
+}
+
+.warning-table td{
+  padding: 0 !important;
+  border-bottom: none !important;
+  vertical-align: middle !important;
+}
+#fancypart{
+  float: right;
+  width: 100%;
+  height: 0vh;
+  border-bottom: 10vh solid white;
+  border-left: 10vh solid #9a3132;
+}
