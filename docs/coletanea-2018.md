@@ -9,797 +9,797 @@ layout: default
 
 - **Coletânea 2018**
   - _1 - O SANGUE DE JESUS TEM PODER_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
-  - _2 - O SANGUE DE JESUS TEM PODER PARA SALVAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _3 - CLAMO A TI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _4 - QUANDO TE PROSTRARES_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _5 - CLAMANDO ESTOU_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _6 - JESUS, Ó MEU JESUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _7 - NESTA HORA EM ORAÇÃO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _8 - PELO SANGUE DE JESUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _9 - SENHOR, ME CHEGO A TI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _10 - VAMOS LAVAR AS VESTES_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _11 - REVESTE, SENHOR, TEU POVO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _12 - HÁ VITÓRIA PARA MIM_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _13 - PÕE TEU SANGUE SOBRE MIM_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _14 - EM TEU ALTAR, SENHOR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _15 - CLAMAREI, CLAMAREI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _16 - SE ANDARMOS NA LUZ_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _17 - EM TUA PRESENÇA ENTRAMOS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _18 - PROSTRADO ESTOU DIANTE DE TI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _19 - TEU POVO CLAMA_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _20 - O TEU PECADO TU QUERES DEIXAR?_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _21 - NESTA HORA DE CLAMOR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _22 - BENDITO SEJA O CORDEIRO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _23 - SENHOR, OUVE A MINHA ORAÇÃO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _24 - EIS O CORDEIRO DE DEUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _25 - SENHOR, A TI CLAMO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _26 - SEJA SÓ O SENHOR LOUVADO AQUI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _27 - CORDEIRO ETERNO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _28 - O PODER DO SANGUE DE JESUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _29 - TRANSBORDA-ME, SENHOR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _30 - OH! QUE PRECIOSO SANGUE_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _31 - JUNTO A TI SUPLICO, Ó PAI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _32 - O SANGUE DE JESUS, VERTIDO ALI NA CRUZ_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _33 - EU ME PROSTRO EM TEU ALTAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _34 - QUANDO BUSCAMOS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _35 - A MEU SENHOR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _36 - CRUCIFICADO FOI MEU JESUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _37 - NESTA HORA ESQUEÇO O MUNDO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _38 - PELO SANGUE DE JESUS IREICLAMAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _39 - JESUS, TU ÉS O MEU DEUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _40 - OH! QUE SANGUE PODEROSO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _41 - ALÉM DO VÉU EU QUERO ESTAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _42 - SENHOR, SUPLICO A TI EM ORAÇÃO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _43 - VOU CLAMAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _44 - CONFORME A SUA INFINITA GRAÇA_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _45 - NOS ÁTRIOS DO SENHOR ENTRAMOS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _46 - AO SENTIR O TEU PERDÃO_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _47 - É TEU SANGUE_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _48 - PELO SANGUE DE JESUS EU VOU CLAMAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _49 - NA HORA EM QUE EU QUISER FALAR COM DEUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _50 - O SANGUE DE JESUS_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
-  - _51 - O CORDEIRO QUE NA CRUZ MORREU_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _52 - ESCUTA-ME, SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _53 - O SANGUE DO CORDEIRO DE DEUS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _54 - HÁ VITÓRIA SEMPRE EM TI, SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _55 - SENHOR, MEU DEUS E PAI_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _56 - VITÓRIA SOBRE VITÓRIA_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _57 - EM FERVENTE ORAÇÃO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _58 - ATENDE A VOZ DO MEU CLAMOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _59 - SE ORARMOS AO SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _60 - BEM DE MANHÃ, EMBORA O CÉU SERENO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _61 - SUBA A MINHA ORAÇÃO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _62 - NO SILÊNCIO DA NOITE_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _63 - INVOCA-ME E TE RESPONDEREI_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _64 - BRILHE SOBRE MIM_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _65 - QUANDO O DIA AMANHECE_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _66 - DE MADRUGADA EU BUSCO A FACE DO SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _67 - TOCA PELA FÉ_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _68 - LÁ NO CIMO DO MONTE_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _69 - O ANJO DO SENHOR ESTÁ PASSEANDO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _70 - PRECIOSAS SÃO AS HORAS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _71 - VEM, AMADO MEU_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _72 - É PRECISO CONFIAR E BUSCAR A DEUS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _73 - DEUS ESTÁ NO TEMPLO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _74 - SEI, SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _75 - SENTE EM TUA FACE O ROÇAR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _76 - NESTA NOITE FELIZ_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _77 - VEM, VISITA TUA IGREJA_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _78 - UMA VOZ MANSA E DELICADA_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _79 - DEUS ESTÁ PRESENTE ENTRE PECADORES COMO NÓS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _80 - VIVES MUITO ALÉM DO CÉU_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _81 - GRANDE DEUS, ÚNICO DEUS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _82 - CADA INSTANTE_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _83 - MAIS UMA VEZ_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _84 - ATENDE, SENHOR, A MINHA ORAÇÃO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _85 - ENVIA A TUA LUZ_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _86 - EM TEU NOME_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _87 - MEU PECADO RESGATADO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _88 - DAS PROFUNDEZAS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _89 - DAS PROFUNDEZAS CLAMO A TI, Ó SENHOR!_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _90 - EM TUAS MÃOS, SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _91 - JESUS, A MINH’ALMA TEM SEDE DE TI_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _92 - PAI CELESTE_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _93 - LOGO DE MANHÃ_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _94 - BENDITA A HORA DE ORAÇÃO_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _95 - BUSCAR-ME-EIS_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _96 - COM A MINHA VOZ CLAMO AO SENHOR_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _97 - BUSCOU-ME COM TERNURA_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _98 - ONDE ESTARIA EU?_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _99 - UM DIA JESUS ACHOU-ME_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _100 - EU ME LEMBRO QUANDO JESUS ME TOCOU_ <font color="red"><small>(Revisado 27/03/2018 - por: Ítalo)</small></font>
-  - _101 - QUEM ERA EU ANTES DE CONHECER_
-  - _102 - MARAVILHOSO E SUBLIME PRA MIM_
-  - _103 - A MINH’ALMA ESTAVA LONGE DO CAMINHO DO CÉU_
-  - _104 - VIVI TÃO LONGE DO SENHOR_
-  - _105 - PERDIDO FOI QUE ELE ME ENCONTROU_
-  - _106 - PELA FÉ SOMOS SALVOS_
-  - _107 - QUANDO ANDAVA NO MUNDO ESCRAVIZADO_
-  - _108 - ISRAEL SAIU DO EGITO_
-  - _109 - A MINHA VIDA TÃO VAZIA_
-  - _110 - OH! QUÃO CEGO ANDEI E PERDIDO VAGUEI_
-  - _111 - O POVO QUE ANDAVA EM TREVAS_
-  - _112 - UMA LUZ BRILHOU EM MEU CAMINHO_
-  - _113 - JESUS, A LUZ DIVINA_
-  - _114 - AS RIQUEZAS DO MUNDO_
-  - _115 - GRAÇAS DOU, Ó SENHOR_
-  - _116 - ACHEI SALVAÇÃO_
-  - _117 - COMO DESISTIR DESTE GRANDE AMOR?_
-  - _118 - Ó SENHOR, DEUS DE ISRAEL (EDIFIQUEI UMA CASA)_
-  - _119 - JESUS, NOME PRECIOSO_
-  - _120 - JESUS CRISTO MUDOU MEU VIVER_
-  - _121 - TUDO, Ó CRISTO, A TI ENTREGO_
-  - _122 - AMO AO SENHOR PORQUE ELE ME OUVIU_
-  - _123 - SEGUIR-TE-EI_
-  - _124 - PEREGRINANDO POR SOBRE OS MONTES_
-  - _125 - PELA FÉ EU CAMINHO_
-  - _126 - QUERO PROSSEGUIR_
-  - _127 - ESTOU A CAMINHAR_
-  - _128 - QUANDO A MÃO DE DEUS EM MIM VEIO TOCAR_
-  - _129 - FELICIDADE É TER CRISTO AO MEU LADO_
-  - _130 - TENHO GRANDE GOZO_
-  - _131 - ÀS VEZES, ALGUÉM ME PERGUNTA_
-  - _132 - JÁ NÃO ESTOU SOZINHO_
-  - _133 - EU ESTAVA SÓ, SEM O SENHOR_
-  - _134 - QUE SEGURANÇA TENHO EM JESUS_
-  - _135 - EM MEU CORAÇÃO_
-  - _136 - ESTA PAZ QUE SINTO EM MINH’ALMA_
-  - _137 - QUE DOCE VOZ TEM MEU SENHOR_
-  - _138 - HÁ SEMPRE ALGUÉM QUE NÃO PROVOU_
-  - _139 - NÃO SEI POR QUE DE DEUS O AMOR_
-  - _140 - AS MUITAS ÁGUAS_
-  - _141 - O AMOR DE DEUS POR NÓS_
-  - _142 - CRISTO, MEU MESTRE, SEMPRE HÁ DE AMAR-ME_
-  - _143 - SE NÃO FOSSE O AMOR_
-  - _144 - JESUS, AGORA EU BEM SEI_
-  - _145 - É O AMOR DE DEUS_
-  - _146 - EXISTE UM ALGUÉM QUE CUIDA DE MIM_
-  - _147 - CRISTO É TUDO PARA MIM_
-  - _148 - UMA CERTA VEZ, JESUS CRISTO_
-  - _149 - JESUS FEZ A PROMESSA_
-  - _150 - VOU CONTAR-VOS O QUE PENSO DO MEU MESTRE_
-  - _151 - CRISTO JESUS É O MEU BOM SALVADOR_
-  - _152 - MAIS PERTO DE JESUS_
-  - _153 - CRISTO, NOME MAIS ALTO_
-  - _154 - Ó TU QUE HABITAS ENTRE OS QUERUBINS_
-  - _155 - HÁ UM SER QUE VIVE EM MIM_
-  - _156 - TOTALMENTE DESEJÁVEL É MEU AMADO_
-  - _157 - CRISTO É A ROSA MAIS BELA_
-  - _158 - JESUS, O LÍRIO DOS VALES_
-  - _159 - ELE É A ROSA DE SAROM_
-  - _160 - EU SOU DO MEU AMADO E ELE ME TEM AFEIÇÃO_
-  - _161 - ERA UMA OLIVEIRA_
-  - _162 - GRANDIOSO PARA MIM_
-  - _163 - TENHO UMA PEDRA VIVA_
-  - _164 - É BASTANTE PARA MIM A TUA GRAÇA_
-  - _165 - MARAVILHOSA GRAÇA_
-  - _166 - Ó AMADO DE MINH´ALMA_
-  - _167 - AMO AO MEU SENHOR_
-  - _168 - TU ÉS FIEL, SENHOR_
-  - _169 - COMO A FLOR DO CAMPO_
-  - _170 - EU SOU TÃO FELIZ COM O MEU JESUS_
-  - _171 - O AMOR DE JESUS É GRANDE_
-  - _172 - SENHOR, TE AMO, TE AMO_
-  - _173 - QUANDO JESUS UM DIA_
-  - _174 - A MINHA HERANÇA É O SENHOR_
-  - _175 - DESDE O DIA EM QUE TE CONHECI_
-  - _176 - NÃO EXISTE OUTRO AMOR IGUAL AO TEU, SENHOR_
-  - _177 - SEMPRE VOU LEMBRAR O QUE FIZESTE POR MIM_
-  - _178 - O DEUS A QUEM SERVIMOS_
-  - _179 - PELA FÉ EU POSSO CONTEMPLAR JESUS_
-  - _180 - ENCONTREI O GRANDE AMOR_
-  - _181 - EM TI EU ENCONTRO, Ó DEUS, TODA PAZ_
-  - _182 - COMO É BOM SERVIR AO SENHOR_
-  - _183 - A MINHA ALEGRIA_
-  - _184 - REDENTOR ONIPOTENTE_
-  - _185 - JESUS, SENHOR, ME CHEGO A TI_
-  - _186 - PARA QUEM IREMOS NÓS?_
-  - _187 - MINH´ALMA TEM SEDE DE TI_
-  - _188 - VENHO, SENHOR, MINHA VIDA OFERECER_
-  - _189 - DEPENDO DE TI, SENHOR_
-  - _190 - TODO O MEU SER TE AMA_
-  - _191 - EU QUERO SENTIR_
-  - _192 - JESUS, JESUS, EU TE AMO_
-  - _193 - AS MUITAS ÁGUAS NÃO PODERIAM APAGAR_
-  - _194 - QUERO ANDAR EM TEU CAMINHO, SENHOR_
-  - _195 - GRANDE AMOR, Ó GRANDE AMOR_
-  - _196 - O GRANDE AMOR DO MEU SENHOR_
-  - _197 - HOJE QUERO SOMENTE AGRADECER_
-  - _198 - ELE É A MINHA ALEGRIA_
-  - _199 - COMO É BOM OUVIR TUA VOZ_
-  - _200 - EU SIRVO UM DEUS_
-  - _201 - SEU CORPO CANSADO PELAS CAMINHADAS_
-  - _202 - HÁ UMA FONTE ABERTA NO CALVÁRIO_
-  - _203 - JESUS IA SUBINDO O MONTE_
-  - _204 - MORRI NA CRUZ POR TI_
-  - _205 - JESUS IA SEGUINDO_
-  - _206 - PAI, A TI ENTREGO O MEU ESPÍRITO_
-  - _207 - DEUS ENVIOU SEU FILHO AMADO_
-  - _208 - DEUS AMOU O MUNDO DE TAL MANEIRA_
-  - _209 - DEUS O SEU FILHO ENVIOU_
-  - _210 - UM DIA JESUS DESCEU DA SUA GLÓRIA_
-  - _211 - CORTARAM O MADEIRO_
-  - _212 - RUDE CRUZ_
-  - _213 - CRISTO CAMINHAVA EM DIREÇÃO À CRUZ_
-  - _214 - DOIS DISCÍPULOS NO CAMINHO DE EMAÚS_
-  - _215 - CERTO HOMEM TÃO NOBRE_
-  - _216 - SOMOS TEU POVO_
-  - _217 - DEIXOU O ESPLENDOR DE SUA GLÓRIA_
-  - _218 - POR AMOR JESUS MORREU_
-  - _219 - POR AMOR_
-  - _220 - NÃO HÁ AMOR IGUAL_
-  - _221 - JESUS, EM TUA PRESENÇA_
-  - _222 - EIS QUE ESTOU À PORTA_
-  - _223 - ONDE ESTÁ O CORDEIRO?_
-  - _224 - ERA UM PECADOR, ANDAVA SEM JESUS_
-  - _225 - JESUS É MELHOR, SIM, QUE OURO E BENS_
-  - _226 - O SENTIDO DE VIVER_
-  - _227 - SÓ JESUS TE PODE DAR O QUE PROCURAS_
-  - _228 - ENTREGA O TEU CAMINHO AO SENHOR_
-  - _229 - AO POÇO DE JACÓ CHEGOU JESUS_
-  - _230 - FONTE DE ÁGUAS VIVAS_
-  - _231 - QUEM ME DÁ ÁGUA_
-  - _232 - QUEM BEBER DA ÁGUA QUE EU LHE DER_
-  - _233 - VOU GUIAR-TE A UMA RICA FONTE_
-  - _234 - DEUS HOJE QUER TE FALAR_
-  - _235 - MANSO E SUAVE JESUS ESTÁ CHAMANDO_
-  - _236 - OUVE A VOZ DE JESUS_
-  - _237 - EIS MENSAGEM DO SENHOR_
-  - _238 - TANTO TEMPO JÁ FAZ QUE O CHAMADO DIVINAL_
-  - _239 - DEIXA DEUS FALAR AO TEU CORAÇÃO_
-  - _240 - SE CANSADO TU ESTÁS_
-  - _241 - MEU AMADO FILHO_
-  - _242 - SE ESTA NOITE DEUS PEDIR TUA ALMA_
-  - _243 - JÁ ACHEI UMA FLOR GLORIOSA_
-  - _244 - EU DESCI PARA O VALE DE BÊNÇÃO E PAZ_
-  - _245 - POR ONDE QUER QUE EU VÁ_
-  - _246 - SE EM TEU VIVER_
-  - _247 - SE ANDA TRISTE O TEU VIVER_
-  - _248 - SE VOCÊ QUISER SABER_
-  - _249 - SE EM TUA VIDA FALTA PAZ_
-  - _250 - SE TU PROCURAS PELA PAZ_
-  - _251 - A PAZ QUE TU PROCURAS_
-  - _252 - SE DISPUSERES O TEU CORAÇÃO (JÓ 11:13-19)_
-  - _253 - SE DISPUSERES O TEU CORAÇÃO_
-  - _254 - OLHAI PARA O ALTO_
-  - _255 - MEU CORAÇÃO ENGRANDECE_
-  - _256 - NÃO MAIS VIVO EU MAS CRISTO VIVE EM MIM_
-  - _257 - TUDO SE FEZ NOVO_
-  - _258 - SE TU ESTÁS TÃO LONGE DO SENHOR_
-  - _259 - COMO UM BOM PASTOR_
-  - _260 - DEUS ESTÁ PRESENTE AQUI NESTE LUGAR_
-  - _261 - CRISTO CAMINHAVA LENTAMENTE_
-  - _262 - QUERO QUE VOCÊ CONHEÇA_
-  - _263 - QUERES IR PARA GLÓRIA?_
-  - _264 - OH! QUE BELOS HINOS HOJE LÁ NO CÉU_
-  - _265 - LEVA TU CONTIGO O NOME_
-  - _266 - TODOS OS POVOS_
-  - _267 - QUANDO JESUS SEU SANGUE VERTEU_
-  - _268 - JESUS É O CORDEIRO_
-  - _269 - NÃO SEI SE OUVISTE FALAR_
-  - _270 - SE TU PEDISTE UM SINAL_
-  - _271 - O CAMINHO QUE NOS LEVA AO CÉU É JESUS_
-  - _272 - NOVO CAMINHO_
-  - _273 - O SENHOR É A ALEGRIA_
-  - _274 - SE EM TUA VIDA NÃO ENCONTRAS PAZ E LUZ_
-  - _275 - UM MILAGRE É_
-  - _276 - AINDA QUE OS SEUS SONHOS_
-  - _277 - ROCHA ETERNA_
-  - _278 - A NOVA DO EVANGELHO_
-  - _279 - QUERO ESTAR AO PÉ DA CRUZ_
-  - _280 - HÁ HOJE ALGUÉM ESPERANDO_
-  - _282 - QUEM É QUE DÁ ÁGUA AO SEDENTO?_
-  - _283 - O MUNDO NÃO SABE_
-  - _284 - O AMOR DE DEUS É GRANDE_
-  - _285 - TU QUE ANDAS SÓ E TRISTE SEM SABER O CAMINHO_
-  - _286 - UM DIA EU QUIS TE DEIXAR_
-  - _287 - NÃO TINHA PARECER_
-  - _288 - BASTA DIZERES O QUE QUERES_
-  - _289 - ESTENDE TUA MÃO_
-  - _290 - O QUE OS OLHOS NUNCA VIRAM_
-  - _291 - SEMPRE QUE QUISERES FALAREI CONTIGO_
-  - _292 - AO SENTIR O MUNDO AO MEU REDOR_
-  - _293 - ALMA CANSADA_
-  - _294 - JESUS IA CAMINHANDO (CANTA MEU POVO)_
-  - _295 - DAS PROFUNDEZAS A TI CLAMO, Ó SENHOR_
-  - _296 - TODA A MINHA DOR JESUS LEVOU_
-  - _297 - EM ME VINDO O TEMOR_
-  - _298 - NEM SEMPRE ENTENDEMOS_
-  - _299 - HÁ MOMENTOS QUE AS PALAVRAS NÃO RESOLVEM_
-  - _300 - QUANDO PARECE QUE TUDO ACABOU_
-  - _301 - QUANDO A TRISTEZA SURGIR_
-  - _302 - SE A VIDA PARECE PESADA_
-  - _303 - SE NÃO PUDERES MAIS_
-  - _304 - BASTA QUE ME TOQUES, SENHOR_
-  - _305 - O SENHOR É A MINHA LUZ_
-  - _306 - MEDO TENS QUE O TENTADOR TE VÁ VENCER?_
-  - _307 - PELO VALE ESCURO SEGUIREI JESUS_
-  - _308 - PROFUNDOS VALES EU TEREI DE PASSAR_
-  - _309 - OH! POR QUE DUVIDAR?_
-  - _310 - MESTRE O MAR SE REVOLTA_
-  - _311 - SÓ UMA VOZ ME BASTA_
-  - _312 - SE, DA VIDA, AS VAGAS PROCELOSAS SÃO_
-  - _313 - O QUE HABITA NO ABRIGO DE DEUS_
-  - _314 - QUE IMPORTA_
-  - _315 - SE EM PROFUNDO ABISMO TE ENCONTRAS_
-  - _316 - A VIDA NO MUNDO É CRUEL_
-  - _317 - QUANDO VEM NOS OLHOS UMA LÁGRIMA_
-  - _318 - QUANDO A ANGÚSTIA VEM_
-  - _319 - MAIS PERTO QUERO ESTAR_
-  - _320 - BOM É O SENHOR_
-  - _321 - QUÃO BONDOSO AMIGO É CRISTO_
-  - _322 - HÁ UM AMIGO SEMPRE JUNTO_
-  - _323 - DEUS ESTÁ PRESENTE SEMPRE PRONTO A NOS AJUDAR_
-  - _324 - EU SOU POBRE E NECESSITADO_
-  - _325 - SE HOJE ESCUTARES_
-  - _326 - EU NÃO SABERIA CAMINHAR_
-  - _327 - DEUS É CONTIGO_
-  - _328 - CONSOLAI, CONSOLAI O MEU POVO_
-  - _329 - ATUA EM NOSSO MEIO_
-  - _330 - EIS AÍ O DIA ACEITÁVEL_
-  - _331 - SE DEUS É POR NÓS_
-  - _332 - O REI E EU_
-  - _333 - SE TE ENCONTRARES TRISTE_
-  - _334 - DEUS CUIDA DE TI_
-  - _335 - NÃO DESANIMES! DEUS PROVERÁ_
-  - _336 - HÁ ALGUÉM QUE CUIDA DE TI_
-  - _337 - O MESMO DEUS_
-  - _338 - DIVINO COMPANHEIRO_
-  - _339 - PARA OS MONTES OLHAREI_
-  - _340 - DEUS TE GUARDARÁ_
-  - _341 - QUE CONSOLAÇÃO_
-  - _342 - ROCHA MINHA_
-  - _343 - OS QUE CONFIAM NO SENHOR_
-  - _344 - CONFIO EM DEUS_
-  - _345 - EM NADA PONHO A MINHA FÉ_
-  - _346 - SE A FÉ POR VEZES FALTA_
-  - _347 - FIRME NAS PROMESSAS_
-  - _348 - ESPERA NO SENHOR, ANIMA-TE_
-  - _349 - SE NÃO FOSSE O SENHOR_
-  - _350 - FAZ-ME INABALÁVEL_
-  - _351 - TU ÉS MEU REI_
-  - _352 - QUERES NESTE MUNDO SER UM VENCEDOR_
-  - _353 - DEIXA-ME CHORAR_
-  - _354 - CRISTO ME DARÁ_
-  - _355 - VENCER, VENCER_
-  - _356 - O SENHOR É O MEU PASTOR_
-  - _357 - O SENHOR É O MEU PASTOR_
-  - _358 - O SENHOR É O MEU PASTOR (SALMO 23)_
-  - _359 - DEUS É NOSSO AMPARO, NOSSA FORTALEZA_
-  - _360 - ROCHEDO FORTE É O SENHOR_
-  - _361 - NÃO HÁ DEUS ACIMA DO SENHOR_
-  - _362 - DEUS PROVERÁ_
-  - _363 - QUANDO AS LUTAS ME CERCAM_
-  - _364 - DÁ-ME MAIS FÉ_
-  - _365 - NÃO TEMAS, POIS TE ESCOLHI_
-  - _366 - AS LÁGRIMAS FALAM, JESUS TE ESCUTA_
-  - _367 - SE AS LUTAS DA VIDA_
-  - _368 - ESFORÇA-TE, TEM BOM ÂNIMO!_
-  - _369 - QUANDO MAIS NINGUÉM TE COMPREENDE_
-  - _370 - JESUS É A ROCHA INABALÁVEL_
-  - _371 - TODA PROMESSA_
-  - _372 - MUITOS SÃO OS QUE CONFIAM_
-  - _373 - SE UM DIA DEUS PROMETEU_
-  - _374 - QUERO TOCAR EM TUAS VESTES, SENHOR_
-  - _375 - OS SEGREDOS DO TEU CORAÇÃO_
-  - _376 - O SENHOR TE GUIARÁ_
-  - _377 - DEUS É MINHA ROCHA_
-  - _378 - CONFIA E ORA_
-  - _379 - ALGEMADO POR UM PESO_
-  - _380 - POSSO SENTIR O SEU TOQUE EM MIM (GLORIFICA)_
-  - _381 - MEU DEUS VENCE BATALHAS_
-  - _382 - JÁ CHEGUEI ATÉ AQUI (VITÓRIAS)_
-  - _383 - LÁ ONDE EU NÃO POSSO VER (A ORAÇÃO)_
-  - _384 - BEM SEI QUE TUDO PODES_
-  - _385 - QUÃO DIFÍCIL É, SENHOR (FAZE-ME UM VENCEDOR)_
-  - _386 - QUAL O ADORNO DESTA VIDA?_
-  - _387 - SONDA-ME, Ó DEUS_
-  - _388 - SÓ TU ÉS, SENHOR_
-  - _389 - SENHOR, O QUE É A NOSSA VIDA?_
-  - _390 - CANTAREI A MISERICÓRDIA_
-  - _391 - CANTAREI A BONDADE E A JUSTIÇA_
-  - _392 - EU SÓ QUERO SER SENHOR_
-  - _393 - QUERO SER FIEL AO MEU SENHOR_
-  - _394 - UMA VOZ ME DISSE LÁ DO CÉU_
-  - _395 - FALA, JESUS QUERIDO_
-  - _396 - ABBA PAI_
-  - _397 - HÁ UMA LUZ A BRILHAR_
-  - _398 - ENTREI NO TEMPO DE DEUS_
-  - _399 - QUAL MADEIRA_
-  - _400 - EU QUERO SER, SENHOR AMADO_
-  - _401 - COMO TU QUERES_
-  - _402 - A LEI DO SENHOR É PERFEITA_
-  - _403 - AQUELE QUE TEM OS MEUS MANDAMENTOS_
-  - _404 - JESUS, QUERO AMAR-TE_
-  - _405 - AMO AO SENHOR DE TODO O MEU CORAÇÃO_
-  - _406 - JESUS, O QUE MAIS QUERO NO MUNDO_
-  - _407 - EU VI O SENHOR_
-  - _408 - EIS QUE SURGE UM POVO FORTE_
-  - _409 - EIS MARCHAMOS PARA AQUELE BOM PAÍS_
-  - _410 - UM PENDÃO REAL VOS ENTREGOU O REI_
-  - _411 - O SENHOR DA CEIFA ESTÁ CHAMANDO_
-  - _412 - SOU FORASTEIRO AQUI_
-  - _413 - OUVI, Ó CÉUS, E FALAREI_
-  - _414 - MEU DEUS, MEU BOM PASTOR_
-  - _415 - QUERO SER UM VASO DE BÊNÇÃO_
-  - _416 - PELAS PRAIAS GALILÉIAS VEM JESUS_
-  - _417 - MINHA DEDICAÇÃO_
-  - _418 - HÁ UM POVO QUE TE ADORA_
-  - _419 - HÁ UMA OBRA QUE DEUS QUER FAZER_
-  - _420 - SOMOS TEU POVO E QUEREMOS_
-  - _421 - A OBRA DO SENHOR É PERFEITA_
-  - _422 - A MINHA HERANÇA_
-  - _423 - Ó PASTOR DE ISRAEL_
-  - _424 - O MEU AMADO DESCEU AO SEU JARDIM_
-  - _425 - QUE VISTA AMÁVEL É (SALMO 132)_
-  - _426 - UM CORPO SÓ, UM SÓ ESPÍRITO_
-  - _427 - OH! QUÃO BOM E QUÃO SUAVE É_
-  - _428 - VEM, Ó CRISTO, ENCHER MEU CÁLICE_
-  - _429 - ÉS O PÃO DA VIDA_
-  - _430 - COMO CRISTO ENSINOU_
-  - _431 - CRISTO JÁ NOS PREPAROU_
-  - _432 - OUÇO A VOZ DO MEU AMADO ME CHAMAR_
-  - _433 - TOMAI AGORA O PÃO_
-  - _434 - HÁ UM DOCE ESPÍRITO AQUI_
-  - _435 - FLUIRÁ COMO UM RIO_
-  - _436 - ESPÍRITO DO TRINO DEUS_
-  - _437 - VEM SOBRE MIM, ESPÍRITO DE DEUS_
-  - _438 - O ESPÍRITO DO SENHOR ESTÁ SENDO DERRAMADO_
-  - _439 - Ó VEM DERRAMAR_
-  - _440 - DERRAMAREI MEU ESPÍRITO_
-  - _441 - ESPÍRITO SANTO, Ó CONSOLADOR_
-  - _442 - MAIS DO TEU SANTO ESPÍRITO_
-  - _443 - HÁ UM RIO DE ÁGUAS VIVAS_
-  - _444 - DESEJEI ARDENTEMENTE_
-  - _445 - DIRIGE-ME, SENHOR_
-  - _446 - A TUA PALAVRA_
-  - _447 - SENHOR, GUIA-NOS_
-  - _448 - SENHOR, EU QUERO SERVIR-TE_
-  - _449 - A MINHA VIDA ENTREGO_
-  - _450 - A TUA JUSTIÇA_
-  - _451 - NO SERVIÇO DO MEU REI EU SOU FELIZ_
-  - _452 - QUERO QUE ME TOQUES, SENHOR_
-  - _453 - QUANDO DOBRO OS MEUS JOELHOS EM ORAÇÃO_
-  - _454 - SENHOR, MEU DEUS, O QUE DIREI DE TI?_
-  - _455 - QUANTO MAIS EU TE CONHEÇO (CAMINHO FELIZ)_
-  - _456 - CHUVAS DE BÊNÇÃOS TEREMOS_
-  - _457 - INSTRUMENTO EM TUAS MÃOS_
-  - _458 - Ó CRISTO! PÃO DA VIDA_
-  - _459 - É TEMPO, É TEMPO_
-  - _460 - Ó JESUS! Ó VERA PÁSCOA_
-  - _461 - TU, Ó SENHOR, TU ÉS TÃO PURO_
-  - _462 - QUANTOS FIÉIS, SENHOR_
-  - _463 - VEM, SENHOR, VISITA TUA VINHA_
-  - _464 - TU QUE SOBRE A AMARGA CRUZ_
-  - _465 - O ESTANDARTE DESTA IGREJA_
-  - _466 - EIS O ESTANDARTE_
-  - _467 - OS GUERREIROS SE PREPARAM_
-  - _468 - HÁ TANTA TERRA_
-  - _469 - CASTELO FORTE_
-  - _470 - NO GETSÊMANI_
-  - _471 - VEM, ESPÍRITO DE DEUS_
-  - _472 - VINDE, CANTAI E ENTOAI LOUVORES A JESUS_
-  - _473 - MINHA PORÇÃO_
-  - _474 - QUEM SOU EU, SENHOR?_
-  - _475 - AINDA UMA VEZ (AGEU)_
-  - _476 - ESTA OBRA É DE DEUS_
-  - _477 - SEMPRE VOU LEMBRAR_
-  - _478 - VI UM NOVO CÉU_
-  - _479 - QUEM ME DERA_
-  - _480 - EU ESPERO, ANSIOSO, POR MEU DEUS_
-  - _481 - ASSIM COMO A NOITE ESPERA PELO DIA_
-  - _482 - OS SINAIS DO FIM SE CUMPREM_
-  - _483 - CHEGOU O TEMPO DE PENSAR_
-  - _484 - TEMEI A DEUS_
-  - _485 - SETE CASTIÇAIS_
-  - _486 - DO NORTE VEM O ÁUREO ESPLENDOR_
-  - _487 - VIGIAI E SEMPRE ORAI, Ó CRENTES_
-  - _488 - CERTA VEZ, AO ORAR_
-  - _489 - EM BREVE ESCUTAREI_
-  - _490 - ELE VOLTARÁ PRA BUSCAR A SUA IGREJA_
-  - _491 - ELE UM DIA VOLTARÁ_
-  - _492 - ELE VOLTARÁ, SIM, ELE VOLTARÁ_
-  - _493 - COMO FOI PARA O CÉU, JESUS CRISTO HÁ DE VIR_
-  - _494 - NÃO SEI QUANDO CRISTO JESUS HÁ DE VIR_
-  - _495 - O QUE HÁ DE VIR, VIRÁ_
-  - _496 - NÃO VAI TARDAR_
-  - _497 - JESUS, SIM, VEM, DO CÉU EM GLÓRIA ELE VEM_
-  - _498 - CRISTO VEM ME BUSCAR_
-  - _499 - OUÇO UMA VOZ TÃO SUAVE_
-  - _500 - SEI QUE O SENHOR_
-  - _501 - O ESPÍRITO DE DEUS FALA À SUA IGREJA_
-  - _502 - QUANDO, LÁ NO CÉU_
-  - _503 - TENHO SAUDADES DE JESUS, MEU MESTRE_
-  - _504 - EU SEI QUE JESUS_
-  - _505 - OS SEUS CABELOS_
-  - _506 - TU QUE ESTÁS ASSENTADO_
-  - _507 - O SOL ESCURECERÁ_
-  - _508 - BREVE NO CÉU JESUS HÁ DE APARECER_
-  - _509 - EM BREVE, MUI BREVE_
-  - _510 - ALERTA POVO, ESTÁ CHEGANDO A NOSSA HORA_
-  - _511 - JESUS CRISTO VOLTARÁ COM SEU GRANDE ESPLENDOR_
-  - _512 - O MEU AMADO FALA E ME DIZ_
-  - _513 - QUEM É ESTA QUE APARECE_
-  - _514 - ESTA É A VOZ, A VOZ DO MEU AMADO_
-  - _515 - QUANDO A ÚLTIMA TROMBETA ECOAR_
-  - _516 - QUANDO A ANGELICAL TROMBETA_
-  - _517 - JÁ NÃO TARDA O AMANHECER_
-  - _518 - NÃO TEREI MAIS TRISTEZAS_
-  - _519 - UM NOVO LAR ME ESPERA_
-  - _520 - NO TRONO DA CIDADE DE DEUS_
-  - _521 - AO CHEGAR AO CÉU GOZO EU TEREI_
-  - _522 - EXISTE UM LAR_
-  - _523 - LÁ NO CÉU OS ANJOS CANTAM_
-  - _524 - SE EU TIVESSE NA ALVORADA_
-  - _525 - HÁ UM LINDO PAÍS_
-  - _526 - LINDO! LINDO! LINDO!_
-  - _527 - REGOZIJAI-VOS_
-  - _528 - EU AVISTO UMA TERRA FELIZ_
-  - _529 - EU OUVI DA FORMOSA CIDADE_
-  - _530 - OH! QUE SAUDOSA LEMBRANÇA_
-  - _531 - JERUSALÉM, JERUSALÉM_
-  - _532 - QUANDO O MUNDO AQUI DEIXAR_
-  - _533 - MINHA ALMA, POIS, ALEGRE CANTA_
-  - _534 - BREVE VOLTARÁ O MESSIAS_
-  - _535 - ALÉM DO CÉU AZUL_
-  - _536 - FINDA A LIDA TERREAL_
-  - _537 - QUANDO O JORDÃO PASSARMOS UNIDOS_
-  - _538 - HÁ UM LUGAR PRA MIM_
-  - _539 - JUNTO AO TRONO DE DEUS, PREPARADO_
-  - _540 - OH! PENSAI NESSE LAR LÁ DO CÉU_
-  - _541 - ARREBATADO FUI NO DIA DO SENHOR_
-  - _542 - AO LADO DE JESUS QUERO ESTAR_
-  - _543 - AO LADO DE DEUS_
-  - _544 - EM BREVE O DIA CHEGARÁ_
-  - _545 - JESUS ESTÁ ÀS PORTAS_
-  - _546 - OH! QUANTO ALMEJO ESTAR_
-  - _547 - Ó VEM LOGO, JESUS_
-  - _548 - NAS LINDAS MORADAS_
-  - _549 - MARAVILHOSO SERÁ_
-  - _550 - CANTAI, Ó IGREJA_
-  - _551 - TENHO LIDO DA BELA CIDADE (A BELA CIDADE)_
-  - _552 - PÁTRIA MINHA_
-  - _553 - VEM! MARANATA! JESUS VEM!_
-  - _534 - JERUSALÉM, SUAS RUAS DE OURO_
-  - _555 - DA LINDA PÁTRIA_
-  - _557 - ESTE MUNDO JAMAIS PODE ME SEPARAR_
-  - _558 - VEM, JESUS CRISTO JÁ VEM_
-  - _559 - A ÚLTIMA TROMBETA SOARÁ_
-  - _560 - EIS QUE ESTOU A PORTA E BATO_
-  - _561 - OUVI COMO QUE A VOZ DE UMA GRANDE MULTIDÃO_
-  - _562 - QUANDO MEU TEMPO DE LUTA PASSAR_
-  - _563 - NÃO SE TURBEM OS VOSSOS CORAÇÕES_
-  - _564 - DISPÕE-TE, RESPLANDECE_
-  - _565 - LÁ ESTÁ O MEU TESOURO_
-  - _566 - O SENHOR É O MEU PASTOR (MARANATA, JESUS VEM)_
-  - _567 - QUANDO SERÁ O GRANDE DIA_
-  - _568 - SENHOR, QUEM SÃO AQUELES_
-  - _569 - JESUS VEM, VEM NOS BUSCAR_
-  - _570 - JÁ REFULGE A GLÓRIA ETERNA_
-  - _571 - O GRANDE DIA ESTÁ CHEGANDO_
-  - _572 - CHEGUEMOS AO ALTAR DE DEUS_
-  - _573 - COMO É BOM TE ADORAR_
-  - _574 - ADORAREI_
-  - _575 - TE ADORAMOS_
-  - _576 - REUNIMO-NOS AQUI PRA TE ADORAR_
-  - _577 - GLÓRIA E ALELUIA_
-  - _578 - HOJE O SENHOR DERRAMOU_
-  - _579 - SENHOR, EU NEM SEI CONTAR_
-  - _580 - NOS PROSTEMOS AOS SEUS PÉS_
-  - _581 - PAI DE AMOR, GOSTO TANTO DE TI_
-  - _582 - CANTAREI AO AMOR DOS AMORES_
-  - _583 - Ó GRANDE DEUS_
-  - _584 - EU TE AMO, MEU JESUS_
-  - _585 - FONTE DA VIDA_
-  - _586 - Ó PROFUNDIDADE DAS RIQUEZAS_
-  - _587 - Ó JESUS, EXALTAR-TE-EI_
-  - _588 - HÁ UM NOME QUE RELUZ_
-  - _589 - JESUS TÃO BELO_
-  - _590 - AO CORDEIRO_
-  - _591 - GLÓRIA PRA SEMPRE AO CORDEIRO DE DEUS_
-  - _592 - ALELUIA! MUITAS VOZES DE ANJOS_
-  - _593 - A CRISTO COROAI_
-  - _594 - NA EXPRESSÃO DESTE LOUVOR_
-  - _595 - MAJESTADE, GLÓRIA E MAJESTADE_
-  - _596 - ÉS MAJESTADE_
-  - _597 - CANTAREI, CANTAREI HOSANA (VIVA O REI)_
-  - _598 - HÁ UM SÓ QUE É DIGNO_
-  - _599 - JESUS, TE ENTRONIZAMOS AQUI ENTRE NÓS_
-  - _600 - JESUS, TE ENTRONIZAMOS_
-  - _601 - AO QUE ESTÁ NO TRONO_
-  - _602 - SANTO É O QUE ESTÁ NO TRONO_
-  - _603 - LOUVAREI AO MEU SENHOR_
-  - _604 - O MEU LOUVOR É FRUTO_
-  - _605 - NOSSO DEUS É SOBERANO_
-  - _606 - O CRIADOR DO UNIVERSO_
-  - _607 - A DEUS SEJA O LOUVOR_
-  - _608 - DEUS DOS EXÉRCITOS DE ISRAEL_
-  - _609 - SENHOR, MEU DEUS, QUANDO EU MARAVILHADO_
-  - _610 - SANTO! SANTO! SANTO! DEUS ONIPOTENTE!_
-  - _611 - JESUS DEUS SANTO, SANTO, SANTO!_
-  - _612 - SANTO, SANTO, SANTO, Ó DEUS DE GLÓRIA E PODER_
-  - _613 - DAI GLÓRIA A DEUS_
-  - _614 - A DEUS DEMOS GLÓRIA_
-  - _615 - LOUVOR E GLÓRIA_
-  - _616 - AO DEUS DE AMOR E DE IMENSA BONDADE_
-  - _617 - O MEU CORAÇÃO SE REGOZIJA NO SENHOR_
-  - _618 - CANTAREI AO MEU SENHOR ENQUANTO EU VIVER_
-  - _619 - VEM, DERRAMA A PAZ_
-  - _620 - ESTAMOS AQUI, Ó DEUS_
-  - _621 - ADORAR-TE_
-  - _622 - A BELEZA DA TUA SANTIDADE_
-  - _623 - EU QUERO CANTAR DE GOZO E DE PAZ_
-  - _624 - A MINH´ALMA ENGRANDECE_
-  - _625 - DIGNO É JESUS_
-  - _626 - OH! CONTEMPLAI_
-  - _627 - NÓS TE ADORAMOS, SENHOR_
-  - _628 - SANTO É SEU NOME_
-  - _629 - QUE ALEGRIA_
-  - _630 - SAUDAI O NOME DE JESUS_
-  - _631 - SÊ EXALTADO, Ó DEUS_
-  - _632 - MUITOS ANJOS LOUVAM_
-  - _633 - TE EXALTAREMOS_
-  - _634 - GLORIOSO ÉS, JESUS_
-  - _635 - ENTRONIZADO ESTÁ ENTRE AS NAÇÕES_
-  - _636 - LOUVAI A JESUS_
-  - _637 - TODA A TERRA TE EXALTA_
-  - _638 - JESUS VEIO E SALVOU-ME_
-  - _639 - MOTIVOS TENHO PRA LOUVAR-TE_
-  - _640 - MEU LOUVOR É SÓ PRA TI_
-  - _641 - A LUZ DO MUNDO_
-  - _642 - EM NOSSOS LÁBIOS_
-  - _643 - TODO LOUVOR SEJA DADO A DEUS_
-  - _644 - LOUVAMOS-TE, Ó DEUS_
-  - _645 - COROAI_
-  - _646 - AGRADECIDOS SOMOS A TI_
-  - _647 - SANTO, SANTO, SANTO É O SENHOR_
-  - _648 - O SENHOR É O MEU PASTOR_
-  - _649 - TE LOUVAMOS, SENHOR_
-  - _650 - Ó VINDE E ADOREMOS_
-  - _651 - AMO AO SENHOR_
-  - _652 - LEVANTAI-VOS, Ó PORTAIS ETERNOS_
-  - _653 - ALELUIA (SALMOS 113)_
-  - _654 - GRANDE É O SENHOR E MUI DIGNO DE SER LOUVADO_
-  - _655 - LOUVAI, SERVOS DO SENHOR_
-  - _656 - GRANDE É O SENHOR_
-  - _657 - OS CÉUS PROCLAMAM_
-  - _658 - MEDITAREI NAS MARAVILHAS DO SENHOR_
-  - _659 - CELEBRAI COM JÚBILO AO SENHOR_
-  - _660 - O MEU CORAÇÃO_
-  - _661 - ÉS O MAIS FORMOSO, JESUS_
-  - _662 - ONIPOTENTE DEUS_
-  - _663 - LOUVAI AO SENHOR TODAS AS NAÇÕES_
-  - _664 - QUÃO AMÁVEIS SÃO_
-  - _665 - BENDIZEI AO SENHOR_
-  - _666 - TAL QUAL ESTOU_
-  - _667 - JUSTO ÉS, SENHOR_
-  - _668 - UM POBRE CEGO_
-  - _669 - DEUS DOS ANTIGOS_
-  - _670 - SE PAZ, A MAIS DOCE_
-  - _671 - OUVE, POIS ISRAEL_
-  - _672 - MEU SERVO, NÃO TEMAS_
-  - _673 - Ó PAI, EU QUERIA TANTO VER_
-  - _674 - EU NÃO SEI QUAL SERÁ O LOUVOR_
-  - _675 - NA ETERNIDADE_
-  - _676 - Ó VINDE ADORAR_
-  - _677 - A TI, QUE HABITAS ENTRE OS QUERUBINS_
-  - _678 - TUA GLÓRIA ENCHE TODA A TERRA_
-  - _679 - EIS A ESCRAVA RESGATADA_
-  - _680 - TEU NOME É PRA MIM, SENHOR_
-  - _681 - NOSSO LOUVOR_
-  - _682 - A JESUS SEJA DADA TODA GLÓRIA_
-  - _683 - JESUS CRISTO VOLTARÁ_
-  - _684 - ELE É O REI DOS REIS_
-  - _685 - PERFEITO AMOR EU CONHECI_
-  - _686 - QUANDO JESUS PROVOU O SEU AMOR POR MIM_
-  - _687 - QUEM É COMO TU?_
-  - _687 - QUEM É COMO TU?_
-  - _689 - AMOR, QUE POR AMOR DESCESTE!_
-  - _690 - DA IGREJA O FUNDAMENTO_
-  - _691 - AO DEUS DE ABRAÃO_
-  - _692 - COMIGO HABITA, Ó DEUS!_
-  - _693 - DORMINDO NO MEU LEITO_
-  - _694 - JERUSALÉM ETERNA_
-  - _695 - JERUSALÉM EXCELSA_
-  - _696 - NA TERRA ABENÇOADA_
-  - _697 - OUVI O SALVADOR DIZER_
-  - _698 - TUA, Ó DEUS, É TODA A GRANDEZA_
-  - _699 - QUE GRANDE REUNIÃO (JESUS DE NAZARÉ)_
-  - _700 - ESTEVÃO AVISTOU (EU TAMBÉM QUERO VER)_
-  - _701 - AS TUAS MÃOS_
-  - _702 - OS CÉUS EM BREVE SE ABRIRÃO_
-  - _703 - SERÁ DE MANHÃ_
-  - _704 - SENHOR, SE ESTIVESSES AQUI (LÁZARO)_
-  - _705 - GRANDES SÃO, SENHOR, OS TEUS FEITOS (GRATIDÃO)_
-  - _706 - DESTE MUNDO ESCRAVO FUI_
-  - _707 - EU CONFIO EM TI, SENHOR_
-  - _708 - OUVI NO CÉU (BODAS DO CORDEIRO)_
-  - _709 - RESPLANDECE, Ó JERUSALÉM_
-  - _710 - O MEU VIVER É CRISTO_
-  - _711 - TUA GRAÇA ME BASTA, Ó SENHOR_
-  - _712 - AO FINDAR O LABOR DESTA VIDA (A ÚLTIMA HORA)_
-  - _713 - CAREÇO DE JESUS!_
-  - _714 - COM TUA MÃO SEGURA BEM A MINHA_
-  - _715 - DEUS VOS GUARDE PELO SEU PODER_
-  - _716 - ENQUANTO, Ó SALVADOR, TEU LIVRO LER_
-  - _717 - A TERRA SEMEAMOS_
-  - _718 - GUIA, Ó CRISTO, A MINHA NAU_
-  - _719 - AVANTE, AVANTE, Ó CRENTES_
-  - _720 - AS GRUTAS, AS ROCHAS IMENSAS_
-  - _721 - PROCLAMAI A TODO O MUNDO_
-  - _722 - A DEUS, SUPREMO CRIADOR_
-  - _723 - CRISTO PODE HOJE VIR (OH! DIA ALEGRE!)_
-  - _724 - EIS OS MILHÕES_
-  - _725 - EU PERDIDO PECADOR_
-  - _726 - QUANDO A TEMPESTADE RUGE_
-  - _727 - EIS QUE ABRO A PORTA_
-  - _728 - NOSSA GRATIDÃO_
-  - _729 - OS TEUS ANJOS TE EXALTAM_
-  - _730 - SÓ TU NOS FAZES VENCEDORES_
-  - _731 - SEQUÊNCIA DE LOUVORES Nº 1_
-  - _732 - SEQUÊNCIA DE LOUVORES Nº 2_
-  - _733 - SEQUÊNCIA DE LOUVORES Nº 3_
-  - _734 - A VIDA DE MINH’ALMA_
-  - _735 - SEU NOME É JESUS_
-  - _736 - CRISTO É A RESPOSTA_
-  - _737 - SE ESTÁS CANSADO_
-  - _738 - GLÓRIA, GLÓRIA_
-  - _739 - EU TENHO UM TESOURO_
-  - _740 - EU TENHO UM DEUS MUI, MUI, MUI GRANDE_
-  - _741 - NÃO HÁ DEUS TÃO GRANDE COMO TU_
-  - _742 - NO CÉU HÁ JANELAS ABERTAS_
-  - _743 - VENCEDOR SEREI_
-  - _744 - VITÓRIA DEUS DARÁ A MIM, EU SEI_
-  - _745 - É DEUS QUEM NOS TEM DADO A VITÓRIA_
-  - _746 - JESUS É O AMIGO MELHOR_
-  - _747 - SENHOR, MANDA PODER_
-  - _748 - QUE CALOR É ESTE EM VOLTA DO ALTAR_
-  - _749 - MANDA FOGO, SENHOR_
-  - _750 - DEIXA A GLÓRIA DE DEUS BRILHAR_
-  - _751 - EU LOUVAREI, EU LOUVAREI_
-  - _752 - ESTOU ALEGRE_
-  - _753 - A NOIVA É A IGREJA_
-  - _754 - EU VEREI A ÁRVORE DA VIDA_
-  - _755 - SOMENTE PELA FÉ A OBRA DE DEUS_
-  - _756 - QUEM CANTAR AQUI SE ALEGRARÁ_
-  - _757 - COMO ACONTECEU EM JERUSALÉM_
-  - _758 - ESTA ALEGRIA NÃO VAI MAIS SAIR_
-  - _759 - NUNCA MAIS, NUNCA MAIS_
-  - _760 - DO CÉU VIRÁ_
-  - _761 - CADA PASSO QUE DÁS_
-  - _762 - O CÉU É UM LUGAR MARAVILHOSO_
-  - _763 - JESUS É TUDO PRA MIM_
-  - _764 - NÓS VAMOS LÁ, IRMÃOS_
-  - _765 - LÁ NO CÉU TODOS CANTAM ALELUIA!_
-  - _766 - NO DIA DA GRANDE GLÓRIA_
-  - _767 - CONTA PRA JESUS ONDE É A TUA DOR_
-  - _768 - A VITÓRIA DESTA IGREJA É ORAÇÃO_
-  - _769 - O GRANDE RELÓGIO_
-  - _770 - POR QUE DEIXAR QUE AS ÂNSIAS_
-  - _771 - CAMINHANDO VOU PARA CANAÃ_
-  - _772 - CADA DIA ME DIRIGE_
-  - _773 - ABRA A PORTA, VENHA VER!_
-  - _774 - CHEGADO A CRUZ DO MEU SALVADOR_
-  - _775 - SUBINDO PARA O CÉU EU VOU_
-  - _776 - CERTA VEZ EU ORANDO_
-  - _777 - COMO AS ÁGUAS_
-  - _778 - DEUS ESTÁ AQUI_
-  - _779 - ABRE A PORTA DO TEU CORAÇÃO_
-  - _780 - CANTAREI, CANTAREI AS  MISERICÓRDIAS_
-  - _781 - SÓ O PODER DE DEUS_
-  - _782 - TENHO NOVA VIDA_
-  - _783 - FELIZ, FELIZ EU SOU_
-  - _784 - CANTAI AO SENHOR UM CÂNTICO NOVO_
-  - _785 - ESTOU CONFIANDO_
-  - _786 - QUE AS PALAVRAS DA MINHA BOCA_
-  - _787 - ARDENDO EM FOGO MINH’ALMA ESTÁ_
-  - _788 - IGREJA, TU VAIS SUBIR_
-  - _789 - NA PRESENÇA DE JESUS_
-  - _790 - AQUELE QUE HABITA NO ESCONDERIJO_
-  - _791 - EU QUERO MAIS E MAIS DE CRISTO_
-  - _792 - LOUVANDO A DEUS_
-  - _793 - MESA PREPARADA_
-  - _794 - JESUS LIBERTOU_
-  - _AQUILO QUE FUI NÃO SOU MAIS_
+  - _2 - O SANGUE DE JESUS TEM PODER PARA SALVAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _3 - CLAMO A TI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _4 - QUANDO TE PROSTRARES_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _5 - CLAMANDO ESTOU_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _6 - JESUS, Ó MEU JESUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _7 - NESTA HORA EM ORAÇÃO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _8 - PELO SANGUE DE JESUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _9 - SENHOR, ME CHEGO A TI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _10 - VAMOS LAVAR AS VESTES_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _11 - REVESTE, SENHOR, TEU POVO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _12 - HÁ VITÓRIA PARA MIM_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _13 - PÕE TEU SANGUE SOBRE MIM_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _14 - EM TEU ALTAR, SENHOR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _15 - CLAMAREI, CLAMAREI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _16 - SE ANDARMOS NA LUZ_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _17 - EM TUA PRESENÇA ENTRAMOS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _18 - PROSTRADO ESTOU DIANTE DE TI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _19 - TEU POVO CLAMA_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _20 - O TEU PECADO TU QUERES DEIXAR?_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _21 - NESTA HORA DE CLAMOR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _22 - BENDITO SEJA O CORDEIRO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _23 - SENHOR, OUVE A MINHA ORAÇÃO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _24 - EIS O CORDEIRO DE DEUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _25 - SENHOR, A TI CLAMO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _26 - SEJA SÓ O SENHOR LOUVADO AQUI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _27 - CORDEIRO ETERNO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _28 - O PODER DO SANGUE DE JESUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _29 - TRANSBORDA-ME, SENHOR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _30 - OH! QUE PRECIOSO SANGUE_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _31 - JUNTO A TI SUPLICO, Ó PAI_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _32 - O SANGUE DE JESUS, VERTIDO ALI NA CRUZ_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _33 - EU ME PROSTRO EM TEU ALTAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _34 - QUANDO BUSCAMOS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _35 - A MEU SENHOR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _36 - CRUCIFICADO FOI MEU JESUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _37 - NESTA HORA ESQUEÇO O MUNDO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _38 - PELO SANGUE DE JESUS IREICLAMAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _39 - JESUS, TU ÉS O MEU DEUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _40 - OH! QUE SANGUE PODEROSO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _41 - ALÉM DO VÉU EU QUERO ESTAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _42 - SENHOR, SUPLICO A TI EM ORAÇÃO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _43 - VOU CLAMAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _44 - CONFORME A SUA INFINITA GRAÇA_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _45 - NOS ÁTRIOS DO SENHOR ENTRAMOS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _46 - AO SENTIR O TEU PERDÃO_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _47 - É TEU SANGUE_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _48 - PELO SANGUE DE JESUS EU VOU CLAMAR_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _49 - NA HORA EM QUE EU QUISER FALAR COM DEUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _50 - O SANGUE DE JESUS_ <span class="label label-primary">Rev.: 17/03/2018 - Ítalo</span>
+  - _51 - O CORDEIRO QUE NA CRUZ MORREU_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _52 - ESCUTA-ME, SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _53 - O SANGUE DO CORDEIRO DE DEUS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _54 - HÁ VITÓRIA SEMPRE EM TI, SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _55 - SENHOR, MEU DEUS E PAI_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _56 - VITÓRIA SOBRE VITÓRIA_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _57 - EM FERVENTE ORAÇÃO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _58 - ATENDE A VOZ DO MEU CLAMOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _59 - SE ORARMOS AO SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _60 - BEM DE MANHÃ, EMBORA O CÉU SERENO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _61 - SUBA A MINHA ORAÇÃO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _62 - NO SILÊNCIO DA NOITE_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _63 - INVOCA-ME E TE RESPONDEREI_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _64 - BRILHE SOBRE MIM_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _65 - QUANDO O DIA AMANHECE_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _66 - DE MADRUGADA EU BUSCO A FACE DO SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _67 - TOCA PELA FÉ_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _68 - LÁ NO CIMO DO MONTE_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _69 - O ANJO DO SENHOR ESTÁ PASSEANDO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _70 - PRECIOSAS SÃO AS HORAS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _71 - VEM, AMADO MEU_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _72 - É PRECISO CONFIAR E BUSCAR A DEUS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _73 - DEUS ESTÁ NO TEMPLO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _74 - SEI, SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _75 - SENTE EM TUA FACE O ROÇAR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _76 - NESTA NOITE FELIZ_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _77 - VEM, VISITA TUA IGREJA_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _78 - UMA VOZ MANSA E DELICADA_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _79 - DEUS ESTÁ PRESENTE ENTRE PECADORES COMO NÓS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _80 - VIVES MUITO ALÉM DO CÉU_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _81 - GRANDE DEUS, ÚNICO DEUS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _82 - CADA INSTANTE_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _83 - MAIS UMA VEZ_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _84 - ATENDE, SENHOR, A MINHA ORAÇÃO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _85 - ENVIA A TUA LUZ_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _86 - EM TEU NOME_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _87 - MEU PECADO RESGATADO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _88 - DAS PROFUNDEZAS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _89 - DAS PROFUNDEZAS CLAMO A TI, Ó SENHOR!_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _90 - EM TUAS MÃOS, SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _91 - JESUS, A MINH’ALMA TEM SEDE DE TI_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _92 - PAI CELESTE_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _93 - LOGO DE MANHÃ_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _94 - BENDITA A HORA DE ORAÇÃO_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _95 - BUSCAR-ME-EIS_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _96 - COM A MINHA VOZ CLAMO AO SENHOR_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _97 - BUSCOU-ME COM TERNURA_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _98 - ONDE ESTARIA EU?_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _99 - UM DIA JESUS ACHOU-ME_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _100 - EU ME LEMBRO QUANDO JESUS ME TOCOU_ <span class="label label-primary">Rev.: 27/03/2018 - Ítalo</span>
+  - _101 - QUEM ERA EU ANTES DE CONHECER_ <span class="label label-danger">Não revisado</span>
+  - _102 - MARAVILHOSO E SUBLIME PRA MIM_ <span class="label label-danger">Não revisado</span>
+  - _103 - A MINH’ALMA ESTAVA LONGE DO CAMINHO DO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _104 - VIVI TÃO LONGE DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _105 - PERDIDO FOI QUE ELE ME ENCONTROU_ <span class="label label-danger">Não revisado</span>
+  - _106 - PELA FÉ SOMOS SALVOS_ <span class="label label-danger">Não revisado</span>
+  - _107 - QUANDO ANDAVA NO MUNDO ESCRAVIZADO_ <span class="label label-danger">Não revisado</span>
+  - _108 - ISRAEL SAIU DO EGITO_ <span class="label label-danger">Não revisado</span>
+  - _109 - A MINHA VIDA TÃO VAZIA_ <span class="label label-danger">Não revisado</span>
+  - _110 - OH! QUÃO CEGO ANDEI E PERDIDO VAGUEI_ <span class="label label-danger">Não revisado</span>
+  - _111 - O POVO QUE ANDAVA EM TREVAS_ <span class="label label-danger">Não revisado</span>
+  - _112 - UMA LUZ BRILHOU EM MEU CAMINHO_ <span class="label label-danger">Não revisado</span>
+  - _113 - JESUS, A LUZ DIVINA_ <span class="label label-danger">Não revisado</span>
+  - _114 - AS RIQUEZAS DO MUNDO_ <span class="label label-danger">Não revisado</span>
+  - _115 - GRAÇAS DOU, Ó SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _116 - ACHEI SALVAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _117 - COMO DESISTIR DESTE GRANDE AMOR?_ <span class="label label-danger">Não revisado</span>
+  - _118 - Ó SENHOR, DEUS DE ISRAEL (EDIFIQUEI UMA CASA)_ <span class="label label-danger">Não revisado</span>
+  - _119 - JESUS, NOME PRECIOSO_ <span class="label label-danger">Não revisado</span>
+  - _120 - JESUS CRISTO MUDOU MEU VIVER_ <span class="label label-danger">Não revisado</span>
+  - _121 - TUDO, Ó CRISTO, A TI ENTREGO_ <span class="label label-danger">Não revisado</span>
+  - _122 - AMO AO SENHOR PORQUE ELE ME OUVIU_ <span class="label label-danger">Não revisado</span>
+  - _123 - SEGUIR-TE-EI_ <span class="label label-danger">Não revisado</span>
+  - _124 - PEREGRINANDO POR SOBRE OS MONTES_ <span class="label label-danger">Não revisado</span>
+  - _125 - PELA FÉ EU CAMINHO_ <span class="label label-danger">Não revisado</span>
+  - _126 - QUERO PROSSEGUIR_ <span class="label label-danger">Não revisado</span>
+  - _127 - ESTOU A CAMINHAR_ <span class="label label-danger">Não revisado</span>
+  - _128 - QUANDO A MÃO DE DEUS EM MIM VEIO TOCAR_ <span class="label label-danger">Não revisado</span>
+  - _129 - FELICIDADE É TER CRISTO AO MEU LADO_ <span class="label label-danger">Não revisado</span>
+  - _130 - TENHO GRANDE GOZO_ <span class="label label-danger">Não revisado</span>
+  - _131 - ÀS VEZES, ALGUÉM ME PERGUNTA_ <span class="label label-danger">Não revisado</span>
+  - _132 - JÁ NÃO ESTOU SOZINHO_ <span class="label label-danger">Não revisado</span>
+  - _133 - EU ESTAVA SÓ, SEM O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _134 - QUE SEGURANÇA TENHO EM JESUS_ <span class="label label-danger">Não revisado</span>
+  - _135 - EM MEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _136 - ESTA PAZ QUE SINTO EM MINH’ALMA_ <span class="label label-danger">Não revisado</span>
+  - _137 - QUE DOCE VOZ TEM MEU SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _138 - HÁ SEMPRE ALGUÉM QUE NÃO PROVOU_ <span class="label label-danger">Não revisado</span>
+  - _139 - NÃO SEI POR QUE DE DEUS O AMOR_ <span class="label label-danger">Não revisado</span>
+  - _140 - AS MUITAS ÁGUAS_ <span class="label label-danger">Não revisado</span>
+  - _141 - O AMOR DE DEUS POR NÓS_ <span class="label label-danger">Não revisado</span>
+  - _142 - CRISTO, MEU MESTRE, SEMPRE HÁ DE AMAR-ME_ <span class="label label-danger">Não revisado</span>
+  - _143 - SE NÃO FOSSE O AMOR_ <span class="label label-danger">Não revisado</span>
+  - _144 - JESUS, AGORA EU BEM SEI_ <span class="label label-danger">Não revisado</span>
+  - _145 - É O AMOR DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _146 - EXISTE UM ALGUÉM QUE CUIDA DE MIM_ <span class="label label-danger">Não revisado</span>
+  - _147 - CRISTO É TUDO PARA MIM_ <span class="label label-danger">Não revisado</span>
+  - _148 - UMA CERTA VEZ, JESUS CRISTO_ <span class="label label-danger">Não revisado</span>
+  - _149 - JESUS FEZ A PROMESSA_ <span class="label label-danger">Não revisado</span>
+  - _150 - VOU CONTAR-VOS O QUE PENSO DO MEU MESTRE_ <span class="label label-danger">Não revisado</span>
+  - _151 - CRISTO JESUS É O MEU BOM SALVADOR_ <span class="label label-danger">Não revisado</span>
+  - _152 - MAIS PERTO DE JESUS_ <span class="label label-danger">Não revisado</span>
+  - _153 - CRISTO, NOME MAIS ALTO_ <span class="label label-danger">Não revisado</span>
+  - _154 - Ó TU QUE HABITAS ENTRE OS QUERUBINS_ <span class="label label-danger">Não revisado</span>
+  - _155 - HÁ UM SER QUE VIVE EM MIM_ <span class="label label-danger">Não revisado</span>
+  - _156 - TOTALMENTE DESEJÁVEL É MEU AMADO_ <span class="label label-danger">Não revisado</span>
+  - _157 - CRISTO É A ROSA MAIS BELA_ <span class="label label-danger">Não revisado</span>
+  - _158 - JESUS, O LÍRIO DOS VALES_ <span class="label label-danger">Não revisado</span>
+  - _159 - ELE É A ROSA DE SAROM_ <span class="label label-danger">Não revisado</span>
+  - _160 - EU SOU DO MEU AMADO E ELE ME TEM AFEIÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _161 - ERA UMA OLIVEIRA_ <span class="label label-danger">Não revisado</span>
+  - _162 - GRANDIOSO PARA MIM_ <span class="label label-danger">Não revisado</span>
+  - _163 - TENHO UMA PEDRA VIVA_ <span class="label label-danger">Não revisado</span>
+  - _164 - É BASTANTE PARA MIM A TUA GRAÇA_ <span class="label label-danger">Não revisado</span>
+  - _165 - MARAVILHOSA GRAÇA_ <span class="label label-danger">Não revisado</span>
+  - _166 - Ó AMADO DE MINH´ALMA_ <span class="label label-danger">Não revisado</span>
+  - _167 - AMO AO MEU SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _168 - TU ÉS FIEL, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _169 - COMO A FLOR DO CAMPO_ <span class="label label-danger">Não revisado</span>
+  - _170 - EU SOU TÃO FELIZ COM O MEU JESUS_ <span class="label label-danger">Não revisado</span>
+  - _171 - O AMOR DE JESUS É GRANDE_ <span class="label label-danger">Não revisado</span>
+  - _172 - SENHOR, TE AMO, TE AMO_ <span class="label label-danger">Não revisado</span>
+  - _173 - QUANDO JESUS UM DIA_ <span class="label label-danger">Não revisado</span>
+  - _174 - A MINHA HERANÇA É O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _175 - DESDE O DIA EM QUE TE CONHECI_ <span class="label label-danger">Não revisado</span>
+  - _176 - NÃO EXISTE OUTRO AMOR IGUAL AO TEU, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _177 - SEMPRE VOU LEMBRAR O QUE FIZESTE POR MIM_ <span class="label label-danger">Não revisado</span>
+  - _178 - O DEUS A QUEM SERVIMOS_ <span class="label label-danger">Não revisado</span>
+  - _179 - PELA FÉ EU POSSO CONTEMPLAR JESUS_ <span class="label label-danger">Não revisado</span>
+  - _180 - ENCONTREI O GRANDE AMOR_ <span class="label label-danger">Não revisado</span>
+  - _181 - EM TI EU ENCONTRO, Ó DEUS, TODA PAZ_ <span class="label label-danger">Não revisado</span>
+  - _182 - COMO É BOM SERVIR AO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _183 - A MINHA ALEGRIA_ <span class="label label-danger">Não revisado</span>
+  - _184 - REDENTOR ONIPOTENTE_ <span class="label label-danger">Não revisado</span>
+  - _185 - JESUS, SENHOR, ME CHEGO A TI_ <span class="label label-danger">Não revisado</span>
+  - _186 - PARA QUEM IREMOS NÓS?_ <span class="label label-danger">Não revisado</span>
+  - _187 - MINH´ALMA TEM SEDE DE TI_ <span class="label label-danger">Não revisado</span>
+  - _188 - VENHO, SENHOR, MINHA VIDA OFERECER_ <span class="label label-danger">Não revisado</span>
+  - _189 - DEPENDO DE TI, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _190 - TODO O MEU SER TE AMA_ <span class="label label-danger">Não revisado</span>
+  - _191 - EU QUERO SENTIR_ <span class="label label-danger">Não revisado</span>
+  - _192 - JESUS, JESUS, EU TE AMO_ <span class="label label-danger">Não revisado</span>
+  - _193 - AS MUITAS ÁGUAS NÃO PODERIAM APAGAR_ <span class="label label-danger">Não revisado</span>
+  - _194 - QUERO ANDAR EM TEU CAMINHO, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _195 - GRANDE AMOR, Ó GRANDE AMOR_ <span class="label label-danger">Não revisado</span>
+  - _196 - O GRANDE AMOR DO MEU SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _197 - HOJE QUERO SOMENTE AGRADECER_ <span class="label label-danger">Não revisado</span>
+  - _198 - ELE É A MINHA ALEGRIA_ <span class="label label-danger">Não revisado</span>
+  - _199 - COMO É BOM OUVIR TUA VOZ_ <span class="label label-danger">Não revisado</span>
+  - _200 - EU SIRVO UM DEUS_ <span class="label label-danger">Não revisado</span>
+  - _201 - SEU CORPO CANSADO PELAS CAMINHADAS_ <span class="label label-danger">Não revisado</span>
+  - _202 - HÁ UMA FONTE ABERTA NO CALVÁRIO_ <span class="label label-danger">Não revisado</span>
+  - _203 - JESUS IA SUBINDO O MONTE_ <span class="label label-danger">Não revisado</span>
+  - _204 - MORRI NA CRUZ POR TI_ <span class="label label-danger">Não revisado</span>
+  - _205 - JESUS IA SEGUINDO_ <span class="label label-danger">Não revisado</span>
+  - _206 - PAI, A TI ENTREGO O MEU ESPÍRITO_ <span class="label label-danger">Não revisado</span>
+  - _207 - DEUS ENVIOU SEU FILHO AMADO_ <span class="label label-danger">Não revisado</span>
+  - _208 - DEUS AMOU O MUNDO DE TAL MANEIRA_ <span class="label label-danger">Não revisado</span>
+  - _209 - DEUS O SEU FILHO ENVIOU_ <span class="label label-danger">Não revisado</span>
+  - _210 - UM DIA JESUS DESCEU DA SUA GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _211 - CORTARAM O MADEIRO_ <span class="label label-danger">Não revisado</span>
+  - _212 - RUDE CRUZ_ <span class="label label-danger">Não revisado</span>
+  - _213 - CRISTO CAMINHAVA EM DIREÇÃO À CRUZ_ <span class="label label-danger">Não revisado</span>
+  - _214 - DOIS DISCÍPULOS NO CAMINHO DE EMAÚS_ <span class="label label-danger">Não revisado</span>
+  - _215 - CERTO HOMEM TÃO NOBRE_ <span class="label label-danger">Não revisado</span>
+  - _216 - SOMOS TEU POVO_ <span class="label label-danger">Não revisado</span>
+  - _217 - DEIXOU O ESPLENDOR DE SUA GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _218 - POR AMOR JESUS MORREU_ <span class="label label-danger">Não revisado</span>
+  - _219 - POR AMOR_ <span class="label label-danger">Não revisado</span>
+  - _220 - NÃO HÁ AMOR IGUAL_ <span class="label label-danger">Não revisado</span>
+  - _221 - JESUS, EM TUA PRESENÇA_ <span class="label label-danger">Não revisado</span>
+  - _222 - EIS QUE ESTOU À PORTA_ <span class="label label-danger">Não revisado</span>
+  - _223 - ONDE ESTÁ O CORDEIRO?_ <span class="label label-danger">Não revisado</span>
+  - _224 - ERA UM PECADOR, ANDAVA SEM JESUS_ <span class="label label-danger">Não revisado</span>
+  - _225 - JESUS É MELHOR, SIM, QUE OURO E BENS_ <span class="label label-danger">Não revisado</span>
+  - _226 - O SENTIDO DE VIVER_ <span class="label label-danger">Não revisado</span>
+  - _227 - SÓ JESUS TE PODE DAR O QUE PROCURAS_ <span class="label label-danger">Não revisado</span>
+  - _228 - ENTREGA O TEU CAMINHO AO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _229 - AO POÇO DE JACÓ CHEGOU JESUS_ <span class="label label-danger">Não revisado</span>
+  - _230 - FONTE DE ÁGUAS VIVAS_ <span class="label label-danger">Não revisado</span>
+  - _231 - QUEM ME DÁ ÁGUA_ <span class="label label-danger">Não revisado</span>
+  - _232 - QUEM BEBER DA ÁGUA QUE EU LHE DER_ <span class="label label-danger">Não revisado</span>
+  - _233 - VOU GUIAR-TE A UMA RICA FONTE_ <span class="label label-danger">Não revisado</span>
+  - _234 - DEUS HOJE QUER TE FALAR_ <span class="label label-danger">Não revisado</span>
+  - _235 - MANSO E SUAVE JESUS ESTÁ CHAMANDO_ <span class="label label-danger">Não revisado</span>
+  - _236 - OUVE A VOZ DE JESUS_ <span class="label label-danger">Não revisado</span>
+  - _237 - EIS MENSAGEM DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _238 - TANTO TEMPO JÁ FAZ QUE O CHAMADO DIVINAL_ <span class="label label-danger">Não revisado</span>
+  - _239 - DEIXA DEUS FALAR AO TEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _240 - SE CANSADO TU ESTÁS_ <span class="label label-danger">Não revisado</span>
+  - _241 - MEU AMADO FILHO_ <span class="label label-danger">Não revisado</span>
+  - _242 - SE ESTA NOITE DEUS PEDIR TUA ALMA_ <span class="label label-danger">Não revisado</span>
+  - _243 - JÁ ACHEI UMA FLOR GLORIOSA_ <span class="label label-danger">Não revisado</span>
+  - _244 - EU DESCI PARA O VALE DE BÊNÇÃO E PAZ_ <span class="label label-danger">Não revisado</span>
+  - _245 - POR ONDE QUER QUE EU VÁ_ <span class="label label-danger">Não revisado</span>
+  - _246 - SE EM TEU VIVER_ <span class="label label-danger">Não revisado</span>
+  - _247 - SE ANDA TRISTE O TEU VIVER_ <span class="label label-danger">Não revisado</span>
+  - _248 - SE VOCÊ QUISER SABER_ <span class="label label-danger">Não revisado</span>
+  - _249 - SE EM TUA VIDA FALTA PAZ_ <span class="label label-danger">Não revisado</span>
+  - _250 - SE TU PROCURAS PELA PAZ_ <span class="label label-danger">Não revisado</span>
+  - _251 - A PAZ QUE TU PROCURAS_ <span class="label label-danger">Não revisado</span>
+  - _252 - SE DISPUSERES O TEU CORAÇÃO (JÓ 11:13-19)_ <span class="label label-danger">Não revisado</span>
+  - _253 - SE DISPUSERES O TEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _254 - OLHAI PARA O ALTO_ <span class="label label-danger">Não revisado</span>
+  - _255 - MEU CORAÇÃO ENGRANDECE_ <span class="label label-danger">Não revisado</span>
+  - _256 - NÃO MAIS VIVO EU MAS CRISTO VIVE EM MIM_ <span class="label label-danger">Não revisado</span>
+  - _257 - TUDO SE FEZ NOVO_ <span class="label label-danger">Não revisado</span>
+  - _258 - SE TU ESTÁS TÃO LONGE DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _259 - COMO UM BOM PASTOR_ <span class="label label-danger">Não revisado</span>
+  - _260 - DEUS ESTÁ PRESENTE AQUI NESTE LUGAR_ <span class="label label-danger">Não revisado</span>
+  - _261 - CRISTO CAMINHAVA LENTAMENTE_ <span class="label label-danger">Não revisado</span>
+  - _262 - QUERO QUE VOCÊ CONHEÇA_ <span class="label label-danger">Não revisado</span>
+  - _263 - QUERES IR PARA GLÓRIA?_ <span class="label label-danger">Não revisado</span>
+  - _264 - OH! QUE BELOS HINOS HOJE LÁ NO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _265 - LEVA TU CONTIGO O NOME_ <span class="label label-danger">Não revisado</span>
+  - _266 - TODOS OS POVOS_ <span class="label label-danger">Não revisado</span>
+  - _267 - QUANDO JESUS SEU SANGUE VERTEU_ <span class="label label-danger">Não revisado</span>
+  - _268 - JESUS É O CORDEIRO_ <span class="label label-danger">Não revisado</span>
+  - _269 - NÃO SEI SE OUVISTE FALAR_ <span class="label label-danger">Não revisado</span>
+  - _270 - SE TU PEDISTE UM SINAL_ <span class="label label-danger">Não revisado</span>
+  - _271 - O CAMINHO QUE NOS LEVA AO CÉU É JESUS_ <span class="label label-danger">Não revisado</span>
+  - _272 - NOVO CAMINHO_ <span class="label label-danger">Não revisado</span>
+  - _273 - O SENHOR É A ALEGRIA_ <span class="label label-danger">Não revisado</span>
+  - _274 - SE EM TUA VIDA NÃO ENCONTRAS PAZ E LUZ_ <span class="label label-danger">Não revisado</span>
+  - _275 - UM MILAGRE É_ <span class="label label-danger">Não revisado</span>
+  - _276 - AINDA QUE OS SEUS SONHOS_ <span class="label label-danger">Não revisado</span>
+  - _277 - ROCHA ETERNA_ <span class="label label-danger">Não revisado</span>
+  - _278 - A NOVA DO EVANGELHO_ <span class="label label-danger">Não revisado</span>
+  - _279 - QUERO ESTAR AO PÉ DA CRUZ_ <span class="label label-danger">Não revisado</span>
+  - _280 - HÁ HOJE ALGUÉM ESPERANDO_ <span class="label label-danger">Não revisado</span>
+  - _282 - QUEM É QUE DÁ ÁGUA AO SEDENTO?_ <span class="label label-danger">Não revisado</span>
+  - _283 - O MUNDO NÃO SABE_ <span class="label label-danger">Não revisado</span>
+  - _284 - O AMOR DE DEUS É GRANDE_ <span class="label label-danger">Não revisado</span>
+  - _285 - TU QUE ANDAS SÓ E TRISTE SEM SABER O CAMINHO_ <span class="label label-danger">Não revisado</span>
+  - _286 - UM DIA EU QUIS TE DEIXAR_ <span class="label label-danger">Não revisado</span>
+  - _287 - NÃO TINHA PARECER_ <span class="label label-danger">Não revisado</span>
+  - _288 - BASTA DIZERES O QUE QUERES_ <span class="label label-danger">Não revisado</span>
+  - _289 - ESTENDE TUA MÃO_ <span class="label label-danger">Não revisado</span>
+  - _290 - O QUE OS OLHOS NUNCA VIRAM_ <span class="label label-danger">Não revisado</span>
+  - _291 - SEMPRE QUE QUISERES FALAREI CONTIGO_ <span class="label label-danger">Não revisado</span>
+  - _292 - AO SENTIR O MUNDO AO MEU REDOR_ <span class="label label-danger">Não revisado</span>
+  - _293 - ALMA CANSADA_ <span class="label label-danger">Não revisado</span>
+  - _294 - JESUS IA CAMINHANDO (CANTA MEU POVO)_ <span class="label label-danger">Não revisado</span>
+  - _295 - DAS PROFUNDEZAS A TI CLAMO, Ó SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _296 - TODA A MINHA DOR JESUS LEVOU_ <span class="label label-danger">Não revisado</span>
+  - _297 - EM ME VINDO O TEMOR_ <span class="label label-danger">Não revisado</span>
+  - _298 - NEM SEMPRE ENTENDEMOS_ <span class="label label-danger">Não revisado</span>
+  - _299 - HÁ MOMENTOS QUE AS PALAVRAS NÃO RESOLVEM_ <span class="label label-danger">Não revisado</span>
+  - _300 - QUANDO PARECE QUE TUDO ACABOU_ <span class="label label-danger">Não revisado</span>
+  - _301 - QUANDO A TRISTEZA SURGIR_ <span class="label label-danger">Não revisado</span>
+  - _302 - SE A VIDA PARECE PESADA_ <span class="label label-danger">Não revisado</span>
+  - _303 - SE NÃO PUDERES MAIS_ <span class="label label-danger">Não revisado</span>
+  - _304 - BASTA QUE ME TOQUES, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _305 - O SENHOR É A MINHA LUZ_ <span class="label label-danger">Não revisado</span>
+  - _306 - MEDO TENS QUE O TENTADOR TE VÁ VENCER?_ <span class="label label-danger">Não revisado</span>
+  - _307 - PELO VALE ESCURO SEGUIREI JESUS_ <span class="label label-danger">Não revisado</span>
+  - _308 - PROFUNDOS VALES EU TEREI DE PASSAR_ <span class="label label-danger">Não revisado</span>
+  - _309 - OH! POR QUE DUVIDAR?_ <span class="label label-danger">Não revisado</span>
+  - _310 - MESTRE O MAR SE REVOLTA_ <span class="label label-danger">Não revisado</span>
+  - _311 - SÓ UMA VOZ ME BASTA_ <span class="label label-danger">Não revisado</span>
+  - _312 - SE, DA VIDA, AS VAGAS PROCELOSAS SÃO_ <span class="label label-danger">Não revisado</span>
+  - _313 - O QUE HABITA NO ABRIGO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _314 - QUE IMPORTA_ <span class="label label-danger">Não revisado</span>
+  - _315 - SE EM PROFUNDO ABISMO TE ENCONTRAS_ <span class="label label-danger">Não revisado</span>
+  - _316 - A VIDA NO MUNDO É CRUEL_ <span class="label label-danger">Não revisado</span>
+  - _317 - QUANDO VEM NOS OLHOS UMA LÁGRIMA_ <span class="label label-danger">Não revisado</span>
+  - _318 - QUANDO A ANGÚSTIA VEM_ <span class="label label-danger">Não revisado</span>
+  - _319 - MAIS PERTO QUERO ESTAR_ <span class="label label-danger">Não revisado</span>
+  - _320 - BOM É O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _321 - QUÃO BONDOSO AMIGO É CRISTO_ <span class="label label-danger">Não revisado</span>
+  - _322 - HÁ UM AMIGO SEMPRE JUNTO_ <span class="label label-danger">Não revisado</span>
+  - _323 - DEUS ESTÁ PRESENTE SEMPRE PRONTO A NOS AJUDAR_ <span class="label label-danger">Não revisado</span>
+  - _324 - EU SOU POBRE E NECESSITADO_ <span class="label label-danger">Não revisado</span>
+  - _325 - SE HOJE ESCUTARES_ <span class="label label-danger">Não revisado</span>
+  - _326 - EU NÃO SABERIA CAMINHAR_ <span class="label label-danger">Não revisado</span>
+  - _327 - DEUS É CONTIGO_ <span class="label label-danger">Não revisado</span>
+  - _328 - CONSOLAI, CONSOLAI O MEU POVO_ <span class="label label-danger">Não revisado</span>
+  - _329 - ATUA EM NOSSO MEIO_ <span class="label label-danger">Não revisado</span>
+  - _330 - EIS AÍ O DIA ACEITÁVEL_ <span class="label label-danger">Não revisado</span>
+  - _331 - SE DEUS É POR NÓS_ <span class="label label-danger">Não revisado</span>
+  - _332 - O REI E EU_ <span class="label label-danger">Não revisado</span>
+  - _333 - SE TE ENCONTRARES TRISTE_ <span class="label label-danger">Não revisado</span>
+  - _334 - DEUS CUIDA DE TI_ <span class="label label-danger">Não revisado</span>
+  - _335 - NÃO DESANIMES! DEUS PROVERÁ_ <span class="label label-danger">Não revisado</span>
+  - _336 - HÁ ALGUÉM QUE CUIDA DE TI_ <span class="label label-danger">Não revisado</span>
+  - _337 - O MESMO DEUS_ <span class="label label-danger">Não revisado</span>
+  - _338 - DIVINO COMPANHEIRO_ <span class="label label-danger">Não revisado</span>
+  - _339 - PARA OS MONTES OLHAREI_ <span class="label label-danger">Não revisado</span>
+  - _340 - DEUS TE GUARDARÁ_ <span class="label label-danger">Não revisado</span>
+  - _341 - QUE CONSOLAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _342 - ROCHA MINHA_ <span class="label label-danger">Não revisado</span>
+  - _343 - OS QUE CONFIAM NO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _344 - CONFIO EM DEUS_ <span class="label label-danger">Não revisado</span>
+  - _345 - EM NADA PONHO A MINHA FÉ_ <span class="label label-danger">Não revisado</span>
+  - _346 - SE A FÉ POR VEZES FALTA_ <span class="label label-danger">Não revisado</span>
+  - _347 - FIRME NAS PROMESSAS_ <span class="label label-danger">Não revisado</span>
+  - _348 - ESPERA NO SENHOR, ANIMA-TE_ <span class="label label-danger">Não revisado</span>
+  - _349 - SE NÃO FOSSE O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _350 - FAZ-ME INABALÁVEL_ <span class="label label-danger">Não revisado</span>
+  - _351 - TU ÉS MEU REI_ <span class="label label-danger">Não revisado</span>
+  - _352 - QUERES NESTE MUNDO SER UM VENCEDOR_ <span class="label label-danger">Não revisado</span>
+  - _353 - DEIXA-ME CHORAR_ <span class="label label-danger">Não revisado</span>
+  - _354 - CRISTO ME DARÁ_ <span class="label label-danger">Não revisado</span>
+  - _355 - VENCER, VENCER_ <span class="label label-danger">Não revisado</span>
+  - _356 - O SENHOR É O MEU PASTOR_ <span class="label label-danger">Não revisado</span>
+  - _357 - O SENHOR É O MEU PASTOR_ <span class="label label-danger">Não revisado</span>
+  - _358 - O SENHOR É O MEU PASTOR (SALMO 23)_ <span class="label label-danger">Não revisado</span>
+  - _359 - DEUS É NOSSO AMPARO, NOSSA FORTALEZA_ <span class="label label-danger">Não revisado</span>
+  - _360 - ROCHEDO FORTE É O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _361 - NÃO HÁ DEUS ACIMA DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _362 - DEUS PROVERÁ_ <span class="label label-danger">Não revisado</span>
+  - _363 - QUANDO AS LUTAS ME CERCAM_ <span class="label label-danger">Não revisado</span>
+  - _364 - DÁ-ME MAIS FÉ_ <span class="label label-danger">Não revisado</span>
+  - _365 - NÃO TEMAS, POIS TE ESCOLHI_ <span class="label label-danger">Não revisado</span>
+  - _366 - AS LÁGRIMAS FALAM, JESUS TE ESCUTA_ <span class="label label-danger">Não revisado</span>
+  - _367 - SE AS LUTAS DA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _368 - ESFORÇA-TE, TEM BOM ÂNIMO!_ <span class="label label-danger">Não revisado</span>
+  - _369 - QUANDO MAIS NINGUÉM TE COMPREENDE_ <span class="label label-danger">Não revisado</span>
+  - _370 - JESUS É A ROCHA INABALÁVEL_ <span class="label label-danger">Não revisado</span>
+  - _371 - TODA PROMESSA_ <span class="label label-danger">Não revisado</span>
+  - _372 - MUITOS SÃO OS QUE CONFIAM_ <span class="label label-danger">Não revisado</span>
+  - _373 - SE UM DIA DEUS PROMETEU_ <span class="label label-danger">Não revisado</span>
+  - _374 - QUERO TOCAR EM TUAS VESTES, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _375 - OS SEGREDOS DO TEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _376 - O SENHOR TE GUIARÁ_ <span class="label label-danger">Não revisado</span>
+  - _377 - DEUS É MINHA ROCHA_ <span class="label label-danger">Não revisado</span>
+  - _378 - CONFIA E ORA_ <span class="label label-danger">Não revisado</span>
+  - _379 - ALGEMADO POR UM PESO_ <span class="label label-danger">Não revisado</span>
+  - _380 - POSSO SENTIR O SEU TOQUE EM MIM (GLORIFICA)_ <span class="label label-danger">Não revisado</span>
+  - _381 - MEU DEUS VENCE BATALHAS_ <span class="label label-danger">Não revisado</span>
+  - _382 - JÁ CHEGUEI ATÉ AQUI (VITÓRIAS)_ <span class="label label-danger">Não revisado</span>
+  - _383 - LÁ ONDE EU NÃO POSSO VER (A ORAÇÃO)_ <span class="label label-danger">Não revisado</span>
+  - _384 - BEM SEI QUE TUDO PODES_ <span class="label label-danger">Não revisado</span>
+  - _385 - QUÃO DIFÍCIL É, SENHOR (FAZE-ME UM VENCEDOR)_ <span class="label label-danger">Não revisado</span>
+  - _386 - QUAL O ADORNO DESTA VIDA?_ <span class="label label-danger">Não revisado</span>
+  - _387 - SONDA-ME, Ó DEUS_ <span class="label label-danger">Não revisado</span>
+  - _388 - SÓ TU ÉS, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _389 - SENHOR, O QUE É A NOSSA VIDA?_ <span class="label label-danger">Não revisado</span>
+  - _390 - CANTAREI A MISERICÓRDIA_ <span class="label label-danger">Não revisado</span>
+  - _391 - CANTAREI A BONDADE E A JUSTIÇA_ <span class="label label-danger">Não revisado</span>
+  - _392 - EU SÓ QUERO SER SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _393 - QUERO SER FIEL AO MEU SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _394 - UMA VOZ ME DISSE LÁ DO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _395 - FALA, JESUS QUERIDO_ <span class="label label-danger">Não revisado</span>
+  - _396 - ABBA PAI_ <span class="label label-danger">Não revisado</span>
+  - _397 - HÁ UMA LUZ A BRILHAR_ <span class="label label-danger">Não revisado</span>
+  - _398 - ENTREI NO TEMPO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _399 - QUAL MADEIRA_ <span class="label label-danger">Não revisado</span>
+  - _400 - EU QUERO SER, SENHOR AMADO_ <span class="label label-danger">Não revisado</span>
+  - _401 - COMO TU QUERES_ <span class="label label-danger">Não revisado</span>
+  - _402 - A LEI DO SENHOR É PERFEITA_ <span class="label label-danger">Não revisado</span>
+  - _403 - AQUELE QUE TEM OS MEUS MANDAMENTOS_ <span class="label label-danger">Não revisado</span>
+  - _404 - JESUS, QUERO AMAR-TE_ <span class="label label-danger">Não revisado</span>
+  - _405 - AMO AO SENHOR DE TODO O MEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _406 - JESUS, O QUE MAIS QUERO NO MUNDO_ <span class="label label-danger">Não revisado</span>
+  - _407 - EU VI O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _408 - EIS QUE SURGE UM POVO FORTE_ <span class="label label-danger">Não revisado</span>
+  - _409 - EIS MARCHAMOS PARA AQUELE BOM PAÍS_ <span class="label label-danger">Não revisado</span>
+  - _410 - UM PENDÃO REAL VOS ENTREGOU O REI_ <span class="label label-danger">Não revisado</span>
+  - _411 - O SENHOR DA CEIFA ESTÁ CHAMANDO_ <span class="label label-danger">Não revisado</span>
+  - _412 - SOU FORASTEIRO AQUI_ <span class="label label-danger">Não revisado</span>
+  - _413 - OUVI, Ó CÉUS, E FALAREI_ <span class="label label-danger">Não revisado</span>
+  - _414 - MEU DEUS, MEU BOM PASTOR_ <span class="label label-danger">Não revisado</span>
+  - _415 - QUERO SER UM VASO DE BÊNÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _416 - PELAS PRAIAS GALILÉIAS VEM JESUS_ <span class="label label-danger">Não revisado</span>
+  - _417 - MINHA DEDICAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _418 - HÁ UM POVO QUE TE ADORA_ <span class="label label-danger">Não revisado</span>
+  - _419 - HÁ UMA OBRA QUE DEUS QUER FAZER_ <span class="label label-danger">Não revisado</span>
+  - _420 - SOMOS TEU POVO E QUEREMOS_ <span class="label label-danger">Não revisado</span>
+  - _421 - A OBRA DO SENHOR É PERFEITA_ <span class="label label-danger">Não revisado</span>
+  - _422 - A MINHA HERANÇA_ <span class="label label-danger">Não revisado</span>
+  - _423 - Ó PASTOR DE ISRAEL_ <span class="label label-danger">Não revisado</span>
+  - _424 - O MEU AMADO DESCEU AO SEU JARDIM_ <span class="label label-danger">Não revisado</span>
+  - _425 - QUE VISTA AMÁVEL É (SALMO 132)_ <span class="label label-danger">Não revisado</span>
+  - _426 - UM CORPO SÓ, UM SÓ ESPÍRITO_ <span class="label label-danger">Não revisado</span>
+  - _427 - OH! QUÃO BOM E QUÃO SUAVE É_ <span class="label label-danger">Não revisado</span>
+  - _428 - VEM, Ó CRISTO, ENCHER MEU CÁLICE_ <span class="label label-danger">Não revisado</span>
+  - _429 - ÉS O PÃO DA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _430 - COMO CRISTO ENSINOU_ <span class="label label-danger">Não revisado</span>
+  - _431 - CRISTO JÁ NOS PREPAROU_ <span class="label label-danger">Não revisado</span>
+  - _432 - OUÇO A VOZ DO MEU AMADO ME CHAMAR_ <span class="label label-danger">Não revisado</span>
+  - _433 - TOMAI AGORA O PÃO_ <span class="label label-danger">Não revisado</span>
+  - _434 - HÁ UM DOCE ESPÍRITO AQUI_ <span class="label label-danger">Não revisado</span>
+  - _435 - FLUIRÁ COMO UM RIO_ <span class="label label-danger">Não revisado</span>
+  - _436 - ESPÍRITO DO TRINO DEUS_ <span class="label label-danger">Não revisado</span>
+  - _437 - VEM SOBRE MIM, ESPÍRITO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _438 - O ESPÍRITO DO SENHOR ESTÁ SENDO DERRAMADO_ <span class="label label-danger">Não revisado</span>
+  - _439 - Ó VEM DERRAMAR_ <span class="label label-danger">Não revisado</span>
+  - _440 - DERRAMAREI MEU ESPÍRITO_ <span class="label label-danger">Não revisado</span>
+  - _441 - ESPÍRITO SANTO, Ó CONSOLADOR_ <span class="label label-danger">Não revisado</span>
+  - _442 - MAIS DO TEU SANTO ESPÍRITO_ <span class="label label-danger">Não revisado</span>
+  - _443 - HÁ UM RIO DE ÁGUAS VIVAS_ <span class="label label-danger">Não revisado</span>
+  - _444 - DESEJEI ARDENTEMENTE_ <span class="label label-danger">Não revisado</span>
+  - _445 - DIRIGE-ME, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _446 - A TUA PALAVRA_ <span class="label label-danger">Não revisado</span>
+  - _447 - SENHOR, GUIA-NOS_ <span class="label label-danger">Não revisado</span>
+  - _448 - SENHOR, EU QUERO SERVIR-TE_ <span class="label label-danger">Não revisado</span>
+  - _449 - A MINHA VIDA ENTREGO_ <span class="label label-danger">Não revisado</span>
+  - _450 - A TUA JUSTIÇA_ <span class="label label-danger">Não revisado</span>
+  - _451 - NO SERVIÇO DO MEU REI EU SOU FELIZ_ <span class="label label-danger">Não revisado</span>
+  - _452 - QUERO QUE ME TOQUES, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _453 - QUANDO DOBRO OS MEUS JOELHOS EM ORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _454 - SENHOR, MEU DEUS, O QUE DIREI DE TI?_ <span class="label label-danger">Não revisado</span>
+  - _455 - QUANTO MAIS EU TE CONHEÇO (CAMINHO FELIZ)_ <span class="label label-danger">Não revisado</span>
+  - _456 - CHUVAS DE BÊNÇÃOS TEREMOS_ <span class="label label-danger">Não revisado</span>
+  - _457 - INSTRUMENTO EM TUAS MÃOS_ <span class="label label-danger">Não revisado</span>
+  - _458 - Ó CRISTO! PÃO DA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _459 - É TEMPO, É TEMPO_ <span class="label label-danger">Não revisado</span>
+  - _460 - Ó JESUS! Ó VERA PÁSCOA_ <span class="label label-danger">Não revisado</span>
+  - _461 - TU, Ó SENHOR, TU ÉS TÃO PURO_ <span class="label label-danger">Não revisado</span>
+  - _462 - QUANTOS FIÉIS, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _463 - VEM, SENHOR, VISITA TUA VINHA_ <span class="label label-danger">Não revisado</span>
+  - _464 - TU QUE SOBRE A AMARGA CRUZ_ <span class="label label-danger">Não revisado</span>
+  - _465 - O ESTANDARTE DESTA IGREJA_ <span class="label label-danger">Não revisado</span>
+  - _466 - EIS O ESTANDARTE_ <span class="label label-danger">Não revisado</span>
+  - _467 - OS GUERREIROS SE PREPARAM_ <span class="label label-danger">Não revisado</span>
+  - _468 - HÁ TANTA TERRA_ <span class="label label-danger">Não revisado</span>
+  - _469 - CASTELO FORTE_ <span class="label label-danger">Não revisado</span>
+  - _470 - NO GETSÊMANI_ <span class="label label-danger">Não revisado</span>
+  - _471 - VEM, ESPÍRITO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _472 - VINDE, CANTAI E ENTOAI LOUVORES A JESUS_ <span class="label label-danger">Não revisado</span>
+  - _473 - MINHA PORÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _474 - QUEM SOU EU, SENHOR?_ <span class="label label-danger">Não revisado</span>
+  - _475 - AINDA UMA VEZ (AGEU)_ <span class="label label-danger">Não revisado</span>
+  - _476 - ESTA OBRA É DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _477 - SEMPRE VOU LEMBRAR_ <span class="label label-danger">Não revisado</span>
+  - _478 - VI UM NOVO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _479 - QUEM ME DERA_ <span class="label label-danger">Não revisado</span>
+  - _480 - EU ESPERO, ANSIOSO, POR MEU DEUS_ <span class="label label-danger">Não revisado</span>
+  - _481 - ASSIM COMO A NOITE ESPERA PELO DIA_ <span class="label label-danger">Não revisado</span>
+  - _482 - OS SINAIS DO FIM SE CUMPREM_ <span class="label label-danger">Não revisado</span>
+  - _483 - CHEGOU O TEMPO DE PENSAR_ <span class="label label-danger">Não revisado</span>
+  - _484 - TEMEI A DEUS_ <span class="label label-danger">Não revisado</span>
+  - _485 - SETE CASTIÇAIS_ <span class="label label-danger">Não revisado</span>
+  - _486 - DO NORTE VEM O ÁUREO ESPLENDOR_ <span class="label label-danger">Não revisado</span>
+  - _487 - VIGIAI E SEMPRE ORAI, Ó CRENTES_ <span class="label label-danger">Não revisado</span>
+  - _488 - CERTA VEZ, AO ORAR_ <span class="label label-danger">Não revisado</span>
+  - _489 - EM BREVE ESCUTAREI_ <span class="label label-danger">Não revisado</span>
+  - _490 - ELE VOLTARÁ PRA BUSCAR A SUA IGREJA_ <span class="label label-danger">Não revisado</span>
+  - _491 - ELE UM DIA VOLTARÁ_ <span class="label label-danger">Não revisado</span>
+  - _492 - ELE VOLTARÁ, SIM, ELE VOLTARÁ_ <span class="label label-danger">Não revisado</span>
+  - _493 - COMO FOI PARA O CÉU, JESUS CRISTO HÁ DE VIR_ <span class="label label-danger">Não revisado</span>
+  - _494 - NÃO SEI QUANDO CRISTO JESUS HÁ DE VIR_ <span class="label label-danger">Não revisado</span>
+  - _495 - O QUE HÁ DE VIR, VIRÁ_ <span class="label label-danger">Não revisado</span>
+  - _496 - NÃO VAI TARDAR_ <span class="label label-danger">Não revisado</span>
+  - _497 - JESUS, SIM, VEM, DO CÉU EM GLÓRIA ELE VEM_ <span class="label label-danger">Não revisado</span>
+  - _498 - CRISTO VEM ME BUSCAR_ <span class="label label-danger">Não revisado</span>
+  - _499 - OUÇO UMA VOZ TÃO SUAVE_ <span class="label label-danger">Não revisado</span>
+  - _500 - SEI QUE O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _501 - O ESPÍRITO DE DEUS FALA À SUA IGREJA_ <span class="label label-danger">Não revisado</span>
+  - _502 - QUANDO, LÁ NO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _503 - TENHO SAUDADES DE JESUS, MEU MESTRE_ <span class="label label-danger">Não revisado</span>
+  - _504 - EU SEI QUE JESUS_ <span class="label label-danger">Não revisado</span>
+  - _505 - OS SEUS CABELOS_ <span class="label label-danger">Não revisado</span>
+  - _506 - TU QUE ESTÁS ASSENTADO_ <span class="label label-danger">Não revisado</span>
+  - _507 - O SOL ESCURECERÁ_ <span class="label label-danger">Não revisado</span>
+  - _508 - BREVE NO CÉU JESUS HÁ DE APARECER_ <span class="label label-danger">Não revisado</span>
+  - _509 - EM BREVE, MUI BREVE_ <span class="label label-danger">Não revisado</span>
+  - _510 - ALERTA POVO, ESTÁ CHEGANDO A NOSSA HORA_ <span class="label label-danger">Não revisado</span>
+  - _511 - JESUS CRISTO VOLTARÁ COM SEU GRANDE ESPLENDOR_ <span class="label label-danger">Não revisado</span>
+  - _512 - O MEU AMADO FALA E ME DIZ_ <span class="label label-danger">Não revisado</span>
+  - _513 - QUEM É ESTA QUE APARECE_ <span class="label label-danger">Não revisado</span>
+  - _514 - ESTA É A VOZ, A VOZ DO MEU AMADO_ <span class="label label-danger">Não revisado</span>
+  - _515 - QUANDO A ÚLTIMA TROMBETA ECOAR_ <span class="label label-danger">Não revisado</span>
+  - _516 - QUANDO A ANGELICAL TROMBETA_ <span class="label label-danger">Não revisado</span>
+  - _517 - JÁ NÃO TARDA O AMANHECER_ <span class="label label-danger">Não revisado</span>
+  - _518 - NÃO TEREI MAIS TRISTEZAS_ <span class="label label-danger">Não revisado</span>
+  - _519 - UM NOVO LAR ME ESPERA_ <span class="label label-danger">Não revisado</span>
+  - _520 - NO TRONO DA CIDADE DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _521 - AO CHEGAR AO CÉU GOZO EU TEREI_ <span class="label label-danger">Não revisado</span>
+  - _522 - EXISTE UM LAR_ <span class="label label-danger">Não revisado</span>
+  - _523 - LÁ NO CÉU OS ANJOS CANTAM_ <span class="label label-danger">Não revisado</span>
+  - _524 - SE EU TIVESSE NA ALVORADA_ <span class="label label-danger">Não revisado</span>
+  - _525 - HÁ UM LINDO PAÍS_ <span class="label label-danger">Não revisado</span>
+  - _526 - LINDO! LINDO! LINDO!_ <span class="label label-danger">Não revisado</span>
+  - _527 - REGOZIJAI-VOS_ <span class="label label-danger">Não revisado</span>
+  - _528 - EU AVISTO UMA TERRA FELIZ_ <span class="label label-danger">Não revisado</span>
+  - _529 - EU OUVI DA FORMOSA CIDADE_ <span class="label label-danger">Não revisado</span>
+  - _530 - OH! QUE SAUDOSA LEMBRANÇA_ <span class="label label-danger">Não revisado</span>
+  - _531 - JERUSALÉM, JERUSALÉM_ <span class="label label-danger">Não revisado</span>
+  - _532 - QUANDO O MUNDO AQUI DEIXAR_ <span class="label label-danger">Não revisado</span>
+  - _533 - MINHA ALMA, POIS, ALEGRE CANTA_ <span class="label label-danger">Não revisado</span>
+  - _534 - BREVE VOLTARÁ O MESSIAS_ <span class="label label-danger">Não revisado</span>
+  - _535 - ALÉM DO CÉU AZUL_ <span class="label label-danger">Não revisado</span>
+  - _536 - FINDA A LIDA TERREAL_ <span class="label label-danger">Não revisado</span>
+  - _537 - QUANDO O JORDÃO PASSARMOS UNIDOS_ <span class="label label-danger">Não revisado</span>
+  - _538 - HÁ UM LUGAR PRA MIM_ <span class="label label-danger">Não revisado</span>
+  - _539 - JUNTO AO TRONO DE DEUS, PREPARADO_ <span class="label label-danger">Não revisado</span>
+  - _540 - OH! PENSAI NESSE LAR LÁ DO CÉU_ <span class="label label-danger">Não revisado</span>
+  - _541 - ARREBATADO FUI NO DIA DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _542 - AO LADO DE JESUS QUERO ESTAR_ <span class="label label-danger">Não revisado</span>
+  - _543 - AO LADO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _544 - EM BREVE O DIA CHEGARÁ_ <span class="label label-danger">Não revisado</span>
+  - _545 - JESUS ESTÁ ÀS PORTAS_ <span class="label label-danger">Não revisado</span>
+  - _546 - OH! QUANTO ALMEJO ESTAR_ <span class="label label-danger">Não revisado</span>
+  - _547 - Ó VEM LOGO, JESUS_ <span class="label label-danger">Não revisado</span>
+  - _548 - NAS LINDAS MORADAS_ <span class="label label-danger">Não revisado</span>
+  - _549 - MARAVILHOSO SERÁ_ <span class="label label-danger">Não revisado</span>
+  - _550 - CANTAI, Ó IGREJA_ <span class="label label-danger">Não revisado</span>
+  - _551 - TENHO LIDO DA BELA CIDADE (A BELA CIDADE)_ <span class="label label-danger">Não revisado</span>
+  - _552 - PÁTRIA MINHA_ <span class="label label-danger">Não revisado</span>
+  - _553 - VEM! MARANATA! JESUS VEM!_ <span class="label label-danger">Não revisado</span>
+  - _534 - JERUSALÉM, SUAS RUAS DE OURO_ <span class="label label-danger">Não revisado</span>
+  - _555 - DA LINDA PÁTRIA_ <span class="label label-danger">Não revisado</span>
+  - _557 - ESTE MUNDO JAMAIS PODE ME SEPARAR_ <span class="label label-danger">Não revisado</span>
+  - _558 - VEM, JESUS CRISTO JÁ VEM_ <span class="label label-danger">Não revisado</span>
+  - _559 - A ÚLTIMA TROMBETA SOARÁ_ <span class="label label-danger">Não revisado</span>
+  - _560 - EIS QUE ESTOU A PORTA E BATO_ <span class="label label-danger">Não revisado</span>
+  - _561 - OUVI COMO QUE A VOZ DE UMA GRANDE MULTIDÃO_ <span class="label label-danger">Não revisado</span>
+  - _562 - QUANDO MEU TEMPO DE LUTA PASSAR_ <span class="label label-danger">Não revisado</span>
+  - _563 - NÃO SE TURBEM OS VOSSOS CORAÇÕES_ <span class="label label-danger">Não revisado</span>
+  - _564 - DISPÕE-TE, RESPLANDECE_ <span class="label label-danger">Não revisado</span>
+  - _565 - LÁ ESTÁ O MEU TESOURO_ <span class="label label-danger">Não revisado</span>
+  - _566 - O SENHOR É O MEU PASTOR (MARANATA, JESUS VEM)_ <span class="label label-danger">Não revisado</span>
+  - _567 - QUANDO SERÁ O GRANDE DIA_ <span class="label label-danger">Não revisado</span>
+  - _568 - SENHOR, QUEM SÃO AQUELES_ <span class="label label-danger">Não revisado</span>
+  - _569 - JESUS VEM, VEM NOS BUSCAR_ <span class="label label-danger">Não revisado</span>
+  - _570 - JÁ REFULGE A GLÓRIA ETERNA_ <span class="label label-danger">Não revisado</span>
+  - _571 - O GRANDE DIA ESTÁ CHEGANDO_ <span class="label label-danger">Não revisado</span>
+  - _572 - CHEGUEMOS AO ALTAR DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _573 - COMO É BOM TE ADORAR_ <span class="label label-danger">Não revisado</span>
+  - _574 - ADORAREI_ <span class="label label-danger">Não revisado</span>
+  - _575 - TE ADORAMOS_ <span class="label label-danger">Não revisado</span>
+  - _576 - REUNIMO-NOS AQUI PRA TE ADORAR_ <span class="label label-danger">Não revisado</span>
+  - _577 - GLÓRIA E ALELUIA_ <span class="label label-danger">Não revisado</span>
+  - _578 - HOJE O SENHOR DERRAMOU_ <span class="label label-danger">Não revisado</span>
+  - _579 - SENHOR, EU NEM SEI CONTAR_ <span class="label label-danger">Não revisado</span>
+  - _580 - NOS PROSTEMOS AOS SEUS PÉS_ <span class="label label-danger">Não revisado</span>
+  - _581 - PAI DE AMOR, GOSTO TANTO DE TI_ <span class="label label-danger">Não revisado</span>
+  - _582 - CANTAREI AO AMOR DOS AMORES_ <span class="label label-danger">Não revisado</span>
+  - _583 - Ó GRANDE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _584 - EU TE AMO, MEU JESUS_ <span class="label label-danger">Não revisado</span>
+  - _585 - FONTE DA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _586 - Ó PROFUNDIDADE DAS RIQUEZAS_ <span class="label label-danger">Não revisado</span>
+  - _587 - Ó JESUS, EXALTAR-TE-EI_ <span class="label label-danger">Não revisado</span>
+  - _588 - HÁ UM NOME QUE RELUZ_ <span class="label label-danger">Não revisado</span>
+  - _589 - JESUS TÃO BELO_ <span class="label label-danger">Não revisado</span>
+  - _590 - AO CORDEIRO_ <span class="label label-danger">Não revisado</span>
+  - _591 - GLÓRIA PRA SEMPRE AO CORDEIRO DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _592 - ALELUIA! MUITAS VOZES DE ANJOS_ <span class="label label-danger">Não revisado</span>
+  - _593 - A CRISTO COROAI_ <span class="label label-danger">Não revisado</span>
+  - _594 - NA EXPRESSÃO DESTE LOUVOR_ <span class="label label-danger">Não revisado</span>
+  - _595 - MAJESTADE, GLÓRIA E MAJESTADE_ <span class="label label-danger">Não revisado</span>
+  - _596 - ÉS MAJESTADE_ <span class="label label-danger">Não revisado</span>
+  - _597 - CANTAREI, CANTAREI HOSANA (VIVA O REI)_ <span class="label label-danger">Não revisado</span>
+  - _598 - HÁ UM SÓ QUE É DIGNO_ <span class="label label-danger">Não revisado</span>
+  - _599 - JESUS, TE ENTRONIZAMOS AQUI ENTRE NÓS_ <span class="label label-danger">Não revisado</span>
+  - _600 - JESUS, TE ENTRONIZAMOS_ <span class="label label-danger">Não revisado</span>
+  - _601 - AO QUE ESTÁ NO TRONO_ <span class="label label-danger">Não revisado</span>
+  - _602 - SANTO É O QUE ESTÁ NO TRONO_ <span class="label label-danger">Não revisado</span>
+  - _603 - LOUVAREI AO MEU SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _604 - O MEU LOUVOR É FRUTO_ <span class="label label-danger">Não revisado</span>
+  - _605 - NOSSO DEUS É SOBERANO_ <span class="label label-danger">Não revisado</span>
+  - _606 - O CRIADOR DO UNIVERSO_ <span class="label label-danger">Não revisado</span>
+  - _607 - A DEUS SEJA O LOUVOR_ <span class="label label-danger">Não revisado</span>
+  - _608 - DEUS DOS EXÉRCITOS DE ISRAEL_ <span class="label label-danger">Não revisado</span>
+  - _609 - SENHOR, MEU DEUS, QUANDO EU MARAVILHADO_ <span class="label label-danger">Não revisado</span>
+  - _610 - SANTO! SANTO! SANTO! DEUS ONIPOTENTE!_ <span class="label label-danger">Não revisado</span>
+  - _611 - JESUS DEUS SANTO, SANTO, SANTO!_ <span class="label label-danger">Não revisado</span>
+  - _612 - SANTO, SANTO, SANTO, Ó DEUS DE GLÓRIA E PODER_ <span class="label label-danger">Não revisado</span>
+  - _613 - DAI GLÓRIA A DEUS_ <span class="label label-danger">Não revisado</span>
+  - _614 - A DEUS DEMOS GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _615 - LOUVOR E GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _616 - AO DEUS DE AMOR E DE IMENSA BONDADE_ <span class="label label-danger">Não revisado</span>
+  - _617 - O MEU CORAÇÃO SE REGOZIJA NO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _618 - CANTAREI AO MEU SENHOR ENQUANTO EU VIVER_ <span class="label label-danger">Não revisado</span>
+  - _619 - VEM, DERRAMA A PAZ_ <span class="label label-danger">Não revisado</span>
+  - _620 - ESTAMOS AQUI, Ó DEUS_ <span class="label label-danger">Não revisado</span>
+  - _621 - ADORAR-TE_ <span class="label label-danger">Não revisado</span>
+  - _622 - A BELEZA DA TUA SANTIDADE_ <span class="label label-danger">Não revisado</span>
+  - _623 - EU QUERO CANTAR DE GOZO E DE PAZ_ <span class="label label-danger">Não revisado</span>
+  - _624 - A MINH´ALMA ENGRANDECE_ <span class="label label-danger">Não revisado</span>
+  - _625 - DIGNO É JESUS_ <span class="label label-danger">Não revisado</span>
+  - _626 - OH! CONTEMPLAI_ <span class="label label-danger">Não revisado</span>
+  - _627 - NÓS TE ADORAMOS, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _628 - SANTO É SEU NOME_ <span class="label label-danger">Não revisado</span>
+  - _629 - QUE ALEGRIA_ <span class="label label-danger">Não revisado</span>
+  - _630 - SAUDAI O NOME DE JESUS_ <span class="label label-danger">Não revisado</span>
+  - _631 - SÊ EXALTADO, Ó DEUS_ <span class="label label-danger">Não revisado</span>
+  - _632 - MUITOS ANJOS LOUVAM_ <span class="label label-danger">Não revisado</span>
+  - _633 - TE EXALTAREMOS_ <span class="label label-danger">Não revisado</span>
+  - _634 - GLORIOSO ÉS, JESUS_ <span class="label label-danger">Não revisado</span>
+  - _635 - ENTRONIZADO ESTÁ ENTRE AS NAÇÕES_ <span class="label label-danger">Não revisado</span>
+  - _636 - LOUVAI A JESUS_ <span class="label label-danger">Não revisado</span>
+  - _637 - TODA A TERRA TE EXALTA_ <span class="label label-danger">Não revisado</span>
+  - _638 - JESUS VEIO E SALVOU-ME_ <span class="label label-danger">Não revisado</span>
+  - _639 - MOTIVOS TENHO PRA LOUVAR-TE_ <span class="label label-danger">Não revisado</span>
+  - _640 - MEU LOUVOR É SÓ PRA TI_ <span class="label label-danger">Não revisado</span>
+  - _641 - A LUZ DO MUNDO_ <span class="label label-danger">Não revisado</span>
+  - _642 - EM NOSSOS LÁBIOS_ <span class="label label-danger">Não revisado</span>
+  - _643 - TODO LOUVOR SEJA DADO A DEUS_ <span class="label label-danger">Não revisado</span>
+  - _644 - LOUVAMOS-TE, Ó DEUS_ <span class="label label-danger">Não revisado</span>
+  - _645 - COROAI_ <span class="label label-danger">Não revisado</span>
+  - _646 - AGRADECIDOS SOMOS A TI_ <span class="label label-danger">Não revisado</span>
+  - _647 - SANTO, SANTO, SANTO É O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _648 - O SENHOR É O MEU PASTOR_ <span class="label label-danger">Não revisado</span>
+  - _649 - TE LOUVAMOS, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _650 - Ó VINDE E ADOREMOS_ <span class="label label-danger">Não revisado</span>
+  - _651 - AMO AO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _652 - LEVANTAI-VOS, Ó PORTAIS ETERNOS_ <span class="label label-danger">Não revisado</span>
+  - _653 - ALELUIA (SALMOS 113)_ <span class="label label-danger">Não revisado</span>
+  - _654 - GRANDE É O SENHOR E MUI DIGNO DE SER LOUVADO_ <span class="label label-danger">Não revisado</span>
+  - _655 - LOUVAI, SERVOS DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _656 - GRANDE É O SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _657 - OS CÉUS PROCLAMAM_ <span class="label label-danger">Não revisado</span>
+  - _658 - MEDITAREI NAS MARAVILHAS DO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _659 - CELEBRAI COM JÚBILO AO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _660 - O MEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _661 - ÉS O MAIS FORMOSO, JESUS_ <span class="label label-danger">Não revisado</span>
+  - _662 - ONIPOTENTE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _663 - LOUVAI AO SENHOR TODAS AS NAÇÕES_ <span class="label label-danger">Não revisado</span>
+  - _664 - QUÃO AMÁVEIS SÃO_ <span class="label label-danger">Não revisado</span>
+  - _665 - BENDIZEI AO SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _666 - TAL QUAL ESTOU_ <span class="label label-danger">Não revisado</span>
+  - _667 - JUSTO ÉS, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _668 - UM POBRE CEGO_ <span class="label label-danger">Não revisado</span>
+  - _669 - DEUS DOS ANTIGOS_ <span class="label label-danger">Não revisado</span>
+  - _670 - SE PAZ, A MAIS DOCE_ <span class="label label-danger">Não revisado</span>
+  - _671 - OUVE, POIS ISRAEL_ <span class="label label-danger">Não revisado</span>
+  - _672 - MEU SERVO, NÃO TEMAS_ <span class="label label-danger">Não revisado</span>
+  - _673 - Ó PAI, EU QUERIA TANTO VER_ <span class="label label-danger">Não revisado</span>
+  - _674 - EU NÃO SEI QUAL SERÁ O LOUVOR_ <span class="label label-danger">Não revisado</span>
+  - _675 - NA ETERNIDADE_ <span class="label label-danger">Não revisado</span>
+  - _676 - Ó VINDE ADORAR_ <span class="label label-danger">Não revisado</span>
+  - _677 - A TI, QUE HABITAS ENTRE OS QUERUBINS_ <span class="label label-danger">Não revisado</span>
+  - _678 - TUA GLÓRIA ENCHE TODA A TERRA_ <span class="label label-danger">Não revisado</span>
+  - _679 - EIS A ESCRAVA RESGATADA_ <span class="label label-danger">Não revisado</span>
+  - _680 - TEU NOME É PRA MIM, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _681 - NOSSO LOUVOR_ <span class="label label-danger">Não revisado</span>
+  - _682 - A JESUS SEJA DADA TODA GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _683 - JESUS CRISTO VOLTARÁ_ <span class="label label-danger">Não revisado</span>
+  - _684 - ELE É O REI DOS REIS_ <span class="label label-danger">Não revisado</span>
+  - _685 - PERFEITO AMOR EU CONHECI_ <span class="label label-danger">Não revisado</span>
+  - _686 - QUANDO JESUS PROVOU O SEU AMOR POR MIM_ <span class="label label-danger">Não revisado</span>
+  - _687 - QUEM É COMO TU?_ <span class="label label-danger">Não revisado</span>
+  - _687 - QUEM É COMO TU?_ <span class="label label-danger">Não revisado</span>
+  - _689 - AMOR, QUE POR AMOR DESCESTE!_ <span class="label label-danger">Não revisado</span>
+  - _690 - DA IGREJA O FUNDAMENTO_ <span class="label label-danger">Não revisado</span>
+  - _691 - AO DEUS DE ABRAÃO_ <span class="label label-danger">Não revisado</span>
+  - _692 - COMIGO HABITA, Ó DEUS!_ <span class="label label-danger">Não revisado</span>
+  - _693 - DORMINDO NO MEU LEITO_ <span class="label label-danger">Não revisado</span>
+  - _694 - JERUSALÉM ETERNA_ <span class="label label-danger">Não revisado</span>
+  - _695 - JERUSALÉM EXCELSA_ <span class="label label-danger">Não revisado</span>
+  - _696 - NA TERRA ABENÇOADA_ <span class="label label-danger">Não revisado</span>
+  - _697 - OUVI O SALVADOR DIZER_ <span class="label label-danger">Não revisado</span>
+  - _698 - TUA, Ó DEUS, É TODA A GRANDEZA_ <span class="label label-danger">Não revisado</span>
+  - _699 - QUE GRANDE REUNIÃO (JESUS DE NAZARÉ)_ <span class="label label-danger">Não revisado</span>
+  - _700 - ESTEVÃO AVISTOU (EU TAMBÉM QUERO VER)_ <span class="label label-danger">Não revisado</span>
+  - _701 - AS TUAS MÃOS_ <span class="label label-danger">Não revisado</span>
+  - _702 - OS CÉUS EM BREVE SE ABRIRÃO_ <span class="label label-danger">Não revisado</span>
+  - _703 - SERÁ DE MANHÃ_ <span class="label label-danger">Não revisado</span>
+  - _704 - SENHOR, SE ESTIVESSES AQUI (LÁZARO)_ <span class="label label-danger">Não revisado</span>
+  - _705 - GRANDES SÃO, SENHOR, OS TEUS FEITOS (GRATIDÃO)_ <span class="label label-danger">Não revisado</span>
+  - _706 - DESTE MUNDO ESCRAVO FUI_ <span class="label label-danger">Não revisado</span>
+  - _707 - EU CONFIO EM TI, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _708 - OUVI NO CÉU (BODAS DO CORDEIRO)_ <span class="label label-danger">Não revisado</span>
+  - _709 - RESPLANDECE, Ó JERUSALÉM_ <span class="label label-danger">Não revisado</span>
+  - _710 - O MEU VIVER É CRISTO_ <span class="label label-danger">Não revisado</span>
+  - _711 - TUA GRAÇA ME BASTA, Ó SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _712 - AO FINDAR O LABOR DESTA VIDA (A ÚLTIMA HORA)_ <span class="label label-danger">Não revisado</span>
+  - _713 - CAREÇO DE JESUS!_ <span class="label label-danger">Não revisado</span>
+  - _714 - COM TUA MÃO SEGURA BEM A MINHA_ <span class="label label-danger">Não revisado</span>
+  - _715 - DEUS VOS GUARDE PELO SEU PODER_ <span class="label label-danger">Não revisado</span>
+  - _716 - ENQUANTO, Ó SALVADOR, TEU LIVRO LER_ <span class="label label-danger">Não revisado</span>
+  - _717 - A TERRA SEMEAMOS_ <span class="label label-danger">Não revisado</span>
+  - _718 - GUIA, Ó CRISTO, A MINHA NAU_ <span class="label label-danger">Não revisado</span>
+  - _719 - AVANTE, AVANTE, Ó CRENTES_ <span class="label label-danger">Não revisado</span>
+  - _720 - AS GRUTAS, AS ROCHAS IMENSAS_ <span class="label label-danger">Não revisado</span>
+  - _721 - PROCLAMAI A TODO O MUNDO_ <span class="label label-danger">Não revisado</span>
+  - _722 - A DEUS, SUPREMO CRIADOR_ <span class="label label-danger">Não revisado</span>
+  - _723 - CRISTO PODE HOJE VIR (OH! DIA ALEGRE!)_ <span class="label label-danger">Não revisado</span>
+  - _724 - EIS OS MILHÕES_ <span class="label label-danger">Não revisado</span>
+  - _725 - EU PERDIDO PECADOR_ <span class="label label-danger">Não revisado</span>
+  - _726 - QUANDO A TEMPESTADE RUGE_ <span class="label label-danger">Não revisado</span>
+  - _727 - EIS QUE ABRO A PORTA_ <span class="label label-danger">Não revisado</span>
+  - _728 - NOSSA GRATIDÃO_ <span class="label label-danger">Não revisado</span>
+  - _729 - OS TEUS ANJOS TE EXALTAM_ <span class="label label-danger">Não revisado</span>
+  - _730 - SÓ TU NOS FAZES VENCEDORES_ <span class="label label-danger">Não revisado</span>
+  - _731 - SEQUÊNCIA DE LOUVORES Nº 1_ <span class="label label-danger">Não revisado</span>
+  - _732 - SEQUÊNCIA DE LOUVORES Nº 2_ <span class="label label-danger">Não revisado</span>
+  - _733 - SEQUÊNCIA DE LOUVORES Nº 3_ <span class="label label-danger">Não revisado</span>
+  - _734 - A VIDA DE MINH’ALMA_ <span class="label label-danger">Não revisado</span>
+  - _735 - SEU NOME É JESUS_ <span class="label label-danger">Não revisado</span>
+  - _736 - CRISTO É A RESPOSTA_ <span class="label label-danger">Não revisado</span>
+  - _737 - SE ESTÁS CANSADO_ <span class="label label-danger">Não revisado</span>
+  - _738 - GLÓRIA, GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _739 - EU TENHO UM TESOURO_ <span class="label label-danger">Não revisado</span>
+  - _740 - EU TENHO UM DEUS MUI, MUI, MUI GRANDE_ <span class="label label-danger">Não revisado</span>
+  - _741 - NÃO HÁ DEUS TÃO GRANDE COMO TU_ <span class="label label-danger">Não revisado</span>
+  - _742 - NO CÉU HÁ JANELAS ABERTAS_ <span class="label label-danger">Não revisado</span>
+  - _743 - VENCEDOR SEREI_ <span class="label label-danger">Não revisado</span>
+  - _744 - VITÓRIA DEUS DARÁ A MIM, EU SEI_ <span class="label label-danger">Não revisado</span>
+  - _745 - É DEUS QUEM NOS TEM DADO A VITÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _746 - JESUS É O AMIGO MELHOR_ <span class="label label-danger">Não revisado</span>
+  - _747 - SENHOR, MANDA PODER_ <span class="label label-danger">Não revisado</span>
+  - _748 - QUE CALOR É ESTE EM VOLTA DO ALTAR_ <span class="label label-danger">Não revisado</span>
+  - _749 - MANDA FOGO, SENHOR_ <span class="label label-danger">Não revisado</span>
+  - _750 - DEIXA A GLÓRIA DE DEUS BRILHAR_ <span class="label label-danger">Não revisado</span>
+  - _751 - EU LOUVAREI, EU LOUVAREI_ <span class="label label-danger">Não revisado</span>
+  - _752 - ESTOU ALEGRE_ <span class="label label-danger">Não revisado</span>
+  - _753 - A NOIVA É A IGREJA_ <span class="label label-danger">Não revisado</span>
+  - _754 - EU VEREI A ÁRVORE DA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _755 - SOMENTE PELA FÉ A OBRA DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _756 - QUEM CANTAR AQUI SE ALEGRARÁ_ <span class="label label-danger">Não revisado</span>
+  - _757 - COMO ACONTECEU EM JERUSALÉM_ <span class="label label-danger">Não revisado</span>
+  - _758 - ESTA ALEGRIA NÃO VAI MAIS SAIR_ <span class="label label-danger">Não revisado</span>
+  - _759 - NUNCA MAIS, NUNCA MAIS_ <span class="label label-danger">Não revisado</span>
+  - _760 - DO CÉU VIRÁ_ <span class="label label-danger">Não revisado</span>
+  - _761 - CADA PASSO QUE DÁS_ <span class="label label-danger">Não revisado</span>
+  - _762 - O CÉU É UM LUGAR MARAVILHOSO_ <span class="label label-danger">Não revisado</span>
+  - _763 - JESUS É TUDO PRA MIM_ <span class="label label-danger">Não revisado</span>
+  - _764 - NÓS VAMOS LÁ, IRMÃOS_ <span class="label label-danger">Não revisado</span>
+  - _765 - LÁ NO CÉU TODOS CANTAM ALELUIA!_ <span class="label label-danger">Não revisado</span>
+  - _766 - NO DIA DA GRANDE GLÓRIA_ <span class="label label-danger">Não revisado</span>
+  - _767 - CONTA PRA JESUS ONDE É A TUA DOR_ <span class="label label-danger">Não revisado</span>
+  - _768 - A VITÓRIA DESTA IGREJA É ORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _769 - O GRANDE RELÓGIO_ <span class="label label-danger">Não revisado</span>
+  - _770 - POR QUE DEIXAR QUE AS ÂNSIAS_ <span class="label label-danger">Não revisado</span>
+  - _771 - CAMINHANDO VOU PARA CANAÃ_ <span class="label label-danger">Não revisado</span>
+  - _772 - CADA DIA ME DIRIGE_ <span class="label label-danger">Não revisado</span>
+  - _773 - ABRA A PORTA, VENHA VER!_ <span class="label label-danger">Não revisado</span>
+  - _774 - CHEGADO A CRUZ DO MEU SALVADOR_ <span class="label label-danger">Não revisado</span>
+  - _775 - SUBINDO PARA O CÉU EU VOU_ <span class="label label-danger">Não revisado</span>
+  - _776 - CERTA VEZ EU ORANDO_ <span class="label label-danger">Não revisado</span>
+  - _777 - COMO AS ÁGUAS_ <span class="label label-danger">Não revisado</span>
+  - _778 - DEUS ESTÁ AQUI_ <span class="label label-danger">Não revisado</span>
+  - _779 - ABRE A PORTA DO TEU CORAÇÃO_ <span class="label label-danger">Não revisado</span>
+  - _780 - CANTAREI, CANTAREI AS  MISERICÓRDIAS_ <span class="label label-danger">Não revisado</span>
+  - _781 - SÓ O PODER DE DEUS_ <span class="label label-danger">Não revisado</span>
+  - _782 - TENHO NOVA VIDA_ <span class="label label-danger">Não revisado</span>
+  - _783 - FELIZ, FELIZ EU SOU_ <span class="label label-danger">Não revisado</span>
+  - _784 - CANTAI AO SENHOR UM CÂNTICO NOVO_ <span class="label label-danger">Não revisado</span>
+  - _785 - ESTOU CONFIANDO_ <span class="label label-danger">Não revisado</span>
+  - _786 - QUE AS PALAVRAS DA MINHA BOCA_ <span class="label label-danger">Não revisado</span>
+  - _787 - ARDENDO EM FOGO MINH’ALMA ESTÁ_ <span class="label label-danger">Não revisado</span>
+  - _788 - IGREJA, TU VAIS SUBIR_ <span class="label label-danger">Não revisado</span>
+  - _789 - NA PRESENÇA DE JESUS_ <span class="label label-danger">Não revisado</span>
+  - _790 - AQUELE QUE HABITA NO ESCONDERIJO_ <span class="label label-danger">Não revisado</span>
+  - _791 - EU QUERO MAIS E MAIS DE CRISTO_ <span class="label label-danger">Não revisado</span>
+  - _792 - LOUVANDO A DEUS_ <span class="label label-danger">Não revisado</span>
+  - _793 - MESA PREPARADA_ <span class="label label-danger">Não revisado</span>
+  - _794 - JESUS LIBERTOU_ <span class="label label-danger">Não revisado</span>
+  - _AQUILO QUE FUI NÃO SOU MAIS_ <span class="label label-danger">Não revisado</span>
 
 [voltar](./)
