@@ -8,7 +8,7 @@ layout: default
 
 
 - **Coletânea 2018**
-  - _1 - O SANGUE DE JESUS TEM PODER_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
+  - _1 - O SANGUE DE JESUS TEM PODER_ <span class="label label-primary">Rev.: 17/03/2018 - por: Ítalo</span>
   - _2 - O SANGUE DE JESUS TEM PODER PARA SALVAR_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
   - _3 - CLAMO A TI_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
   - _4 - QUANDO TE PROSTRARES_ <font color="red"><small>(Revisado 17/03/2018 - por: Ítalo)</small></font>
