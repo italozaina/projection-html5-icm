@@ -109,7 +109,7 @@ function atualizaListaArquivos(newData){
       if(imagens.length > 0) i++;
       if(avisos.length > 0) i++;
       if(dado.type == "s"){
-        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
+        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: false},children:[]});
         $.each(dado.songs, function(f, louvor) {
             songList[i].children.push({id: i+"_"+f, text:louvor.title, type:"song", data:louvor});
         });        
@@ -182,7 +182,7 @@ function atualizaListasFromJSON(newData){
       if(imagens.length > 0) i++;
       if(avisos.length > 0) i++;
       if(dado.type == "s"){
-        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: true},children:[]});
+        songList.push({id: ""+i,text:dado.name+returnFlag(dado.lang),state:{opened: false},children:[]});
         $.each(dado.songs, function(f, louvor) {
             var newSong = { id: i+"_"+f, text:louvor.title, type:"song", data:louvor };
             if(ref_selected == i+"_"+f){
