@@ -722,7 +722,7 @@ $(function () {
   },
   "types" : {
       "default" : {
-        "icon" : "fas fa-folder-open fa-fw pt-2"
+        "icon" : "fas fa-folder fa-fw pt-2"
       },
       'f-open' : {
           'icon' : 'fas fa-folder-open fa-fw pt-2'
