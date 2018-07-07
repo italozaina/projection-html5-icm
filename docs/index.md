@@ -4,14 +4,7 @@ layout: default
 ---
 
 Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), inglês (en) e italiano (it)
-
-#### Painel
-
-![]({{ site.url }}/projection-html5-icm//assets/img/painel.gif)
-
-#### Projeção
-
-![]({{ site.url }}/projection-html5-icm//assets/img/projecao.gif)
+[Galeria](./galeria.html)
 
 Uso
 ---
@@ -25,14 +18,13 @@ obs: Se você não estiver usando o **Mozilla Firefox**, precisará abrir manual
 Tutoriais
 ---------
 
--> Download e permissão <-
-[![video](https://img.youtube.com/vi/1N5GNGynAKI/0.jpg)](https://www.youtube.com/watch?v=1N5GNGynAKI)
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1N5GNGynAKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
--> Utilização, Criação e Edição <-
-[![video](https://img.youtube.com/vi/kymBcziXpSU/0.jpg)](https://www.youtube.com/watch?v=kymBcziXpSU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kymBcziXpSU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
--> Como abrir pelo "Opera, Google Chrome, etc" <-
-[![video](https://img.youtube.com/vi/jKZa1Q9mjw0/0.jpg)](https://www.youtube.com/watch?v=jKZa1Q9mjw0)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jKZa1Q9mjw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
 
 Características
 ---------------
