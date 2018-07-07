@@ -54,7 +54,8 @@ Revisões
 
 - Pastas
   - [Coletânea 2018](./coletanea-2018.html)
+  - [CIA 2018](./cia-2018.html)
+  - [Avulsos 2018](./avulsos-2018.html)
   - [Coletânea Antiga](./coletanea-antiga.html)
-  - [CIA 2017](./cia-2017.html)
   - [Test](./test.html)
   - [Prova](./prova.html)
