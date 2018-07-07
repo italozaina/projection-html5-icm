@@ -22,6 +22,18 @@ Uso
 
 obs: Se você não estiver usando o **Mozilla Firefox**, precisará abrir manualmente os dados / data.json
 
+Tutoriais
+---------
+
+-> Download e permissão <-
+[![video](https://img.youtube.com/vi/1N5GNGynAKI/0.jpg)](https://www.youtube.com/watch?v=1N5GNGynAKI)
+
+-> Utilização, Criação e Edição <-
+[![video](https://img.youtube.com/vi/kymBcziXpSU/0.jpg)](https://www.youtube.com/watch?v=kymBcziXpSU)
+
+-> Como abrir pelo "Opera, Google Chrome, etc" <-
+[![video](https://img.youtube.com/vi/jKZa1Q9mjw0/0.jpg)](https://www.youtube.com/watch?v=jKZa1Q9mjw0)
+
 Características
 ---------------
 
