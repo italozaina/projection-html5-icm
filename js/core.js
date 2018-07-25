@@ -266,6 +266,10 @@ $("#btnAlterarBg").click(function(){
     $('#bgModal').modal('toggle');
 });
 
+$("#btnAbrirConf").click(function(){   
+    $('#confModal').modal('toggle');
+});
+
 $("#filebg").change(function() {
     var file = this.files[0];
     var fileURL = URL.createObjectURL(file);

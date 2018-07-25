@@ -30,7 +30,8 @@
     
     <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <button id="btnAlterarBg" class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button>
+            <button id="btnAbrirConf" class="btn btn-dark" title="Configurações"><i class="fas fa-wrench"></i></button>
+            <!-- <button id="btnAlterarBg" class="btn btn-dark" title="Alterar imagem de fundo" data-lang-str="btn_change_bgimage"><i class="fas fa-images"></i></button> -->
           </li>
           <li class="nav-item">
             <button id="btnCreateWarn" class="btn btn-dark" title="Criar aviso" data-lang-str="btn_create_warning"><i class="fas fa-exclamation-triangle"></i></button>
@@ -187,6 +188,24 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="confModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" data-lang-str="new_warning">Configurações</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">          
+          <p>Configurações</p>               
+        </div>
+        <div class="modal-footer">
+          <button id="confirmConf" type="button" class="btn btn-success" data-lang-str="btn_save">Salvar</button>
+        </div> 
+      </div>
+    </div>
+  </div>  
   <div class="modal fade" id="excluirModal" tabindex="-1" role="dialog" aria-labelledby="excluirModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
