@@ -6,6 +6,8 @@ layout: default
 Projeção para Igreja Cristã Maranata. Suporta os idiomas português (pt-BR), inglês (en) e italiano (it)
 [Galeria](./galeria.html)
 
+[Baixar manual em ".pdf"](./manual.pdf)
+
 Uso
 ---
 

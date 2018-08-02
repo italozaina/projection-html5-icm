@@ -1,8 +1,34 @@
-# Projeção ICM
+<div style="text-align: center; font-size: 28px;">
+
+Manual do Usuário
+
+<br>
+
+<br>
+
+<br>
+
+<strong>Projeção ICM</strong>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+</div>
+
+<div style="text-align: right; font-size: 13px;">Ítalo Carvalho Zaina</div>
+
+<div style="page-break-after: always;"></div>
 
 ## 1. Visão geral
 
-![]({{ site.url }}/projection-html5-icm//assets/img/visao_geral.png)
+![](assets/img/visao_geral.png)
 
 O novo painel possui 5 áreas principais para controlar a projeção como mostrado na imagem acima.
 
@@ -15,71 +41,33 @@ O novo painel possui 5 áreas principais para controlar a projeção como mostra
 4. __Lista para projeção__: Nesta lista à direita ficam todos os _louvores, versículos, imagens e avisos_ adicionados para serem projetados também podem ser apagados ou re-adicionados livremente.
 5. __Projeção__: Este quadro mostra uma miniatura do que esta atualmente projetado.
 
+<div style="page-break-after: always;"></div>
 
 ## 2. Utilização do painel
 
+Ao iniciar o novo painel deve primeiramente se familiarizar com sua rotina de utilização, que é: 
+
+1. Montar sua lista de projeção para o culto.
+2. Projetar os louvores de sua lista.
+
+À seguir verá as instruções básicas de como proceder para realizar esta rotina.
+
+### Montar sua lista para projeção
+
+Com apenas __um duplo clique__ sobre o arquivo do louvor ele será adicionado a lista de projeção, se desejar remeve-lo deve clicar no botão ( - ) ao lado do louvor em sua lista.
+
 ### Projetar um louvor
 
-Adding songs to a service is as simple as choosing a song from the list (you can search by title, lyrics or authors in the search box), and pressing the grey + button at the top of the songs tab. You can also just drag and drop the song from the list to the Service Manager (3) on the right.
+Muito simples é projetar um louvor com o novo painel, na aba __Ao Vivo__, dê __um clique__ sobre a estrofe que deseja projetar. Ou como alternativa __um clique__ sobre o louvor que esta em sua lista de projeção.
+
+Depois de iniciado a projeção poderá controlar a lista __Ao Vivo__ usando o teclado:
+
+* [ ↓ ] ou [ → ] para avançar
+* [ ↑ ] ou [ ← ] para retroceder
+* [ ESC ] atalho para tela padrão
 
 #### Adicionar ou editar um louvor
-If the song you want isn't in the database, press the "Add new Song" button at the left of the toolbar in the Songs section. If you want to edit an existing song, right click on the song and choose Edit.
-
-![Edit Song Screenshot](SongEditor.png)
-
-Fill in the Title, then you're ready to add the lyrics. The easiest way to add the lyrics is to press the "Edit All button", and paste the lyrics into the box.
-
-![Edit Verses Screenshot](VerseEditor.png)
-
-Next, you need to tell Projeção ICM where the Verses and Choruses are. You can do this by either manually typing ``---[Verse:1]---``, ``---[Chorus:1]---`` etc., or by putting the cursor where the verse starts, choosing the verse type and which number it is, and pressing _Insert_.
-
-Try to make sure you only use each verse number once. There should be no repeated verses or choruses at this stage: Projeção ICM can deal with that separately.
-
-Don't forget to remove any copyright information from the end.
 
 
-After the lyrics have been entered and the Verse indicators added, press _OK_, and fill in the verse order box. This lets you tell Projeção ICM what order the verses and choruses should appear. For example, putting ```V1 C1 V2 C1 V3 C1``` will do each verse with the chorus in between each one.
+[TOC]
 
-Next, click the "Authors, Topics & Song Book" tab in the Song Editor.
-
-![Adding Song Authors Screenshot](authors.png)
-
-Add the authors individually by typing their name and clicking "Add to Song".
-
-Finally, click the "Theme, Copyright Info & Comments" tab, and enter the copyright line into the copyright box, e.g. ```© 2011 Sovereign Grace Praise (BMI)```.
-
-Now press "Save", and you're done!
-
-
-### Presentations
-
-If you're taking a powerpoint off a USB stick, don't forget to copy it to the computer first so that you don't need to have it plugged in for the whole service.
-
-To add a presentation to Projeção ICM, press the "Load new Presentation" button (the little folder at the top of the Presentations tab), and open the presentation.
-
-Adding a presentation takes a few seconds as thumbnail images of the slides are generated, just wait until it's done.
-
-To add a presentation to a service, just drag it over to the box on the right (3), or press the (+) button.
-
-### Media
-
-Adding media (videos) is the same as a presentation - press the blue folder button, or drag the video file onto the list, then drag it from the list onto the service manger list (3).
-
-### Custom Slides
-
-Custom slides are for things like liturgy. Adding a new one is very similar to adding a new song, and adding Custom Slides to the service is the same as for any other service item.
-
-
-## 3. Running a Service
-
-![Service Control Screenshot](servicecontrol.png)
-
-Running a service can be done with the mouse alone, but is probably easier with the keyboard.
-
-To move between items in the service manager (e.g. songs), double click on the item in the list, or use the __left__ and __right__ arrow keys. To move between verses in a song or slides in a presentation, click on them in the list under "Live", or use the __up__ and __down__ arrow keys.
-
-![Arrow Keys](arrowkeys.png)
-
-If you want to blank the display you can use the button indicated on the picture above with the red box, or you can press the period button on your keyboard.
-
-![Period Key](blanckdisplay.png)
