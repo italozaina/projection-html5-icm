@@ -209,14 +209,14 @@ blockquote.chave-6x-small:after {
   font-weight: normal;
   font-style: normal;
 }  
-body {
+/* body {
   background: url("../imagens/fundo.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   transition: background 1s linear;
-}   
+}    */
 
 .reveal h2{
   /*text-align: left;*/

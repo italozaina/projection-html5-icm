@@ -8,7 +8,9 @@ var projecaoAtiva = 0;
 var windowView;
 var iframeView = document.getElementById("iframeProjection").contentWindow;
 var viewSlides = "";
+var configuracoes = {};
 var ref_selected = "0_0";
+var telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
 
 var isFirefox = typeof InstallTrigger !== 'undefined';
 
@@ -463,8 +465,7 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 });
 
 // Gerar lista ao vivo
-function generateLiveList(){
-  var telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+function generateLiveList(){  
   var telaPadraoPainel = '<td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td>';
   $("#livesongs tbody").html("");      
   $('#livesongs tbody').append('<tr data-id="0">'+telaPadraoPainel+'</tr>');
@@ -857,10 +858,92 @@ $(function () {
 
 });
 
+function defaultConfigurations(){
+  configuracoes = {
+    themes: [{id: 1, name: "Padrão Azul", file: "icm"},
+             {id: 2, name: "Santa Ceia", file: "ceia"}
+            ],
+    active_theme: 1
+  };
+  var selectTheme = $("#selectTheme");
+  configuracoes.themes.forEach(function (theme){
+    var option = new Option(theme.name, theme.id); 
+    selectTheme.append($(option));
+  });
+  $('#fontSizeRange').val(2);
+}
+
+$("#selectTheme").change(function() {
+  var selectedTheme = $(this).val();  
+  configuracoes.themes.forEach(function (theme){
+    if (theme.id == selectedTheme) {
+      if (typeof(windowView)!='undefined' && !windowView.closed) {
+        windowView.postMessage(JSON.stringify( {
+              host: 'projection-html5',
+              function: 'changeTheme',
+              url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+              data: theme.file
+            } ), "*");    
+      }
+        iframeView.postMessage(JSON.stringify( {
+              host: 'projection-html5',
+              function: 'changeTheme',
+              url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+              data: theme.file
+            } ), "*");      
+    }
+  });
+});
+
+function changeFontSize(size){
+  if (typeof(windowView)!='undefined' && !windowView.closed) {
+    windowView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'changeFontSize',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: size
+        } ), "*");    
+  }
+    iframeView.postMessage(JSON.stringify( {
+          host: 'projection-html5',
+          function: 'changeFontSize',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: size
+        } ), "*"); 
+}
+
+$('#fontSizeRange').on('input change', function () {
+    var size = parseFloat($(this).val());    
+    $('#currentFontSize').text(size);
+    if(size == 1) $('#currentFontSize').text($('#currentFontSize').text()+" - Menor");
+    if(size == 2) $('#currentFontSize').text($('#currentFontSize').text()+" - Normal");
+    if(size == 4) $('#currentFontSize').text($('#currentFontSize').text()+" - Maior");
+    size+=2;
+    console.log("Tamanho enviado a funcao: ",size);
+    changeFontSize(size);
+});
+
+$("#activeTextStandartScr").click(function(e) {
+    if($(this).is(':checked'))
+     telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+    else
+      telaPadrao = "<section>\n</section>\n";
+    generateLiveList();
+});
+
+$("#activeTextStandartScr2").click(function(e) {
+    if($(this).is(':checked'))
+     telaPadrao = "<section data-background-image=\"imagens/campo-uva.jpg\">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
+    else
+      telaPadrao = "<section>\n</section>\n";
+    generateLiveList();
+});
+
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {
+    defaultConfigurations();
     carregaLouvores();
-    startProjection();
+    // startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);

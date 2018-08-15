@@ -190,15 +190,112 @@
   </div>
   <div class="modal fade" id="confModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
+      <div class="modal-content text-light bg-dark">
         <div class="modal-header">
-          <h5 class="modal-title" data-lang-str="new_warning">Configurações</h5>
+          <h5 class="modal-title"><i class="fas fa-wrench"></i>&nbsp;Configurações</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">          
-          <p>Configurações</p>               
+          <ul class="nav nav-tabs" id="abaConfig" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="tema-tab" data-toggle="tab" href="#abaTema" role="tab" aria-controls="tema" aria-selected="true"><i class="fas fa-paint-brush"></i> Tema</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="fonte-tab" data-toggle="tab" href="#abaFonte" role="tab" aria-controls="fonte" aria-selected="false"><i class="fas fa-font"></i> Fonte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="fundo-tab" data-toggle="tab" href="#abaFundo" role="tab" aria-controls="fundo" aria-selected="false"><i class="fas fa-images"></i> Fundo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="telap-tab" data-toggle="tab" href="#abaTelap" role="tab" aria-controls="telap" aria-selected="false"><i class="fas fa-eye"></i> Tela Padrão</a>
+            </li>
+          </ul>
+          <div class="tab-content center-block-tabs" id="conteudoAbaConfig">
+            <div class="tab-pane fade show active" id="abaTema" role="tabpanel" aria-labelledby="tema-tab">
+              <div class="container">
+                <div class="row">                
+                  <div class="col-sm">&nbsp;</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <label>Escolha um tema:</label>
+                  </div>
+                  <div class="col-sm">
+                    <select id="selectTheme" class="form-control"></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="abaFonte" role="tabpanel" aria-labelledby="fonte-tab">
+              <div class="container">
+                <div class="row">                
+                  <div class="col-sm">&nbsp;</div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <label for="fontSizeRange">Escolha o tamanho da fonte</label>
+                    <input type="range" class="form-control-range" id="fontSizeRange" list="tickmarks" min=1 max=4 step=0.1 value=2>
+                    <datalist id="tickmarks">
+                      <option value=1 label="Menor (1)">
+                      <option value=2 label="Normal (2)">
+                      <option value=2.2 label="Grande (2.2)">
+                      <option value=4 label="Extra Grande (4)">
+                    </datalist>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="text-center">Tamanho Atual: <span id="currentFontSize"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="abaFundo" role="tabpanel" aria-labelledby="fundo-tab">
+              <div class="container">
+                <div class="row">                
+                  <div class="col-sm">&nbsp;</div>
+                </div>
+                <div class="row">                
+                  <div class="col-sm">
+                    <h5>Tela Padrão</h5>
+                  </div>
+                  <div class="col-sm">
+                    <h5>Louvor</h5>
+                  </div>
+                  <div class="col-sm">
+                    <h5>Bíblia</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="abaTelap" role="tabpanel" aria-labelledby="telap-tab">
+              <div class="container">
+                <div class="row">                
+                  <div class="col-sm">&nbsp;</div>
+                </div>
+                <div class="row">                
+                  <div class="col-sm">
+                    <label for="activeTextStandartScr"> Ativar/Desativar texto da tela padrão (Maranata | O Senhor Jesus Vem)</label>
+                    <p>
+                      <label class="switch">
+                        <input type="checkbox" id="activeTextStandartScr" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </p>  
+                    <label for="activeTextStandartScr"> Ativar/Desativar texto da tela padrão (Santa Ceia)</label>
+                    <p>
+                      <label class="switch">
+                        <input type="checkbox" id="activeTextStandartScr2" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </p>                  
+                  </div>
+                </div>
+              </div>           
+            </div>
+          </div>            
         </div>
         <div class="modal-footer">
           <button id="confirmConf" type="button" class="btn btn-success" data-lang-str="btn_save">Salvar</button>

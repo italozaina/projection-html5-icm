@@ -93,6 +93,12 @@
         if(data.host === 'projection-html5' && data.function === 'changeBg'){
           changeBg(data.data);
         }
+        if(data.host === 'projection-html5' && data.function === 'changeTheme'){
+          changeTheme(data.data);
+        }
+        if(data.host === 'projection-html5' && data.function === 'changeFontSize'){
+          changeFontSize(data.data);
+        }
     } );
 
     function changeSlide(number) {
@@ -115,6 +121,10 @@
 
     function changeTheme(name){
       document.getElementById('theme').setAttribute('href', 'css/theme/'+name+'.css');
+    }
+
+    function changeFontSize(size){
+      $('.reveal').css("font-size", size + "vw");
     }
 
     function reloadReveal(htmlslides){

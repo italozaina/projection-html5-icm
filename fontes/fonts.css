@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Futura XBlk BT';    
+    src: url('Futura_Extra_Black_BT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'TrajanPro';    
+    src: url('TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'ScriptMT';    
+    src: url('scriptmt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jester';    
+    src: url('jester.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
