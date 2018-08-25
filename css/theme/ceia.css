@@ -65,6 +65,8 @@ body {
   font-size: 10vw;
   font-family: "ScriptMT", "Times New Roman", "serif";
   color: white;
+  -webkit-filter: drop-shadow(5px 5px 10px #000); 
+  filter: drop-shadow(5px 5px 10px #000);
 }
 
 .reveal h2 {

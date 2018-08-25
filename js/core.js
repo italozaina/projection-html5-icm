@@ -264,34 +264,30 @@ function reloadProjectionList(){
   generateLiveList(); 
 }
 
-$("#btnAlterarBg").click(function(){   
-    $('#bgModal').modal('toggle');
-});
-
 $("#btnAbrirConf").click(function(){   
     $('#confModal').modal('toggle');
 });
 
-$("#filebg").change(function() {
-    var file = this.files[0];
-    var fileURL = URL.createObjectURL(file);
-    if (typeof(windowView)!='undefined' && !windowView.closed) {
-      windowView.postMessage(JSON.stringify( {
-            host: 'projection-html5',
-            function: 'changeBg',
-            url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-            data: fileURL
-          } ), "*"); 
-    }
-    iframeView.postMessage(JSON.stringify( {
-          host: 'projection-html5',
-          function: 'changeBg',
-          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-          data: fileURL
-        } ), "*");
+// $("#filebg").change(function() {
+//     var file = this.files[0];
+//     var fileURL = URL.createObjectURL(file);
+//     if (typeof(windowView)!='undefined' && !windowView.closed) {
+//       windowView.postMessage(JSON.stringify( {
+//             host: 'projection-html5',
+//             function: 'changeBg',
+//             url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+//             data: fileURL
+//           } ), "*"); 
+//     }
+//     iframeView.postMessage(JSON.stringify( {
+//           host: 'projection-html5',
+//           function: 'changeBg',
+//           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+//           data: fileURL
+//         } ), "*");
 
-    $('#bgModal').modal('toggle')
-});
+//     $('#bgModal').modal('toggle')
+// });
 
 
 $("#deleteFromTree").click(function(){
@@ -516,7 +512,7 @@ function generateLiveList(){
         var scripture = bible[item.b].chapters[item.c][i];
         var refverse = "b"+item.b+"c"+item.c+"v"+i;
         $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+label+'</td><td>'+scripture+'</td></tr>');
-        viewSlides+="<section data-background-color=\"#000000\" data-state=\"scriptures "+refverse+"\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
+        viewSlides+="<section"+getBackgroundForSection(3)+" data-state=\"scriptures "+refverse+"\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
         f++;
       }
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
@@ -860,17 +856,56 @@ $(function () {
 
 function defaultConfigurations(){
   configuracoes = {
-    themes: [{id: 1, name: "Padrão Azul", file: "icm"},
+    images: [
+      {file: "fundo.jpg"},
+      {file: "campo-uva.jpg"},
+      {file: "madeira_bg.jpg"}
+    ],
+    themes: [
+             {id: 1, name: "Padrão Azul", file: "icm"},
              {id: 2, name: "Santa Ceia", file: "ceia"}
             ],
-    active_theme: 1
+    active_theme: 1,
+    backgrounds: [
+      {
+        id: 1, // 1 - Tela Padrão
+        type: 1, // 1 - Imagem de fundo
+        color: "#000000",
+        image_file: "fundo.jpg"
+      },
+      {
+        id: 2, // 2 - Tela Louvor
+        type: 1, // 1 - Imagem de fundo
+        color: "#000000",
+        image_file: "fundo.jpg"
+      },
+      {
+        id: 3, // 3 - Tela Bíblia
+        type: 2, // 2 - Cor de fundo
+        color: "#000000",
+        image_file: "madeira_bg.jpg"
+      }
+    ],
+    fontSize: 2
   };
   var selectTheme = $("#selectTheme");
   configuracoes.themes.forEach(function (theme){
     var option = new Option(theme.name, theme.id); 
     selectTheme.append($(option));
   });
-  $('#fontSizeRange').val(2);
+  $('#fontSizeRange').val(configuracoes.fontSize);
+
+  // Atualiza background config
+  configuracoes.backgrounds.forEach(function (bg){
+    if(bg.type == 1){
+      $("#image_"+bg.id).show();
+      $("#color_"+bg.id).hide();
+    } else{
+      $("#image_"+bg.id).hide();
+      $("#color_"+bg.id).show();
+    }
+    $("#image_"+bg.id).css("background", "url('imagens/"+bg.image_file+"')");
+  });
 }
 
 $("#selectTheme").change(function() {
@@ -925,19 +960,67 @@ $('#fontSizeRange').on('input change', function () {
 
 $("#activeTextStandartScr").click(function(e) {
     if($(this).is(':checked'))
-     telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+     telaPadrao = "<section"+getBackgroundForSection(1)+">\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
     else
-      telaPadrao = "<section>\n</section>\n";
+      telaPadrao = "<section"+getBackgroundForSection(1)+">\n</section>\n";
     generateLiveList();
 });
 
-$("#activeTextStandartScr2").click(function(e) {
+$("#activeTextStandartScr2").click(function(e) {      
     if($(this).is(':checked'))
-     telaPadrao = "<section data-background-image=\"imagens/campo-uva.jpg\">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
+     telaPadrao = "<section"+getBackgroundForSection(1)+">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
     else
-      telaPadrao = "<section>\n</section>\n";
+      telaPadrao = "<section"+getBackgroundForSection(1)+">\n</section>\n";
     generateLiveList();
 });
+
+$('input[type=radio][name=imgColor_1]').change(function() {  
+  if(this.value == 1){    
+    $("#image_1").show();
+    $("#color_1").hide();
+  } else {
+    $("#image_1").hide();
+    $("#color_1").show();
+  }
+});
+
+$('input[type=radio][name=imgColor_2]').change(function() {  
+  if(this.value == 1){    
+    $("#image_2").show();
+    $("#color_2").hide();
+  } else {
+    $("#image_2").hide();
+    $("#color_2").show();
+  }
+});
+
+$('input[type=radio][name=imgColor_3]').change(function() {  
+  if(this.value == 1){    
+    $("#image_3").show();
+    $("#color_3").hide();
+  } else {
+    $("#image_3").hide();
+    $("#color_3").show();
+  }
+});
+
+$('.image-select').click(function() {
+  $('#selectImageModal').modal('toggle');
+});
+
+function getBackgroundForSection(id){
+  var resp = "";
+  configuracoes.backgrounds.forEach(function (bg){    
+    if(bg.id == id){         
+      if(bg.type == 1){        
+        resp = " data-background-image=\"imagens/"+bg.image_file+"\"";
+      } else{
+        resp = " data-background-color=\""+bg.color+"\"";
+      }
+    }     
+  });
+  return resp;
+}
 
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {

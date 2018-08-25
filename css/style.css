@@ -344,8 +344,8 @@ a{
 }
 
 #conteudoAbaConfig .container{
-  min-height: 30vh;
-  height: 30vh;
+  min-height: 35vh;
+  height: 35vh;
 }
 
 #confModal .modal-dialog .modal-content{
@@ -410,3 +410,35 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 } 
+
+/* Image Select */
+.image-select{
+  display: inline-block;  
+  border: 3px solid gray;
+  border-style: outset;
+  width: 160px;
+  height: 90px;
+   background-repeat: no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size:  cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+#images {
+  outline: 1px dashed pink;
+  width: 100%;
+  height: 100%;
+}
+
+#images div {
+  display: inline-block;   
+  width: 200px;
+  height: 113px;
+  border: 2px solid gray;
+   background-repeat: no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size:  cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}

@@ -111,22 +111,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="modal fade" id="bgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel3" data-lang-str="select_image">Selecionar Imagem</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <input id="filebg" class="btn" type="file" accept="image/*">
-        </div>
-      </div>
-    </div>
-  </div>
+  </div>  
   <div class="modal fade" id="newImageModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -258,14 +243,50 @@
                   <div class="col-sm">&nbsp;</div>
                 </div>
                 <div class="row">                
-                  <div class="col-sm">
-                    <h5>Tela Padrão</h5>
+                  <div class="col-sm text-center">
+                    <p>Tela Padrão</p>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="imgColor_1" value="1"> Imagem
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="imgColor_1" value="2"> Cor
+                      </label>                    
+                    </div>
+                    <p>
+                      <input type="color" id="color_1" value="#000000">
+                      <div class="image-select" id="image_1" data-file="fundo.jpg"></div>
+                    </p>                    
                   </div>
-                  <div class="col-sm">
-                    <h5>Louvor</h5>
+                  <div class="col-sm text-center">
+                    <p>Louvor</p>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="imgColor_2" value="1"> Imagem
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="imgColor_2" value="2"> Cor
+                      </label>                    
+                    </div>
+                    <p>
+                      <input type="color" id="color_2" value="#000000">
+                      <div class="image-select" id="image_2" data-file="fundo.jpg"></div>
+                    </p>
                   </div>
-                  <div class="col-sm">
-                    <h5>Bíblia</h5>
+                  <div class="col-sm text-center">
+                    <p>Bíblia</p>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="imgColor_3" value="1"> Imagem
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="imgColor_3" value="2"> Cor
+                      </label>                    
+                    </div>
+                    <p>
+                      <input type="color" id="color_3" value="#000000">
+                      <div class="image-select" id="image_3" data-file="fundo.jpg"></div>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -287,7 +308,7 @@
                     <label for="activeTextStandartScr"> Ativar/Desativar texto da tela padrão (Santa Ceia)</label>
                     <p>
                       <label class="switch">
-                        <input type="checkbox" id="activeTextStandartScr2" checked>
+                        <input type="checkbox" id="activeTextStandartScr2">
                         <span class="slider round"></span>
                       </label>
                     </p>                  
@@ -302,7 +323,26 @@
         </div> 
       </div>
     </div>
-  </div>  
+  </div>
+  <div class="modal fade" id="selectImageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3" data-lang-str="select_image">Selecionar Imagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="images">
+            <div style="background: url('imagens/fundo.jpg');" data-file="fundo.jpg"></div>            
+            <div style="background: url('imagens/campo-uva.jpg');" data-file="campo-uva.jpg"></div>            
+            <div style="background: url('imagens/madeira_bg.jpg');" data-file="madeira_bg.jpg"></div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
   <div class="modal fade" id="excluirModal" tabindex="-1" role="dialog" aria-labelledby="excluirModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
