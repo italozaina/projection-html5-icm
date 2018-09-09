@@ -465,7 +465,7 @@ function generateLiveList(){
   var telaPadraoPainel = '<td>'+TRANSLATIONS[config.lang]['default_screen']+'</td><td></td>';
   $("#livesongs tbody").html("");      
   $('#livesongs tbody').append('<tr data-id="0">'+telaPadraoPainel+'</tr>');
-  viewSlides=telaPadrao;
+  viewSlides="<section"+getBackgroundForSection(1)+telaPadrao;
   var f = 1;
   $.each(projecao, function(i, item) { 
     if(item.type == "s"){
@@ -489,13 +489,13 @@ function generateLiveList(){
             var titulodividido = dados[item.folderId].songs[item.id].title.split(" ");
             var indexDivision = Math.round(titulodividido.length/2);
             var nome = dados[item.folderId].songs[item.id].title.replace(titulodividido[indexDivision],titulodividido[indexDivision]+"<br>");
-            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #logo{ display: table; }</style>\n"+fimStyle;              
+            viewSlides+="<section"+getBackgroundForSection(2)+" data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:before { content: \""+nome.split("<br>")[0]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo:after { content: \""+nome.split("<br>")[1]+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #titulo{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle2"+lang+" #logo{ display: table; }</style>\n"+fimStyle;              
           }else{
-            viewSlides+="<section data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
+            viewSlides+="<section"+getBackgroundForSection(2)+" data-state=\"showtitle"+item.folderId+"_"+item.id+fimState+"\">\n<style>\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #titulo:after { content: \""+dados[item.folderId].songs[item.id].title+"\"; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+"{ display: table; }\n.showtitle"+item.folderId+"_"+item.id+" header.winetitle"+lang+" #logo{ display: table; }</style>\n"+fimStyle;
           } 
           $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
         } else {
-          viewSlides+="<section data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
+          viewSlides+="<section"+getBackgroundForSection(2)+" data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\" data-background-transition=\"none\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
         }
         viewSlides+=estrofeEsp+"\n</section>\n";
         
@@ -503,7 +503,7 @@ function generateLiveList(){
       });
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
-      viewSlides+=telaPadrao;
+      viewSlides+="<section"+getBackgroundForSection(1)+telaPadrao;
     }
     if(item.type == "b"){
       $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
@@ -512,12 +512,12 @@ function generateLiveList(){
         var scripture = bible[item.b].chapters[item.c][i];
         var refverse = "b"+item.b+"c"+item.c+"v"+i;
         $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+label+'</td><td>'+scripture+'</td></tr>');
-        viewSlides+="<section"+getBackgroundForSection(3)+" data-state=\"scriptures "+refverse+"\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
+        viewSlides+="<section"+getBackgroundForSection(3)+" data-state=\"scriptures "+refverse+"\" data-background-transition=\"none\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
         f++;
       }
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
-      viewSlides+=telaPadrao;      
+      viewSlides+="<section"+getBackgroundForSection(1)+telaPadrao;      
     }
     if(item.type == "i"){
       var imagem = imagens[item.id];
@@ -527,7 +527,7 @@ function generateLiveList(){
       f++;
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
-      viewSlides+=telaPadrao;      
+      viewSlides+="<section"+getBackgroundForSection(1)+telaPadrao;      
     }
     if(item.type == "w"){
       var aviso = avisos[item.id];
@@ -537,7 +537,7 @@ function generateLiveList(){
       f++;
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
-      viewSlides+=telaPadrao;      
+      viewSlides+="<section"+getBackgroundForSection(1)+telaPadrao;      
     }
   });
 
@@ -757,7 +757,12 @@ $(function () {
     "show_only_matches" : true,
     search_callback : function (str, node) {
       if(node.data != null && node.type == "song"){
-        return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
+        if(/^\d+$/.test(str)){
+          return node.text.toUpperCase().includes(str.toUpperCase());
+        }
+        else{
+          return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
+        }
       } else {
         return node.text.toUpperCase().includes(str.toUpperCase());  
       }
@@ -905,6 +910,7 @@ function defaultConfigurations(){
       $("#color_"+bg.id).show();
     }
     $("#image_"+bg.id).css("background", "url('imagens/"+bg.image_file+"')");
+    $("#color_"+bg.id).val(bg.color);
   });
 }
 
@@ -959,49 +965,65 @@ $('#fontSizeRange').on('input change', function () {
 });
 
 $("#activeTextStandartScr").click(function(e) {
-    if($(this).is(':checked'))
-     telaPadrao = "<section"+getBackgroundForSection(1)+">\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+    if($(this).is(':checked')){
+      $("#activeTextStandartScr2").prop('checked', false);
+     telaPadrao = ">\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+    }
     else
-      telaPadrao = "<section"+getBackgroundForSection(1)+">\n</section>\n";
+      telaPadrao = ">\n</section>\n";
     generateLiveList();
 });
 
 $("#activeTextStandartScr2").click(function(e) {      
-    if($(this).is(':checked'))
-     telaPadrao = "<section"+getBackgroundForSection(1)+">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
+    if($(this).is(':checked')){
+     $("#activeTextStandartScr").prop('checked', false);
+     telaPadrao = ">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
+    }
     else
-      telaPadrao = "<section"+getBackgroundForSection(1)+">\n</section>\n";
+      telaPadrao = ">\n</section>\n";
     generateLiveList();
 });
 
 $('input[type=radio][name=imgColor_1]').change(function() {  
+  var old = getBackground(1);
   if(this.value == 1){    
     $("#image_1").show();
     $("#color_1").hide();
+    setBackground(1,1,old.color, old.image_file);
   } else {
     $("#image_1").hide();
     $("#color_1").show();
+    setBackground(1,2,old.color, old.image_file);
   }
+  generateLiveList();
 });
 
-$('input[type=radio][name=imgColor_2]').change(function() {  
+$('input[type=radio][name=imgColor_2]').change(function() { 
+  var old = getBackground(2); 
   if(this.value == 1){    
     $("#image_2").show();
     $("#color_2").hide();
+    setBackground(2,1,old.color, old.image_file);
   } else {
     $("#image_2").hide();
     $("#color_2").show();
+    setBackground(2,2,old.color, old.image_file);
   }
+  generateLiveList();
 });
 
 $('input[type=radio][name=imgColor_3]').change(function() {  
+  var old = getBackground(3); 
   if(this.value == 1){    
     $("#image_3").show();
     $("#color_3").hide();
+    setBackground(3,1,old.color, old.image_file);
   } else {
     $("#image_3").hide();
     $("#color_3").show();
+    setBackground(3,2,old.color, old.image_file);
   }
+  generateLiveList();
 });
 
 $('.image-select').click(function() {
@@ -1020,6 +1042,26 @@ function getBackgroundForSection(id){
     }     
   });
   return resp;
+}
+
+function getBackground(id){
+  var oldbg = {};
+  configuracoes.backgrounds.forEach(function (bg){    
+    if(bg.id == id){ 
+      oldbg = bg;
+    }     
+  });
+  return oldbg;
+}
+
+function setBackground(id, tipo, cor, arquivo){
+  configuracoes.backgrounds.forEach(function (bg){    
+    if(bg.id == id){ 
+      bg.type = tipo;
+      bg.color = cor;
+      bg.image_file = arquivo;
+    }     
+  });  
 }
 
 window.onload = function() {

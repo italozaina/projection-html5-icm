@@ -230,6 +230,7 @@ blockquote.chave-6x-small:after {
   height: 10%;
   width: 100%;
   display: none;
+  z-index: 3;
 }
 
 .whitelogo,.whitelogo-en,.whitelogo-it{
@@ -238,6 +239,7 @@ blockquote.chave-6x-small:after {
   height: 10%;
   width: 100%;
   display: none;
+  z-index: 3;
 }    
 
 #titulo{
@@ -257,6 +259,7 @@ blockquote.chave-6x-small:after {
   height: none; 
   line-height: 90%;   
   display: none;
+  z-index: 3;
 }
 
 #logo{
@@ -266,6 +269,7 @@ blockquote.chave-6x-small:after {
     max-height: 10%;
     font-size: 8vw;
     display: none;
+    z-index: 3;
 }
 
 footer.fim{      
