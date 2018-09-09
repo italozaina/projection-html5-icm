@@ -756,14 +756,9 @@ $(function () {
   "search":{
     "show_only_matches" : true,
     search_callback : function (str, node) {
-      if(node.data != null && node.type == "song"){
-        if(/^\d+$/.test(str)){
-          return node.text.toUpperCase().includes(str.toUpperCase());
-        }
-        else{
-          return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
-        }
-      } else {
+      if(node.data != null && node.type == "song" && /^\d+$/.test(str) === false){
+        return node.text.toUpperCase().includes(str.toUpperCase()) || node.data.content.toUpperCase().includes(str.toUpperCase());
+      } else {        
         return node.text.toUpperCase().includes(str.toUpperCase());  
       }
     }    
@@ -1027,6 +1022,8 @@ $('input[type=radio][name=imgColor_3]').change(function() {
 });
 
 $('.image-select').click(function() {
+  var valor_id = $(this).attr('id')[$(this).attr('id').length - 1];
+  $("div#images").attr("data-type", valor_id);
   $('#selectImageModal').modal('toggle');
 });
 
@@ -1063,6 +1060,16 @@ function setBackground(id, tipo, cor, arquivo){
     }     
   });  
 }
+
+$("div#images > div").click(function (){
+  var tipo = parseInt($("div#images").attr("data-type"));
+  var old = getBackground(tipo);
+  var file = $(this).attr("data-file");
+  setBackground(tipo,1,old.color, file);
+  $("#image_"+tipo).css("background", "url('imagens/"+file+"')");
+  generateLiveList();
+  $('#selectImageModal').modal('toggle');
+});
 
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {

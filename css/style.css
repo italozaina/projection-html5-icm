@@ -426,9 +426,10 @@ input:checked + .slider:before {
 }
 
 #images {
-  outline: 1px dashed pink;
+  /* outline: 1px dashed pink; */
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 #images div {
