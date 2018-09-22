@@ -31,10 +31,6 @@
     <footer class="scripturetitle"><small></small></footer>
 
     <div class="slides">
-      <section>
-        <h1>Maranata</h1>
-        <h3>O SENHOR JESUS VEM!</h3>
-      </section>
 <!--       <section data-background="imagens/madeira_bg.jpg">
 
         <table class="reveal warning-table">
@@ -138,10 +134,19 @@
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
       });  
-      Reveal.sync();
+      Reveal.sync();      
       changeSlide(0);    
     }
     })()
+
+    $( document ).ready(function() {
+        window.opener.postMessage(JSON.stringify( {
+          host: 'projection-html5-painel',
+          function: 'opened',
+          url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
+          data: {data: "ok"}
+        } ), "*");
+    });
   </script>
 </body>
 </html>

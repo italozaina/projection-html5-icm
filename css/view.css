@@ -279,6 +279,7 @@ footer.fim{
   font-size: 1vw;
   text-align: right;
   display: none;    
+  z-index: 3;
 }    
 /* Logo da Icm em formato icone */
 [class^="icon-"], [class*=" icon-"] {
