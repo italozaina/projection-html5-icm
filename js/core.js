@@ -10,7 +10,7 @@ var iframeView = document.getElementById("iframeProjection").contentWindow;
 var viewSlides = "";
 var configuracoes = {};
 var ref_selected = "0_0";
-var telaPadrao = "<section>\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
+var telaPadrao = ">\n<h1>"+TRANSLATIONS[config.lang]['maranata_title']+"</h1>\n<h3>"+TRANSLATIONS[config.lang]['maranata_slogan']+"</h3>\n</section>\n";
 
 var isFirefox = typeof InstallTrigger !== 'undefined';
 
@@ -495,7 +495,7 @@ function generateLiveList(){
           } 
           $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
         } else {
-          viewSlides+="<section"+getBackgroundForSection(2)+" data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
+          viewSlides+="<section"+getBackgroundForSection(2)+" data-state=\"showlogo"+item.folderId+"_"+item.id+"_"+j+fimState+"\" data-background-transition=\"none\">\n<style>\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+"{ display: block; }\n.showlogo"+item.folderId+"_"+item.id+"_"+j+" header.whitelogo"+lang+" #logo{ display: block; }</style>\n"+fimStyle;
         }
         viewSlides+=estrofeEsp+"\n</section>\n";
         
@@ -512,7 +512,7 @@ function generateLiveList(){
         var scripture = bible[item.b].chapters[item.c][i];
         var refverse = "b"+item.b+"c"+item.c+"v"+i;
         $('#livesongs tbody').append('<tr data-id="'+f+'"><td>'+label+'</td><td>'+scripture+'</td></tr>');
-        viewSlides+="<section"+getBackgroundForSection(3)+" data-state=\"scriptures "+refverse+"\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
+        viewSlides+="<section"+getBackgroundForSection(3)+" data-state=\"scriptures "+refverse+"\" data-background-transition=\"none\">\n<style>\n."+refverse+" footer.scripturetitle small:after{ content: \""+label+"\"; }\n."+refverse+" footer.scripturetitle{ display: block; }\n</style>\n<p>"+scripture+"</p>\n</section>\n";
         f++;
       }
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
@@ -533,7 +533,7 @@ function generateLiveList(){
       var aviso = avisos[item.id];
       $("#projections tbody tr[data-id='"+i+"'] td:first-child").attr("data-goto", f);
       $('#livesongs tbody').append('<tr data-id="'+f+'"><td><i class="fas fa-exclamation-triangle"></i>&nbsp;'+aviso.name+'</td><td><strong>'+aviso.warning.content.title+'</strong><br>'+aviso.warning.content.body+'</td></tr>');
-      viewSlides+="<section data-background-image=\"imagens/madeira_bg.jpg\">\n<table class=\"reveal warning-table\">\n<tr height=\"10vh\">\n<td class=\"warning-title\" width=\"80%\">"+aviso.warning.content.title+"</td>\n<td width=\"20%\"><div id=\"fancypart\" class=\"warning-logo\"><i class=\""+TRANSLATIONS[config.lang]['logo_icon']+"\"></i></div></td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<div style=\"display: table;\">\n<div class=\"warning-body\">"+aviso.warning.content.body+"</div>\n</div>\n</td>\n</tr>\n</table>\n</section>\n";
+      viewSlides+="<section data-background=\"imagens/madeira_bg.jpg\">\n<table class=\"reveal warning-table\">\n<tr height=\"10vh\">\n<td class=\"warning-title\" width=\"80%\">"+aviso.warning.content.title+"</td>\n<td width=\"20%\"><div id=\"fancypart\" class=\"warning-logo\"><i class=\""+TRANSLATIONS[config.lang]['logo_icon']+"\"></i></div></td>\n</tr>\n<tr>\n<td colspan=\"2\">\n<div style=\"display: table;\">\n<div class=\"warning-body\">"+aviso.warning.content.body+"</div>\n</div>\n</td>\n</tr>\n</table>\n</section>\n";
       f++;
       $('#livesongs tbody').append('<tr data-id="'+f+'">'+telaPadraoPainel+'</tr>');
       f++;
@@ -1037,13 +1037,11 @@ function getBackgroundForSection(id){
   configuracoes.backgrounds.forEach(function (bg){    
     if(bg.id == id){         
       if(bg.type == 1){        
-        resp = " data-background-image=\"imagens/"+bg.image_file+"\"";
+        resp = " data-background=\"imagens/"+bg.image_file+"\"";
       } else{
         resp = " data-background=\""+bg.color+"\"";
       }
-    }
-    if(bg.id == 1)
-      resp +" data-background-transition=\"zoom\" ";         
+    }         
   });
   return resp;
 }
@@ -1090,7 +1088,7 @@ window.onload = function() {
   setTimeout(function afterTwoSeconds() {
     defaultConfigurations();
     carregaLouvores();
-    startProjection();
+    // startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);
