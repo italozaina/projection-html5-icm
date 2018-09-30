@@ -912,7 +912,7 @@ function defaultConfigurations(){
 $("#selectTheme").change(function() {
   var selectedTheme = $(this).val(); 
   configuracoes.active_theme = selectedTheme;
-  changeTheme()
+  changeTheme();
 });
 
 function changeTheme(){
@@ -932,6 +932,21 @@ function changeTheme(){
               url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
               data: theme.file
             } ), "*");      
+
+      // Trocar fundo e texto
+      var old1 = getBackground(1);
+      var imagem = configuracoes.images[1].file;
+      // Se tema padrão
+      if(configuracoes.active_theme == 1){              
+        imagem = configuracoes.images[0].file;
+        $("#activeTextStandartScr").click(); //Still bug
+      } else if(configuracoes.active_theme == 2){ // Se tema santa ceia
+        imagem = configuracoes.images[1].file;
+        $("#activeTextStandartScr2").click(); //Still bug
+      }
+      setBackground(1,1,old1.color, imagem);
+      $("#image_1").css("background", "url('imagens/"+imagem+"')");
+      generateLiveList();      
     }
   });  
 }
@@ -977,7 +992,7 @@ $("#activeTextStandartScr").click(function(e) {
 $("#activeTextStandartScr2").click(function(e) {      
     if($(this).is(':checked')){
      $("#activeTextStandartScr").prop('checked', false);
-     telaPadrao = ">\n<h1>Santa Ceia</h1><br><br><br>\n</section>\n";
+     telaPadrao = " data-state=\"show_backlay1\"><style>\n.show_backlay1 header.backlay1-"+config.lang+" .backlay_1-"+config.lang+"{display: block}\n</style>\n<h1>Santa Ceia</h1><br>\n</section>\n";
     }
     else
       telaPadrao = ">\n</section>\n";

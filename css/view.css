@@ -331,6 +331,26 @@ font-family: 'icmlogo' !important;
   color: #ffffff;
 }
 
+.logo_tela_padrao{  
+  z-index: 3;
+  top: 0;
+  left: 0;  
+  font-size: 25vw;
+  display: block;  
+  text-align: center;
+}
+
+.backlay_1-pt-br, .backlay_1-en, .backlay_1-it{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40vh;
+  width: 100vw;  
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0));
+  z-index: 3;
+}
+
 html.scriptures p{
   color: #FFFFFF;
   width: 100vw;
