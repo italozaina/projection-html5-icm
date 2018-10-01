@@ -268,27 +268,6 @@ $("#btnAbrirConf").click(function(){
     $('#confModal').modal('toggle');
 });
 
-// $("#filebg").change(function() {
-//     var file = this.files[0];
-//     var fileURL = URL.createObjectURL(file);
-//     if (typeof(windowView)!='undefined' && !windowView.closed) {
-//       windowView.postMessage(JSON.stringify( {
-//             host: 'projection-html5',
-//             function: 'changeBg',
-//             url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-//             data: fileURL
-//           } ), "*"); 
-//     }
-//     iframeView.postMessage(JSON.stringify( {
-//           host: 'projection-html5',
-//           function: 'changeBg',
-//           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-//           data: fileURL
-//         } ), "*");
-
-//     $('#bgModal').modal('toggle')
-// });
-
 
 $("#deleteFromTree").click(function(){
   var selecionado = $.jstree.reference('#songList').get_node($.jstree.reference('#songList').get_selected());
@@ -939,10 +918,10 @@ function changeTheme(){
       // Se tema padrão
       if(configuracoes.active_theme == 1){              
         imagem = configuracoes.images[0].file;
-        $("#activeTextStandartScr").click(); //Still bug
+        // $("#activeTextStandartScr").click(); //Still bug
       } else if(configuracoes.active_theme == 2){ // Se tema santa ceia
         imagem = configuracoes.images[1].file;
-        $("#activeTextStandartScr2").click(); //Still bug
+        // $("#activeTextStandartScr2").click(); //Still bug
       }
       setBackground(1,1,old1.color, imagem);
       $("#image_1").css("background", "url('imagens/"+imagem+"')");
@@ -1041,6 +1020,28 @@ $('input[type=radio][name=imgColor_3]').change(function() {
   generateLiveList();
 });
 
+// Cria botoes de imagem ao abrir o modal
+$('#selectImageModal').on('show.bs.modal', function (e) {
+  reloadListOfImages();
+});
+
+function reloadListOfImages(){
+  $('#images').html("");
+  configuracoes.images.forEach(function (imagem){
+    $('#images').append('<div style="background: url(\'imagens/'+imagem.file+'\');" data-file="'+imagem.file+'"></div>');
+  });
+
+  $("div#images > div").click(function (){
+    var tipo = parseInt($("div#images").attr("data-type"));
+    var old = getBackground(tipo);
+    var file = $(this).attr("data-file");
+    setBackground(tipo,1,old.color, file);
+    $("#image_"+tipo).css("background", "url('imagens/"+file+"')");
+    generateLiveList();
+    $('#selectImageModal').modal('toggle');
+  });
+}
+
 $('.image-select').click(function() {
   var valor_id = $(this).attr('id')[$(this).attr('id').length - 1];
   $("div#images").attr("data-type", valor_id);
@@ -1081,16 +1082,6 @@ function setBackground(id, tipo, cor, arquivo){
   });  
 }
 
-$("div#images > div").click(function (){
-  var tipo = parseInt($("div#images").attr("data-type"));
-  var old = getBackground(tipo);
-  var file = $(this).attr("data-file");
-  setBackground(tipo,1,old.color, file);
-  $("#image_"+tipo).css("background", "url('imagens/"+file+"')");
-  generateLiveList();
-  $('#selectImageModal').modal('toggle');
-});
-
 $('input[type="color"]').change(function (){
   var tipo = parseInt($(this).attr("id").split("_")[1]);
   var old = getBackground(tipo);
@@ -1099,11 +1090,18 @@ $('input[type="color"]').change(function (){
   generateLiveList();
 });
 
+$('#addNewImage').click(function(){
+    var filename = $('#imagesToAdd')[0].files[0].name;
+    configuracoes.images.push({file: filename});
+    reloadListOfImages();
+    $('#imagesToAdd').val('');
+});
+
 window.onload = function() {
   setTimeout(function afterTwoSeconds() {
     defaultConfigurations();
     carregaLouvores();
-    // startProjection();
+    startProjection();
     reloadProjectionList();
     document.getElementById("loading").style.display = "none";
   }, 2000);
