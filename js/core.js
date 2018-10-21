@@ -834,45 +834,56 @@ $(function () {
 });
 
 function defaultConfigurations(){
-  configuracoes = {
-    images: [
-      {file: "fundo.jpg"},
-      {file: "campo-uva.jpg"},
-      {file: "madeira_bg.jpg"}
-    ],
-    themes: [
-             {id: 1, name: "Padrão Azul", file: "icm"},
-             {id: 2, name: "Santa Ceia", file: "ceia"}
-            ],
-    active_theme: 1,
-    backgrounds: [
-      {
-        id: 1, // 1 - Tela Padrão
-        type: 1, // 1 - Imagem de fundo
-        color: "#000000",
-        image_file: "fundo.jpg"
-      },
-      {
-        id: 2, // 2 - Tela Louvor
-        type: 1, // 1 - Imagem de fundo
-        color: "#000000",
-        image_file: "fundo.jpg"
-      },
-      {
-        id: 3, // 3 - Tela Bíblia
-        type: 2, // 2 - Cor de fundo
-        color: "#000000",
-        image_file: "madeira_bg.jpg"
-      }
-    ],
-    fontSize: 2
-  };
+  if(localStorage.getItem("settings") === null){  
+    configuracoes = {
+      images: [
+        {file: "fundo.jpg"},
+        {file: "campo-uva.jpg"},
+        {file: "madeira_bg.jpg"}
+      ],
+      themes: [
+               {id: 1, name: "Padrão Azul", file: "icm"},
+               {id: 2, name: "Santa Ceia", file: "ceia"}
+              ],
+      active_theme: 1,
+      backgrounds: [
+        {
+          id: 1, // 1 - Tela Padrão
+          type: 1, // 1 - Imagem de fundo
+          color: "#000000",
+          image_file: "fundo.jpg"
+        },
+        {
+          id: 2, // 2 - Tela Louvor
+          type: 1, // 1 - Imagem de fundo
+          color: "#000000",
+          image_file: "fundo.jpg"
+        },
+        {
+          id: 3, // 3 - Tela Bíblia
+          type: 2, // 2 - Cor de fundo
+          color: "#000000",
+          image_file: "madeira_bg.jpg"
+        }
+      ],
+      fontSize: 2
+    };    
+    localStorage.setItem('settings', JSON.stringify(configuracoes));
+  } else {
+    configuracoes = JSON.parse(localStorage.getItem("settings"));
+  }
+
   var selectTheme = $("#selectTheme");
   configuracoes.themes.forEach(function (theme){
     var option = new Option(theme.name, theme.id); 
     selectTheme.append($(option));
   });
+
+  // Font size
   $('#fontSizeRange').val(configuracoes.fontSize);
+  $('#currentFontSize').text(configuracoes.fontSize);
+  atualizaFontSizeText();
+  changeFontSize();
 
   // Atualiza background config
   configuracoes.backgrounds.forEach(function (bg){
@@ -886,12 +897,20 @@ function defaultConfigurations(){
     $("#image_"+bg.id).css("background", "url('imagens/"+bg.image_file+"')");
     $("#color_"+bg.id).val(bg.color);
   });
+
+  generateLiveList();
 }
 
 $("#selectTheme").change(function() {
   var selectedTheme = $(this).val(); 
   configuracoes.active_theme = selectedTheme;
+  changeThemeImages();
   changeTheme();
+  localStorage.setItem('settings', JSON.stringify(configuracoes));
+});
+
+$('#confirmConf').click(function (){
+  $('#confModal').modal('toggle');
 });
 
 function changeTheme(){
@@ -911,52 +930,58 @@ function changeTheme(){
               url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
               data: theme.file
             } ), "*");      
-
-      // Trocar fundo e texto
-      var old1 = getBackground(1);
-      var imagem = configuracoes.images[1].file;
-      // Se tema padrão
-      if(configuracoes.active_theme == 1){              
-        imagem = configuracoes.images[0].file;
-        // $("#activeTextStandartScr").click(); //Still bug
-      } else if(configuracoes.active_theme == 2){ // Se tema santa ceia
-        imagem = configuracoes.images[1].file;
-        // $("#activeTextStandartScr2").click(); //Still bug
-      }
-      setBackground(1,1,old1.color, imagem);
-      $("#image_1").css("background", "url('imagens/"+imagem+"')");
       generateLiveList();      
     }
   });  
 }
 
-function changeFontSize(size){
+function changeThemeImages(){
+  // Trocar fundo e texto
+  var old1 = getBackground(1);
+  var imagem = configuracoes.images[1].file;
+  // Se tema padrão
+  if(configuracoes.active_theme == 1){              
+    imagem = configuracoes.images[0].file;
+    // $("#activeTextStandartScr").click(); //Still bug
+  } else if(configuracoes.active_theme == 2){ // Se tema santa ceia
+    imagem = configuracoes.images[1].file;
+    // $("#activeTextStandartScr2").click(); //Still bug
+  }
+  setBackground(1,1,old1.color, imagem);
+  $("#image_1").css("background", "url('imagens/"+imagem+"')");
+}
+
+function changeFontSize(){
   if (typeof(windowView)!='undefined' && !windowView.closed) {
     windowView.postMessage(JSON.stringify( {
           host: 'projection-html5',
           function: 'changeFontSize',
           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-          data: size
+          data: configuracoes.fontSize
         } ), "*");    
   }
     iframeView.postMessage(JSON.stringify( {
           host: 'projection-html5',
           function: 'changeFontSize',
           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
-          data: size
+          data: configuracoes.fontSize
         } ), "*"); 
 }
 
 $('#fontSizeRange').on('input change', function () {
     var size = parseFloat($(this).val());    
-    $('#currentFontSize').text(size);
-    if(size == 1) $('#currentFontSize').text($('#currentFontSize').text()+" - Menor");
-    if(size == 2) $('#currentFontSize').text($('#currentFontSize').text()+" - Normal");
-    if(size == 4) $('#currentFontSize').text($('#currentFontSize').text()+" - Maior");
-    size+=2;
-    console.log("Tamanho enviado a funcao: ",size);
-    changeFontSize(size);
+    configuracoes.fontSize = size;    
+    $('#currentFontSize').text(configuracoes.fontSize);
+    atualizaFontSizeText();
+    changeFontSize();
+    localStorage.setItem('settings', JSON.stringify(configuracoes));
 });
+
+function atualizaFontSizeText(){
+  if(configuracoes.fontSize == 1) $('#currentFontSize').text($('#currentFontSize').text()+" - Menor");
+  if(configuracoes.fontSize == 2) $('#currentFontSize').text($('#currentFontSize').text()+" - Normal");
+  if(configuracoes.fontSize == 4) $('#currentFontSize').text($('#currentFontSize').text()+" - Maior");
+}
 
 $("#activeTextStandartScr").click(function(e) {
     if($(this).is(':checked')){
@@ -1079,7 +1104,8 @@ function setBackground(id, tipo, cor, arquivo){
       bg.color = cor;
       bg.image_file = arquivo;
     }     
-  });  
+  });
+  localStorage.setItem('settings', JSON.stringify(configuracoes));
 }
 
 $('input[type="color"]').change(function (){
@@ -1093,6 +1119,7 @@ $('input[type="color"]').change(function (){
 $('#addNewImage').click(function(){
     var filename = $('#imagesToAdd')[0].files[0].name;
     configuracoes.images.push({file: filename});
+    localStorage.setItem('settings', JSON.stringify(configuracoes));
     reloadListOfImages();
     $('#imagesToAdd').val('');
 });
@@ -1117,6 +1144,7 @@ window.onload = function() {
 
     function recarrega(data) {
       reloadProjectionList();
+      changeFontSize();
       changeTheme();
     }
 })()
